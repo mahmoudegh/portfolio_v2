@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "skills": {
+    "nextjs-seo": {
+      "source": "laguagu/claude-code-nextjs-skills",
+      "commit": "7257019e2207e9415bdf809c8c95aedc694ddd9c",
+      "sourceType": "github",
+      "skillPath": "skills/nextjs-seo/SKILL.md",
+      "computedHash": "b69988f63a7a22d0fa1bcb461a366c035027fe0c4261a57ab27a33d00490d49d"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "7991ed4fbecdac23f47c1a40c243e00a212a9e7f3604db93959b3ae11dffe299"
+    }
+  }
+}

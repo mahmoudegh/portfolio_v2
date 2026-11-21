@@ -1,0 +1,360 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "slug": "hyundai-jordan",
+      "name": "Hyundai",
+      "category": "completed",
+      "status": "Completed",
+      "image": "images/works/01.jpeg",
+      "alt": "Hyundai project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://hyundaijordan.com/en",
+          "ariaLabel": "Preview Hyundai Jordan website"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 2,
+      "slug": "payit-card",
+      "name": "Payit",
+      "category": "completed",
+      "status": "Completed",
+      "image": "images/works/02.jpeg",
+      "alt": "Payit project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://letsgo.payit.ae/en/letsgocard",
+          "ariaLabel": "Preview Payit website"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 4,
+      "slug": "tijara",
+      "name": "Tijara",
+      "category": "completed",
+      "status": "Completed",
+      "image": "images/works/04.jpeg",
+      "alt": "Tijara project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://www.tijara.me/",
+          "ariaLabel": "Preview Tijara website"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 7,
+      "slug": "payit-development",
+      "name": "Payit",
+      "category": "development",
+      "status": "Under development",
+      "image": "images/works/07.jpeg",
+      "alt": "Payit project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://payit.dev.wedev.sbs/en",
+          "ariaLabel": "Preview Payit website"
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "id": 10,
+      "slug": "fan-network",
+      "name": "FAN",
+      "category": "development",
+      "status": "Under development",
+      "image": "images/works/10.jpeg",
+      "alt": "FAN project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://fan-network.dev.wedev.sbs/en/university-of-washington-athletics",
+          "ariaLabel": "Preview Fan Network website"
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "id": 11,
+      "slug": "html-css-js-template",
+      "name": "HTML-CSS-Js Template",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/11.jpeg",
+      "alt": "HTML-CSS-Js Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/HTML-CSS-JS-Temp/",
+          "ariaLabel": "Preview HTML-CSS-Js Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/HTML-CSS-JS-Temp",
+          "ariaLabel": "View code for HTML, CSS, and JavaScript template on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 12,
+      "slug": "bootstrap-4-template",
+      "name": "Bootstrap-4 Template",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/12.jpeg",
+      "alt": "Bootstrap-4 Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Bootstrap-4/",
+          "ariaLabel": "Preview Bootstrap Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Bootstrap-4",
+          "ariaLabel": "View code for Bootstrap template on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 13,
+      "slug": "bootstrap-3-template",
+      "name": "Bootstrap-3 Template",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/13.jpeg",
+      "alt": "Bootstrap-3 Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Bootstrap-3/",
+          "ariaLabel": "Preview Bootstrap Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Bootstrap-3",
+          "ariaLabel": "View code for Bootstrap template on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 14,
+      "slug": "html-css-template",
+      "name": "HTML - CSS Template",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/14.jpeg",
+      "alt": "HTML - CSS Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/HTML-CSS-Temp/",
+          "ariaLabel": "Preview HTML - CSS Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/HTML-CSS-Temp",
+          "ariaLabel": "View code for HTML - CSS template on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 15,
+      "slug": "to-do-list",
+      "name": "To Do List",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/15.jpeg",
+      "alt": "To Do List project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/To-Do-List/",
+          "ariaLabel": "Preview JavaScript To Do List app"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/To-Do-List",
+          "ariaLabel": "View code for JavaScript To Do List app on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 16,
+      "slug": "fetch-github-repositories",
+      "name": "Fetch Github Ripos",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/16.jpeg",
+      "alt": "Fetch Github Ripos project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Fetch-github-ripos",
+          "ariaLabel": "Preview Fetch GitHub Repositories project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Fetch-github-ripos",
+          "ariaLabel": "View code for Fetch GitHub Repositories project on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 17,
+      "slug": "gradient-generator",
+      "name": "Gradient Generator",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/17.jpeg",
+      "alt": "Gradient Generator project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Gradient-Generator/",
+          "ariaLabel": "Preview Gradient Generator project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Gradient-Generator",
+          "ariaLabel": "View code for Gradient Generator project on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 18,
+      "slug": "control-local-storage",
+      "name": "Control Local Storage",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/18.jpeg",
+      "alt": "Control Local Storage project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Control-Local-Storage/",
+          "ariaLabel": "Preview Control Local Storage project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Control-Local-Storage",
+          "ariaLabel": "View code for Control Local Storage project on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 19,
+      "slug": "to-do-list-vue",
+      "name": "To Do List By Vue",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/19.jpeg",
+      "alt": "To Do List By Vue project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/To-Do-List-By-Vue/",
+          "ariaLabel": "Preview To-Do List by Vue project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/To-Do-List-By-Vue",
+          "ariaLabel": "View code for To-Do List by Vue project on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 20,
+      "slug": "quizz-app",
+      "name": "Quizz App",
+      "category": "practice-projects",
+      "status": "Practice",
+      "image": "images/works/20.jpeg",
+      "alt": "Quizz App project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Quizz-App/",
+          "ariaLabel": "Preview Quizz App project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Quizz-App",
+          "ariaLabel": "View code for Quizz App project on GitHub"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 21,
+      "slug": "deepmarks",
+      "name": "deepmarks",
+      "category": "development",
+      "status": "Under development",
+      "image": "images/works/21.jpeg",
+      "alt": "deepmarks project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://deepmarks.vercel.app/name-branding",
+          "ariaLabel": "Preview deepmarks website"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 22,
+      "slug": "intwitch-live",
+      "name": "intwit.ch",
+      "category": "completed",
+      "status": "Completed",
+      "image": "images/works/22.jpeg",
+      "alt": "intwit.ch project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://intwit.ch/en",
+          "ariaLabel": "Preview intwit.ch website"
+        }
+      ],
+      "isVisible": true
+    },
+    {
+      "id": 23,
+      "slug": "intwitch-pilot",
+      "name": "intwit.ch",
+      "category": "development",
+      "status": "Under development",
+      "image": "images/works/22.jpeg",
+      "alt": "intwit.ch project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://pilotdev.intwit.ch/en",
+          "ariaLabel": "Preview intwit.ch website"
+        }
+      ],
+      "isVisible": true
+    }
+  ]
+}
