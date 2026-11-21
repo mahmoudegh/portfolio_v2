@@ -38,7 +38,7 @@
 
 html { min-height: 100%; max-width: 100%; overflow-x: hidden; scroll-behavior: smooth; }
 body {
-  min-height: 100%; max-width: 100%; margin: 0; background: var(--background); color: var(--foreground);
+  min-height: 100%; max-width: 100%; margin: 0; overflow-x: clip; background: var(--background); color: var(--foreground);
   font-family: var(--font-inter), Arial, sans-serif; text-align: start; -webkit-font-smoothing: antialiased;
 }
 html[lang="ar"] body { font-family: var(--font-cairo), Tahoma, sans-serif; }
@@ -101,13 +101,14 @@ html[lang="ar"] .project-facts dt, html[lang="ar"] .popover-title { letter-spaci
 .contact-phone-actions a { transition: color 200ms ease; }
 
 .floating-nav { max-width: calc(100vw - 1rem); }
+.resume-download { display: inline-flex; align-items: center; justify-content: center; }
 .floating-nav-inner { background: color-mix(in srgb, var(--muted) 82%, transparent); white-space: nowrap; }
 .floating-link { display: inline-block; color: var(--muted-foreground); }
 .floating-link:hover { color: var(--foreground); }
 .floating-link-active, .contact-disclosure.is-open > .floating-link { background: var(--background); color: var(--foreground); box-shadow: 0 1px 3px rgb(0 0 0 / 0.1); }
 .contact-popover {
-  left: 50%; border-color: var(--border); background: color-mix(in srgb, var(--background) 95%, transparent);
-  color: var(--foreground); transform: translateX(-50%); white-space: normal; backdrop-filter: blur(12px);
+  left: 50vw !important; border-color: var(--border); background: #fff;
+  color: #111; transform: translateX(-50%); white-space: normal; backdrop-filter: none;
 }
 .popover-title { color: var(--muted-foreground); }
 .project-detail-image { animation: fade-in-up 0.8s ease-out both; }
@@ -118,6 +119,8 @@ html[lang="ar"] .project-facts dt, html[lang="ar"] .popover-title { letter-spaci
 .project-action:hover { opacity: 0.7; }
 .project-action-primary { border-color: var(--foreground); background: var(--foreground); color: var(--background); }
 .project-navigation { border-color: var(--border); }
+.project-neighbor { min-width: 0; }
+.neighbor-name { overflow-wrap: anywhere; }
 .project-neighbor { display: flex; max-width: 48%; align-items: center; gap: 0.75rem; }
 .neighbor-label, .neighbor-name { display: block; }
 .neighbor-name { font-size: 0.875rem; }
@@ -127,6 +130,19 @@ html[lang="ar"] .project-facts dt, html[lang="ar"] .popover-title { letter-spaci
 @keyframes about-intro-right-to-left { from { opacity: 0; transform: translateX(32px); } to { opacity: 1; transform: translateX(0); } }
 @keyframes page-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes about-section-enter { from { opacity: 0; transform: translateY(32px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (max-width: 1024px) {
+  .project-navigation { padding-bottom: 8rem; }
+}
+
+@media (max-width: 767px) {
+  .resume-page { padding-top: 9rem !important; }
+  .resume-download {
+    position: fixed !important; top: 5rem !important; right: auto !important; bottom: auto !important;
+    left: 1rem !important; width: calc(100vw - 2rem) !important; box-sizing: border-box;
+    z-index: 60 !important; border-radius: 0.75rem;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

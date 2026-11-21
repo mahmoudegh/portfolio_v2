@@ -29,14 +29,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: [{ url: "/images/works/01.jpeg", width: 800, height: 400, alt: "Hyundai Jordan project screenshot" }],
+      images: [{ url: "/images/site_sharing.jpg", alt: "Mahmoud Galal portfolio" }],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${site.name}`,
       description,
-      images: ["/images/works/01.jpeg"],
+      images: ["/images/site_sharing.jpg"],
     },
   };
 }

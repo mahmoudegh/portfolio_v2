@@ -43,10 +43,10 @@ export function WorkListing({
   return (
     <>
       <Header locale={locale} path="/" category={category} onCategoryChange={setCategory} />
-      <main className="page-transition min-h-screen bg-background">
-        <section ref={sectionRef} aria-label={locale === "ar" ? "المشاريع" : "Projects"} className="project-grid-section px-4 pb-24 pt-32 sm:px-6 md:pt-24">
+      <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
+        <section ref={sectionRef} aria-label={locale === "ar" ? "المشاريع" : "Projects"} className="project-grid-section min-w-0 max-w-full px-4 pb-24 pt-32 sm:px-6 md:pt-24">
           <h1 className="sr-only">{locale === "ar" ? "الأعمال المختارة" : "Selected work"}</h1>
-          <div className="mobile-project-grid grid grid-cols-2 gap-x-3 gap-y-1 md:hidden">
+          <div className="mobile-project-grid grid min-w-0 grid-cols-2 gap-x-3 gap-y-1 md:hidden">
             {filteredProjects.map((project, index) => (
               <ProjectCard key={project.id} locale={locale} project={project} index={index} text={text} isVisible={isVisible} />
             ))}

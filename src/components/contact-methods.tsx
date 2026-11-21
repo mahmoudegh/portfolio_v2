@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type CSSProperties } from "react";
-import { contact, type Locale } from "@/src/data/site";
+import { contact, site, type Locale } from "@/src/data/site";
 import { getMessages } from "@/src/data/translations";
 import { Icon, type IconName } from "@/src/components/icon";
 
@@ -40,11 +40,12 @@ const phoneNumberStyle: CSSProperties = {
 
 export function ContactMethods({ locale, compact = false }: ContactMethodsProps) {
   const text = getMessages(locale);
+  const whatsappHref = `${contact.whatsappHref}?text=${encodeURIComponent(`we need to get in touch: ${site.url}/en`)}`;
   const [phoneCopied, setPhoneCopied] = useState(false);
   const noticeTimer = useRef<number | undefined>(undefined);
   const links: { label: string; href: string; icon: IconName; external?: boolean }[] = [
     { label: contact.email, href: `mailto:${contact.email}`, icon: "mail" },
-    { label: text.whatsapp, href: contact.whatsappHref, icon: "whatsapp", external: true },
+    { label: text.whatsapp, href: whatsappHref, icon: "whatsapp", external: true },
     { label: text.linkedin, href: contact.linkedin, icon: "linkedin", external: true },
     { label: text.github, href: contact.github, icon: "github", external: true },
   ];

@@ -61,7 +61,7 @@ export function Header({ locale, path, category, onCategoryChange }: HeaderProps
       <header className={`site-header fixed inset-x-0 top-0 z-40 transition-colors duration-500 ${isScrolled ? "is-scrolled" : ""}`}>
         <nav aria-label={locale === "ar" ? "التنقل الرئيسي" : "Main navigation"} className="flex h-16 items-center justify-between px-6">
           <Link href={`/${locale}`} className="site-logo shrink-0 whitespace-nowrap text-lg font-medium tracking-tight transition-opacity hover:opacity-70">
-            Mahmoud Galal
+            {locale === "ar" ? "محمود جلال" : "Mahmoud Galal"}
           </Link>
 
           {onCategoryChange && category && (

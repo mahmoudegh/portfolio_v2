@@ -91,7 +91,7 @@ async function ProjectPageContent({ params }: PageProps) {
   return (
     <>
       <Header locale={locale} path={`/project/${project.slug}`} />
-      <main className="page-transition min-h-screen bg-background">
+      <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
         <section className="project-detail-hero px-4 pt-20 sm:px-6">
           <div className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl bg-muted md:h-[80vh] md:rounded-3xl">
             <Image
@@ -108,11 +108,11 @@ async function ProjectPageContent({ params }: PageProps) {
         <section className="project-information px-6 py-8">
           <div className="max-w-4xl">
             <div className="project-heading mb-6">
-              <h1 className="font-display text-5xl leading-tight md:text-7xl">{project.title}</h1>
+              <h1 className="max-w-full break-words font-display text-5xl leading-tight md:text-7xl">{project.title}</h1>
               <p className="mt-2 text-sm text-muted-foreground">#{projectCategoryLabel} · {statusText}</p>
             </div>
 
-            <dl className="project-facts mb-8 grid grid-cols-2 gap-6 sm:grid-cols-3">
+            <dl className="project-facts mb-8 grid min-w-0 grid-cols-2 gap-6 sm:grid-cols-3">
               <div>
                 <dt>{text.year}</dt>
                 <dd>............</dd>

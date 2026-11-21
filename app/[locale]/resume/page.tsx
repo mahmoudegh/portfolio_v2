@@ -26,9 +26,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `${site.url}/${rawLocale}/resume`,
       title: `${title} | ${site.name}`,
       description,
+      images: [{ url: "/images/cv_link.jpg", alt: "Mahmoud Galal CV download" }],
       locale: rawLocale === "ar" ? "ar_EG" : "en_US",
       alternateLocale: rawLocale === "ar" ? ["en_US"] : ["ar_EG"],
     },
+    twitter: { card: "summary_large_image", title: `${title} | ${site.name}`, description, images: ["/images/cv_link.jpg"] },
   };
 }
 
@@ -41,9 +43,9 @@ export default async function ResumePage({ params }: PageProps) {
   return (
     <>
       <Header locale={rawLocale} path="/resume" />
-      <main className="page-transition min-h-screen bg-background px-4 pb-32 pt-20 sm:px-6">
+      <main className="resume-page page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background px-4 pb-32 pt-20 sm:px-6">
         <h1 className="sr-only">{text.resume}</h1>
-        <div className="mx-auto flex min-h-[calc(100vh-8rem)] w-full max-w-5xl items-center justify-center">
+        <div className="mx-auto flex min-h-[calc(100vh-8rem)] w-full min-w-0 max-w-5xl items-center justify-center overflow-hidden">
           <iframe
             src={`${pdfUrl}#view=FitH`}
             title={`${site.name} — ${text.resume}`}
@@ -53,9 +55,9 @@ export default async function ResumePage({ params }: PageProps) {
         </div>
       </main>
       <a
-        href="/download-cv"
+        href="/cv-file"
         download="mahmoud_galal_frontend_web_developer_cv.pdf"
-        className="resume-download fixed bottom-24 right-4 z-[60] inline-flex items-center justify-center rounded-full bg-foreground px-5 py-3 text-sm font-medium text-background shadow-lg transition-opacity hover:opacity-80 sm:bottom-6 sm:right-6"
+        className="resume-download fixed bottom-6 right-6 z-[60] rounded-full bg-foreground px-5 py-3 text-sm font-medium text-background shadow-lg transition-opacity hover:opacity-80"
       >
         {text.downloadCv}
       </a>
