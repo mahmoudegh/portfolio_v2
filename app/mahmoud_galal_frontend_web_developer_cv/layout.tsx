@@ -5,6 +5,7 @@ import "@/app/globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function DownloadCvLayout({ children }: { children: ReactNode }) {

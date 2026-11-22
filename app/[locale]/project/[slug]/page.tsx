@@ -151,14 +151,14 @@ async function ProjectPageContent({ params }: PageProps) {
           <div className="flex items-center justify-between gap-4">
             {previousProject ? (
               <Link href={`/${locale}/project/${previousProject.slug}`} className="project-neighbor group flex items-center gap-3 transition-opacity hover:opacity-70">
-                <Icon name="arrow-left" size={18} />
+                <Icon name={locale === "ar" ? "arrow-right" : "arrow-left"} size={18} />
                 <span><span className="neighbor-label">{text.previous}</span><span className="neighbor-name">{previousProject.title}</span></span>
               </Link>
             ) : <span />}
             {nextProject ? (
               <Link href={`/${locale}/project/${nextProject.slug}`} className="project-neighbor group flex items-center gap-3 text-end transition-opacity hover:opacity-70">
                 <span><span className="neighbor-label">{text.next}</span><span className="neighbor-name">{nextProject.title}</span></span>
-                <Icon name="arrow-right" size={18} />
+                <Icon name={locale === "ar" ? "arrow-left" : "arrow-right"} size={18} />
               </Link>
             ) : <span />}
           </div>

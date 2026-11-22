@@ -8,10 +8,10 @@ const description = "Download Mahmoud Galal’s frontend web developer CV.";
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: "/download-cv" },
+  alternates: { canonical: "/mahmoud_galal_frontend_web_developer_cv" },
   openGraph: {
     type: "website",
-    url: `${site.url}/download-cv`,
+    url: `${site.url}/mahmoud_galal_frontend_web_developer_cv`,
     title,
     description,
     images: [{ url: "/images/cv_link.jpg", alt: "Download Mahmoud Galal’s CV" }],
