@@ -67,8 +67,8 @@ export default async function AboutPage({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c") }} />
       <Header locale={locale} path="/about" />
       <main className="about-page-transition min-h-screen bg-background">
-        <section className="about-hero flex min-h-[60vh] max-h-[70vh] flex-col justify-center px-6 pb-8 pt-24">
-          <div className="about-intro-from-right max-w-[95%]">
+        <section className="about-hero flex min-h-[60svh] flex-col justify-center px-6 pb-6 pt-20 sm:px-8 sm:pb-8 sm:pt-20">
+          <div className="about-intro-from-right w-full max-w-5xl">
             <h1 className="font-display text-4xl leading-[1.1] sm:text-5xl md:text-6xl lg:text-7xl">{text.introHeading}</h1>
             <p className="mt-5 max-w-4xl text-lg leading-relaxed text-muted-foreground md:text-xl">{text.introParagraph}</p>
           </div>

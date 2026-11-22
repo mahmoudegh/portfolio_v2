@@ -6,7 +6,6 @@
       "name": "Hyundai",
       "category": "completed",
       "status": "Completed",
-      "image": "images/works/01.jpeg",
       "alt": "Hyundai project screenshot",
       "links": [
         {
@@ -15,7 +14,45 @@
           "ariaLabel": "Preview Hyundai Jordan website"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "SEO Egypt",
+        "ar": "SEO Egypt"
+      },
+      "date": {
+        "en": "October 2024 – November 2026",
+        "ar": "أكتوبر 2024 – نوفمبر 2026"
+      },
+      "description": {
+        "ar": [
+          "إنشاء وصيانة أكثر من 30 صفحة متجاوبة و100 مكوّن واجهة معياري لبوابة سيارات مؤسسية ثنائية اللغة (العربية والإنجليزية).",
+          "تحديث الواجهة القديمة بنقل 5 وحدات jQuery إلى Vue.js وJavaScript وإدارة محتوى ديناميكي قائم على JSON.",
+          "مراجعة أداء التشغيل وتحسين العرض عبر المتصفحات على الهاتف واللوحي والحاسوب المحمول والمكتبي."
+        ],
+        "en": [
+          "Crafted and maintained 30+ responsive pages and 100+ modular UI components for a bilingual (AR/EN) enterprise automotive portal.",
+          "Modernized legacy frontend code by migrating 5 jQuery modules to Vue.js/JavaScript and managing JSON-driven dynamic content.",
+          "Audited and tuned runtime performance and cross-browser rendering across mobile, tablet, laptop, and desktop."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/01.jpeg"
     },
     {
       "id": 2,
@@ -23,7 +60,6 @@
       "name": "Payit",
       "category": "completed",
       "status": "Completed",
-      "image": "images/works/02.jpeg",
       "alt": "Payit project screenshot",
       "links": [
         {
@@ -32,7 +68,45 @@
           "ariaLabel": "Preview Payit website"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "SEO Egypt",
+        "ar": "SEO Egypt"
+      },
+      "date": {
+        "en": "October 2022 – January 2023",
+        "ar": "أكتوبر 2022 – يناير 2023"
+      },
+      "description": {
+        "ar": [
+          "إنشاء صفحتي هبوط باستخدام Nuxt 2 لبوابة محفظة Letsgo Payit الرقمية اعتمادًا على تصاميم Figma.",
+          "إنشاء أقسام معيارية ومكوّنات بطاقات واختبارها على نقاط توقف الهاتف واللوحي والحاسوب المحمول والمكتبي.",
+          "إطلاق واجهات ثنائية اللغة (العربية والإنجليزية) مع تحسين ضغط الصور وتحميل الأصول واستجابة التخطيط."
+        ],
+        "en": [
+          "Built 2 production Nuxt 2 landing pages from Figma designs for the Letsgo Payit digital wallet portal.",
+          "Created modular sections and card components tested across mobile, tablet, laptop, and desktop breakpoints.",
+          "Shipped bilingual (AR/EN) interfaces while optimizing image compression, asset loading, and layout responsiveness."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/02.jpeg"
     },
     {
       "id": 4,
@@ -40,7 +114,6 @@
       "name": "Tijara",
       "category": "completed",
       "status": "Completed",
-      "image": "images/works/04.jpeg",
       "alt": "Tijara project screenshot",
       "links": [
         {
@@ -49,7 +122,31 @@
           "ariaLabel": "Preview Tijara website"
         }
       ],
-      "isVisible": true
+      "isVisible": false,
+      "company": null,
+      "date": null,
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/04.jpeg"
     },
     {
       "id": 7,
@@ -57,7 +154,6 @@
       "name": "Payit",
       "category": "development",
       "status": "Under development",
-      "image": "images/works/07.jpeg",
       "alt": "Payit project screenshot",
       "links": [
         {
@@ -66,7 +162,31 @@
           "ariaLabel": "Preview Payit website"
         }
       ],
-      "isVisible": false
+      "isVisible": false,
+      "company": null,
+      "date": null,
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/07.jpeg"
     },
     {
       "id": 10,
@@ -74,7 +194,6 @@
       "name": "FAN",
       "category": "development",
       "status": "Under development",
-      "image": "images/works/10.jpeg",
       "alt": "FAN project screenshot",
       "links": [
         {
@@ -83,81 +202,240 @@
           "ariaLabel": "Preview Fan Network website"
         }
       ],
-      "isVisible": false
+      "isVisible": false,
+      "company": null,
+      "date": null,
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/10.jpeg"
     },
     {
-      "id": 11,
-      "slug": "html-css-js-template",
-      "name": "HTML-CSS-Js Template",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/11.jpeg",
-      "alt": "HTML-CSS-Js Template project screenshot",
+      "id": 21,
+      "slug": "deepmarks",
+      "name": "deepmarks",
+      "category": "development",
+      "status": "Under development",
+      "alt": "deepmarks project screenshot",
       "links": [
         {
           "label": "Preview",
-          "url": "https://mahmoudegh.github.io/HTML-CSS-JS-Temp/",
-          "ariaLabel": "Preview HTML-CSS-Js Template"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/HTML-CSS-JS-Temp",
-          "ariaLabel": "View code for HTML, CSS, and JavaScript template on GitHub"
+          "url": "https://deepmarks.vercel.app/name-branding",
+          "ariaLabel": "Preview deepmarks website"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "Pencils",
+        "ar": "Pencils"
+      },
+      "date": {
+        "en": "November 2025 – May 2026",
+        "ar": "نوفمبر 2025 – مايو 2026"
+      },
+      "description": {
+        "ar": [
+          "تنفيذ تطوير الواجهة الأمامية بالكامل بشكل مستقل، وإنشاء أكثر من 20 صفحة و20 مكوّن React.js قابلًا لإعادة الاستخدام اعتمادًا على تصاميم Figma.",
+          "تطوير واختبار أكثر من 40 واجهة متجاوبة للصفحات والمكوّنات على الهاتف واللوحي والحاسوب المحمول والمكتبي.",
+          "تنفيذ العمل من البداية إلى النهاية، بما يشمل تصحيح الأخطاء وتحسين الأداء عبر أكثر من 40 شاشة باستخدام React.js وسير عمل مدعوم بالذكاء الاصطناعي."
+        ],
+        "en": [
+          "Independently delivered all frontend development, building 20+ pages and 20+ reusable React.js components from Figma designs.",
+          "Developed and tested 40+ responsive page and component interfaces across mobile, tablet, laptop, and desktop sizes.",
+          "Handled end-to-end implementation, debugging, and performance tuning across 40+ views using React.js and AI-assisted development workflows."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/21.jpeg"
     },
     {
-      "id": 12,
-      "slug": "bootstrap-4-template",
-      "name": "Bootstrap-4 Template",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/12.jpeg",
-      "alt": "Bootstrap-4 Template project screenshot",
+      "id": 22,
+      "slug": "intwitch-live",
+      "name": "intwit.ch",
+      "category": "completed",
+      "status": "Completed",
+      "alt": "intwit.ch project screenshot",
       "links": [
         {
           "label": "Preview",
-          "url": "https://mahmoudegh.github.io/Bootstrap-4/",
-          "ariaLabel": "Preview Bootstrap Template"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/Bootstrap-4",
-          "ariaLabel": "View code for Bootstrap template on GitHub"
+          "url": "https://intwit.ch/en",
+          "ariaLabel": "Preview intwit.ch website"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "SEO Egypt",
+        "ar": "SEO Egypt"
+      },
+      "date": {
+        "en": "April 2026 – November 2026",
+        "ar": "أبريل 2026 – نوفمبر 2026"
+      },
+      "description": {
+        "ar": [
+          "تطوير وصيانة أكثر من 70 مسارًا و80 ميزة معيارية بشكل مستقل لسوق عقاري يعمل على Next.js.",
+          "إنشاء تخطيطات متكيفة لشاشات بعرض 400 إلى 1920 بكسل بأربع لغات: الإنجليزية والفرنسية والألمانية والإيطالية باستخدام React.js وTypeScript وTailwind CSS.",
+          "دمج نماذج Figma وواجهات REST والنماذج الديناميكية وسير البحث عن العقارات، مع تحسين نتائج Lighthouse وتهيئة محركات البحث التقنية."
+        ],
+        "en": [
+          "Independently engineered and maintained 70+ routes and 80+ modular features for a production Next.js real-estate marketplace.",
+          "Built adaptive layouts for 400px–1920px viewports across EN, FR, DE, and IT using React.js, TypeScript, and Tailwind CSS.",
+          "Integrated Figma prototypes, REST APIs, dynamic forms, and property search workflows while optimizing Lighthouse scores and technical SEO."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/22.jpeg"
     },
     {
-      "id": 13,
-      "slug": "bootstrap-3-template",
-      "name": "Bootstrap-3 Template",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/13.jpeg",
-      "alt": "Bootstrap-3 Template project screenshot",
+      "id": 23,
+      "slug": "intwitch-pilot",
+      "name": "intwit.ch",
+      "category": "development",
+      "status": "Under development",
+      "alt": "intwit.ch project screenshot",
       "links": [
         {
           "label": "Preview",
-          "url": "https://mahmoudegh.github.io/Bootstrap-3/",
-          "ariaLabel": "Preview Bootstrap Template"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/Bootstrap-3",
-          "ariaLabel": "View code for Bootstrap template on GitHub"
+          "url": "https://pilotdev.intwit.ch/en",
+          "ariaLabel": "Preview intwit.ch website"
         }
       ],
-      "isVisible": true
+      "isVisible": false,
+      "company": null,
+      "date": null,
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/22.jpeg"
+    },
+    {
+      "id": 24,
+      "slug": "nile-sun-cruises",
+      "name": "Nile Sun Cruises",
+      "category": "completed",
+      "status": "Completed",
+      "alt": "Nile Sun Cruises project image",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://nilesuncruises.com",
+          "ariaLabel": "Preview Nile Sun Cruises website"
+        }
+      ],
+      "isVisible": true,
+      "company": {
+        "en": "SEO Egypt",
+        "ar": "SEO Egypt"
+      },
+      "date": {
+        "en": "September 2026 – October 2026",
+        "ar": "سبتمبر 2026 – أكتوبر 2026"
+      },
+      "description": {
+        "en": [
+          "Architected the frontend for a luxury Luxor-to-Aswan Nile cruise platform showcasing 3 cruise vessels and 6 historical river stops using Next.js, TypeScript, and AI-assisted workflows.",
+          "Structured 8 core static pages alongside 2 dynamic routing systems for the cruise experience.",
+          "Implemented an interactive voyage booking flow, adaptive layouts across mobile, tablet, laptop, and desktop, and asset optimizations."
+        ],
+        "ar": [
+          "هندسة واجهة منصة رحلات نيلية فاخرة من الأقصر إلى أسوان، تعرض 3 سفن و6 محطات تاريخية، باستخدام Next.js وTypeScript وسير عمل مدعوم بالذكاء الاصطناعي.",
+          "تنظيم 8 صفحات أساسية ثابتة إلى جانب نظامين للتوجيه الديناميكي لتجربة الرحلة.",
+          "تنفيذ تدفق تفاعلي لحجز الرحلات وتخطيطات متكيفة للهاتف واللوحي والحاسوب المحمول والمكتبي وتحسين الأصول."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": null
     },
     {
       "id": 14,
       "slug": "html-css-template",
-      "name": "HTML - CSS Template",
+      "name": "HTML & CSS",
       "category": "practice-projects",
       "status": "Practice",
-      "image": "images/works/14.jpeg",
       "alt": "HTML - CSS Template project screenshot",
       "links": [
         {
@@ -171,7 +449,206 @@
           "ariaLabel": "View code for HTML - CSS template on GitHub"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "April 2019",
+        "ar": "أبريل 2019"
+      },
+      "description": {
+        "en": [
+          "A training-course practice template built with HTML and CSS."
+        ],
+        "ar": [
+          "قالب تدريبي عملي أُنشئ باستخدام HTML وCSS."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/14.jpeg"
+    },
+    {
+      "id": 11,
+      "slug": "html-css-js-template",
+      "name": "HTML, CSS & JS",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "HTML-CSS-Js Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/HTML-CSS-JS-Temp/",
+          "ariaLabel": "Preview HTML-CSS-Js Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/HTML-CSS-JS-Temp",
+          "ariaLabel": "View code for HTML, CSS, and JavaScript template on GitHub"
+        }
+      ],
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "November 2019",
+        "ar": "نوفمبر 2019"
+      },
+      "description": {
+        "en": [
+          "An interactive training-course template combining HTML, CSS, and JavaScript."
+        ],
+        "ar": [
+          "قالب تدريبي تفاعلي يجمع بين HTML وCSS وJavaScript."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/11.jpeg"
+    },
+    {
+      "id": 13,
+      "slug": "bootstrap-3-template",
+      "name": "Bootstrap 3",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "Bootstrap-3 Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Bootstrap-3/",
+          "ariaLabel": "Preview Bootstrap Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Bootstrap-3",
+          "ariaLabel": "View code for Bootstrap template on GitHub"
+        }
+      ],
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "February 2020",
+        "ar": "فبراير 2020"
+      },
+      "description": {
+        "en": [
+          "A website template practice project using Bootstrap 3."
+        ],
+        "ar": [
+          "مشروع تدريبي لقالب موقع باستخدام Bootstrap 3."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/13.jpeg"
+    },
+    {
+      "id": 12,
+      "slug": "bootstrap-4-template",
+      "name": "Bootstrap 4",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "Bootstrap-4 Template project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/Bootstrap-4/",
+          "ariaLabel": "Preview Bootstrap Template"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Bootstrap-4",
+          "ariaLabel": "View code for Bootstrap template on GitHub"
+        }
+      ],
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "September 2019",
+        "ar": "سبتمبر 2019"
+      },
+      "description": {
+        "en": [
+          "A website template practice project using Bootstrap 4."
+        ],
+        "ar": [
+          "مشروع تدريبي لقالب موقع باستخدام Bootstrap 4."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/12.jpeg"
     },
     {
       "id": 15,
@@ -179,7 +656,6 @@
       "name": "To Do List",
       "category": "practice-projects",
       "status": "Practice",
-      "image": "images/works/15.jpeg",
       "alt": "To Do List project screenshot",
       "links": [
         {
@@ -193,103 +669,48 @@
           "ariaLabel": "View code for JavaScript To Do List app on GitHub"
         }
       ],
-      "isVisible": true
-    },
-    {
-      "id": 16,
-      "slug": "fetch-github-repositories",
-      "name": "Fetch Github Ripos",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/16.jpeg",
-      "alt": "Fetch Github Ripos project screenshot",
-      "links": [
-        {
-          "label": "Preview",
-          "url": "https://mahmoudegh.github.io/Fetch-github-ripos",
-          "ariaLabel": "Preview Fetch GitHub Repositories project"
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "June 2019",
+        "ar": "يونيو 2019"
+      },
+      "description": {
+        "en": [
+          "A practice app for organizing to-do items."
+        ],
+        "ar": [
+          "تطبيق تدريبي لتنظيم المهام المطلوب إنجازها."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
         },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/Fetch-github-ripos",
-          "ariaLabel": "View code for Fetch GitHub Repositories project on GitHub"
-        }
-      ],
-      "isVisible": true
-    },
-    {
-      "id": 17,
-      "slug": "gradient-generator",
-      "name": "Gradient Generator",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/17.jpeg",
-      "alt": "Gradient Generator project screenshot",
-      "links": [
-        {
-          "label": "Preview",
-          "url": "https://mahmoudegh.github.io/Gradient-Generator/",
-          "ariaLabel": "Preview Gradient Generator project"
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
         },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/Gradient-Generator",
-          "ariaLabel": "View code for Gradient Generator project on GitHub"
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
         }
-      ],
-      "isVisible": true
-    },
-    {
-      "id": 18,
-      "slug": "control-local-storage",
-      "name": "Control Local Storage",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/18.jpeg",
-      "alt": "Control Local Storage project screenshot",
-      "links": [
-        {
-          "label": "Preview",
-          "url": "https://mahmoudegh.github.io/Control-Local-Storage/",
-          "ariaLabel": "Preview Control Local Storage project"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/Control-Local-Storage",
-          "ariaLabel": "View code for Control Local Storage project on GitHub"
-        }
-      ],
-      "isVisible": true
-    },
-    {
-      "id": 19,
-      "slug": "to-do-list-vue",
-      "name": "To Do List By Vue",
-      "category": "practice-projects",
-      "status": "Practice",
-      "image": "images/works/19.jpeg",
-      "alt": "To Do List By Vue project screenshot",
-      "links": [
-        {
-          "label": "Preview",
-          "url": "https://mahmoudegh.github.io/To-Do-List-By-Vue/",
-          "ariaLabel": "Preview To-Do List by Vue project"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/mahmoudegh/To-Do-List-By-Vue",
-          "ariaLabel": "View code for To-Do List by Vue project on GitHub"
-        }
-      ],
-      "isVisible": true
+      },
+      "fallbackImage": "images/works/15.jpeg"
     },
     {
       "id": 20,
       "slug": "quizz-app",
-      "name": "Quizz App",
+      "name": "Quiz App",
       "category": "practice-projects",
       "status": "Practice",
-      "image": "images/works/20.jpeg",
       "alt": "Quizz App project screenshot",
       "links": [
         {
@@ -303,58 +724,261 @@
           "ariaLabel": "View code for Quizz App project on GitHub"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "March 2020",
+        "ar": "مارس 2020"
+      },
+      "description": {
+        "en": [
+          "A practice quiz app for answering questions and reviewing results."
+        ],
+        "ar": [
+          "تطبيق اختبارات تدريبي للإجابة عن الأسئلة ومراجعة النتائج."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/20.jpeg"
     },
     {
-      "id": 21,
-      "slug": "deepmarks",
-      "name": "deepmarks",
-      "category": "development",
-      "status": "Under development",
-      "image": "images/works/21.jpeg",
-      "alt": "deepmarks project screenshot",
+      "id": 18,
+      "slug": "control-local-storage",
+      "name": "Control Local Storage",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "Control Local Storage project screenshot",
       "links": [
         {
           "label": "Preview",
-          "url": "https://deepmarks.vercel.app/name-branding",
-          "ariaLabel": "Preview deepmarks website"
+          "url": "https://mahmoudegh.github.io/Control-Local-Storage/",
+          "ariaLabel": "Preview Control Local Storage project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Control-Local-Storage",
+          "ariaLabel": "View code for Control Local Storage project on GitHub"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "October 2020",
+        "ar": "أكتوبر 2020"
+      },
+      "description": {
+        "en": [
+          "A practice project focused on working with browser Local Storage."
+        ],
+        "ar": [
+          "مشروع تدريبي يركّز على التعامل مع Local Storage في المتصفح."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/18.jpeg"
     },
     {
-      "id": 22,
-      "slug": "intwitch-live",
-      "name": "intwit.ch",
-      "category": "completed",
-      "status": "Completed",
-      "image": "images/works/22.jpeg",
-      "alt": "intwit.ch project screenshot",
+      "id": 16,
+      "slug": "fetch-github-repositories",
+      "name": "Fetch GitHub Repositories",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "Fetch Github Ripos project screenshot",
       "links": [
         {
           "label": "Preview",
-          "url": "https://intwit.ch/en",
-          "ariaLabel": "Preview intwit.ch website"
+          "url": "https://mahmoudegh.github.io/Fetch-github-ripos",
+          "ariaLabel": "Preview Fetch GitHub Repositories project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Fetch-github-ripos",
+          "ariaLabel": "View code for Fetch GitHub Repositories project on GitHub"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "January 2020",
+        "ar": "يناير 2020"
+      },
+      "description": {
+        "en": [
+          "A practice app for fetching and displaying GitHub repository information."
+        ],
+        "ar": [
+          "تطبيق تدريبي لجلب معلومات مستودعات GitHub وعرضها."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/16.jpeg"
     },
     {
-      "id": 23,
-      "slug": "intwitch-pilot",
-      "name": "intwit.ch",
-      "category": "development",
-      "status": "Under development",
-      "image": "images/works/22.jpeg",
-      "alt": "intwit.ch project screenshot",
+      "id": 17,
+      "slug": "gradient-generator",
+      "name": "Gradient Generator",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "Gradient Generator project screenshot",
       "links": [
         {
           "label": "Preview",
-          "url": "https://pilotdev.intwit.ch/en",
-          "ariaLabel": "Preview intwit.ch website"
+          "url": "https://mahmoudegh.github.io/Gradient-Generator/",
+          "ariaLabel": "Preview Gradient Generator project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/Gradient-Generator",
+          "ariaLabel": "View code for Gradient Generator project on GitHub"
         }
       ],
-      "isVisible": true
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "August 2019",
+        "ar": "أغسطس 2019"
+      },
+      "description": {
+        "en": [
+          "A practice tool for generating CSS gradients."
+        ],
+        "ar": [
+          "أداة تدريبية لإنشاء تدرجات CSS."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/17.jpeg"
+    },
+    {
+      "id": 19,
+      "slug": "to-do-list-vue",
+      "name": "To Do List by Vue",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "To Do List By Vue project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://mahmoudegh.github.io/To-Do-List-By-Vue/",
+          "ariaLabel": "Preview To-Do List by Vue project"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mahmoudegh/To-Do-List-By-Vue",
+          "ariaLabel": "View code for To-Do List by Vue project on GitHub"
+        }
+      ],
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "December 2020",
+        "ar": "ديسمبر 2020"
+      },
+      "description": {
+        "en": [
+          "A to-do list practice app built with Vue.js."
+        ],
+        "ar": [
+          "تطبيق تدريبي لقائمة مهام أُنشئ باستخدام Vue.js."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": "images/works/19.jpeg"
     }
   ]
 }

@@ -46,7 +46,7 @@ export default async function HomePage({ params }: PageProps) {
   const { locale: rawLocale } = await params;
   if (!isLocale(rawLocale)) notFound();
   const locale = rawLocale;
-  const visibleProjects = getVisibleProjects().map(({ id, slug, title, category, status, image }) => ({ id, slug, title, category, status, image }));
+  const visibleProjects = getVisibleProjects().map(({ id, slug, title, category, status, images }) => ({ id, slug, title, category, status, images }));
 
   const websiteJsonLd = {
     "@context": "https://schema.org",

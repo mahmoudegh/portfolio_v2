@@ -43,9 +43,42 @@ const imageDimensions: Record<string, { width: number; height: number }> = {
   "images/works/22.jpeg": { width: 837, height: 400 },
 };
 
+export type ProjectImage = { src: string; alt: string; width: number; height: number };
+
+function getProjectImage(
+  image: { src: string | null; width: number | null; height: number | null },
+  fallbackPath: string | null,
+  alt: string,
+): ProjectImage | null {
+  const imagePath = image.src ?? fallbackPath;
+  if (!imagePath) return null;
+  const dimensions = imageDimensions[imagePath] ?? { width: 800, height: 400 };
+  return {
+    src: `/${imagePath}`,
+    alt,
+    width: image.width ?? dimensions.width,
+    height: image.height ?? dimensions.height,
+  };
+}
+
 export type ProjectCategory = "completed" | "development" | "practice-projects";
 
-export const projects = projectsSource.projects.map((project) => {
+export type Project = {
+  id: number;
+  slug: string;
+  title: string;
+  category: ProjectCategory;
+  status: string;
+  isVisible: boolean;
+  company: Record<Locale, string> | null;
+  date: Record<Locale, string> | null;
+  description: Record<Locale, string[] | null>;
+  images: Record<"lg" | "md" | "sm", ProjectImage | null>;
+  previewUrl: string | undefined;
+  sourceUrl: string | undefined;
+};
+
+export const projects: Project[] = projectsSource.projects.map((project) => {
   const preview = project.links.find((link) => link.label === "Preview")?.url;
   const source = project.links.find((link) => link.label === "Code")?.url;
 
@@ -56,21 +89,18 @@ export const projects = projectsSource.projects.map((project) => {
     category: project.category as ProjectCategory,
     status: project.status,
     isVisible: project.isVisible,
-    image: {
-      src: `/${project.image}`,
-      alt: project.alt,
-      ...("images/works/21.jpeg" === project.image
-        ? imageDimensions[project.image]
-        : "images/works/22.jpeg" === project.image
-          ? imageDimensions[project.image]
-          : { width: 800, height: 400 }),
+    company: project.company,
+    date: project.date,
+    description: project.description,
+    images: {
+      lg: getProjectImage(project.images.lg, project.fallbackImage, project.alt),
+      md: getProjectImage(project.images.md, project.fallbackImage, project.alt),
+      sm: getProjectImage(project.images.sm, project.fallbackImage, project.alt),
     },
     previewUrl: preview,
     sourceUrl: source,
   };
 });
-
-export type Project = (typeof projects)[number];
 
 export function getVisibleProjects() {
   return projects.filter((project) => project.isVisible);

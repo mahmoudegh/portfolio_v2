@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import type { Metadata } from "next";
@@ -7,6 +6,7 @@ import { Header } from "@/src/components/header";
 import { Icon } from "@/src/components/icon";
 import { getProjectBySlug, getVisibleProjects, isLocale, site } from "@/src/data/site";
 import { getMessages } from "@/src/data/translations";
+import { ProjectImage } from "@/src/components/project-image";
 
 type PageProps = { params: Promise<{ locale: string; slug: string }> };
 
@@ -23,9 +23,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const isArabic = rawLocale === "ar";
   const ownerName = isArabic ? "محمود جلال" : site.name;
   const title = project.title;
-  const description = isArabic
+  const localizedDescription = project.description[rawLocale]?.[0];
+  const description = localizedDescription || (isArabic
     ? `استكشف تفاصيل مشروع ${project.title} وروابطه المتاحة ضمن أعمال محمود جلال`
-    : `Available details and project links for ${project.title} in Mahmoud Galal’s portfolio.`;
+    : `Available details and project links for ${project.title} in Mahmoud Galal’s portfolio.`);
   const route = `/${rawLocale}/project/${project.slug}`;
 
   return {
@@ -45,14 +46,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: [{ url: project.image.src, width: project.image.width, height: project.image.height, alt: project.image.alt }],
+      images: project.images.lg ? [{ url: project.images.lg.src, width: project.images.lg.width, height: project.images.lg.height, alt: project.images.lg.alt }] : ["/images/site_sharing.jpg"],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${ownerName}`,
       description,
-      images: [project.image.src],
+      images: [project.images.lg?.src ?? "/images/site_sharing.jpg"],
     },
   };
 }
@@ -88,6 +89,7 @@ async function ProjectPageContent({ params }: PageProps) {
     : project.category === "development"
       ? text.underDevelopment
       : text.practice;
+  const detailImage = project.images.lg ?? project.images.md ?? project.images.sm;
 
   return (
     <>
@@ -95,14 +97,19 @@ async function ProjectPageContent({ params }: PageProps) {
       <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
         <section className="project-detail-hero px-4 pt-20 sm:px-6">
           <div className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl bg-muted md:h-[80vh] md:rounded-3xl">
-            <Image
-              src={project.image.src}
-              alt={locale === "ar" ? `صورة من مشروع ${project.title}` : project.image.alt}
-              fill
-              sizes="100vw"
-              preload
-              className="object-cover"
-            />
+            {detailImage ? (
+              <ProjectImage
+                images={project.images}
+                alt={locale === "ar" ? `صورة من مشروع ${project.title}` : detailImage.alt}
+                sizes="100vw"
+                preload
+                className="h-full w-full object-cover"
+              />
+            ) : (
+              <div aria-hidden="true" className="flex h-full items-center justify-center bg-muted px-6 text-center font-display text-3xl text-muted-foreground/70 md:text-5xl">
+                {project.title}
+              </div>
+            )}
           </div>
         </section>
 
@@ -114,24 +121,22 @@ async function ProjectPageContent({ params }: PageProps) {
             </div>
 
             <dl className="project-facts mb-8 grid min-w-0 grid-cols-2 gap-6 sm:grid-cols-3">
-              <div>
-                <dt>{text.year}</dt>
-                <dd>............</dd>
-              </div>
-              <div>
-                <dt>{text.client}</dt>
-                <dd>............</dd>
-              </div>
+              {project.date && <div><dt>{text.date}</dt><dd>{project.date[locale]}</dd></div>}
+              {project.company && <div><dt>{text.company}</dt><dd>{project.company[locale]}</dd></div>}
               <div>
                 <dt>{text.category}</dt>
                 <dd>{projectCategoryLabel}</dd>
               </div>
             </dl>
 
-            <div className="project-description max-w-2xl">
-              <h2 className="sr-only">{text.description}</h2>
-              <p className="text-lg leading-relaxed text-foreground/90">............</p>
-            </div>
+            {project.description[locale]?.length ? (
+              <div className="project-description max-w-2xl">
+                <h2 className="sr-only">{text.description}</h2>
+                <ul className="list-disc space-y-3 ps-5 text-lg leading-relaxed text-foreground/90">
+                  {project.description[locale]?.map((paragraph) => <li key={paragraph}>{paragraph}</li>)}
+                </ul>
+              </div>
+            ) : null}
 
             <div className="project-actions mt-7 flex flex-wrap gap-3">
               {project.previewUrl && (

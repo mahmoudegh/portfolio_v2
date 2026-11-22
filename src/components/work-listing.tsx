@@ -1,13 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Locale, Project } from "@/src/data/site";
 import { Header, type CategoryFilter } from "@/src/components/header";
 import { getMessages } from "@/src/data/translations";
+import { ProjectImage } from "@/src/components/project-image";
 
-type ListingProject = Pick<Project, "id" | "slug" | "title" | "category" | "status" | "image">;
+type ListingProject = Pick<Project, "id" | "slug" | "title" | "category" | "status" | "images">;
 
 export function WorkListing({
   locale,
@@ -77,7 +77,8 @@ function ProjectCard({
   isVisible: boolean;
   desktop?: boolean;
 }) {
-  const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : project.image.alt;
+  const image = project.images.sm ?? project.images.md ?? project.images.lg;
+  const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : image?.alt ?? `${project.title} project image`;
 
   return (
     <Link
@@ -86,15 +87,19 @@ function ProjectCard({
       style={{ transitionDelay: `${index * (desktop ? 80 : 50)}ms` }}
     >
       <div className={`project-card-image relative overflow-hidden bg-muted ${desktop ? "rounded-3xl" : "aspect-[4/5] rounded-2xl"}`}>
-        <Image
-          src={project.image.src}
-          alt={alt}
-          width={project.image.width}
-          height={project.image.height}
-          sizes="(max-width: 767px) 50vw, (max-width: 1023px) 50vw, (max-width: 1919px) 33vw, 25vw"
-          preload={index === 0}
-          className={`w-full object-cover ${desktop ? "h-auto" : "h-full"}`}
-        />
+        {image ? (
+          <ProjectImage
+            images={project.images}
+            alt={alt}
+            sizes="(max-width: 767px) 50vw, (max-width: 1023px) 50vw, (max-width: 1919px) 33vw, 25vw"
+            preload={index === 0}
+            className={`w-full object-cover ${desktop ? "h-auto" : "h-full"}`}
+          />
+        ) : (
+          <div aria-hidden="true" className="flex h-full min-h-40 items-center justify-center px-4 text-center font-display text-lg text-muted-foreground/70">
+            {project.title}
+          </div>
+        )}
       </div>
       <div className={`project-card-caption ${desktop ? "px-1 pt-3 pb-4" : "px-0.5 pt-2 pb-3"}`}>
         <h2 className={`${desktop ? "text-sm" : "text-xs"} line-clamp-1 font-medium transition-opacity duration-300 group-hover:opacity-70`}>

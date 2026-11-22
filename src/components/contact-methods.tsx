@@ -1,42 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState } from "react";
 import { contact, site, type Locale } from "@/src/data/site";
 import { getMessages } from "@/src/data/translations";
 import { Icon, type IconName } from "@/src/components/icon";
 
 type ContactMethodsProps = { locale: Locale; compact?: boolean };
-
-const phoneActionStyle: CSSProperties = {
-  alignItems: "center",
-  backgroundColor: "color-mix(in srgb, var(--muted) 82%, transparent)",
-  border: 0,
-  borderRadius: "9999px",
-  color: "var(--muted-foreground)",
-  cursor: "pointer",
-  display: "inline-flex",
-  fontSize: "0.68rem",
-  justifyContent: "center",
-  lineHeight: 1,
-  minHeight: "1.5rem",
-  padding: "0 0.5rem",
-  textDecoration: "none",
-  whiteSpace: "nowrap",
-};
-
-const phoneCopyStyle: CSSProperties = {
-  ...phoneActionStyle,
-  minWidth: "4.25rem",
-};
-
-const phoneNumberStyle: CSSProperties = {
-  direction: "ltr",
-  flex: "0 0 auto",
-  fontSize: "0.76rem",
-  overflowWrap: "normal",
-  unicodeBidi: "isolate",
-  whiteSpace: "nowrap",
-};
 
 export function ContactMethods({ locale, compact = false }: ContactMethodsProps) {
   const text = getMessages(locale);
@@ -84,12 +53,12 @@ export function ContactMethods({ locale, compact = false }: ContactMethodsProps)
         ))}
         <li className="contact-phone-item">
           <Icon name="phone" size={14} />
-          <span className="contact-phone-number" style={phoneNumberStyle}>{contact.phone}</span>
+          <span className="contact-phone-number">{contact.phone}</span>
           <div className="contact-phone-actions">
-            <button type="button" className="contact-phone-action contact-phone-copy cursor-pointer" style={phoneCopyStyle} onClick={() => void copyPhoneNumber()}>
+            <button type="button" className="contact-phone-action contact-phone-copy cursor-pointer" onClick={() => void copyPhoneNumber()}>
               {phoneCopied ? text.copied : text.copy}
             </button>
-            <a className="contact-phone-action cursor-pointer" href={contact.phoneHref} style={phoneActionStyle}>
+            <a className="contact-phone-action cursor-pointer" href={contact.phoneHref}>
               {text.call}
             </a>
           </div>
