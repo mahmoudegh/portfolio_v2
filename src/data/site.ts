@@ -38,28 +38,8 @@ export const certificates = certificatesSource.certificates
     href: certificate.url,
   }));
 
-const imageDimensions: Record<string, { width: number; height: number }> = {
-  "images/works/21.jpeg": { width: 825, height: 400 },
-  "images/works/22.jpeg": { width: 837, height: 400 },
-};
-
-export type ProjectImage = { src: string; alt: string; width: number; height: number };
-
-function getProjectImage(
-  image: { src: string | null; width: number | null; height: number | null },
-  fallbackPath: string | null,
-  alt: string,
-): ProjectImage | null {
-  const imagePath = image.src ?? fallbackPath;
-  if (!imagePath) return null;
-  const dimensions = imageDimensions[imagePath] ?? { width: 800, height: 400 };
-  return {
-    src: `/${imagePath}`,
-    alt,
-    width: image.width ?? dimensions.width,
-    height: image.height ?? dimensions.height,
-  };
-}
+export type ProjectImageVariant = "mobile" | "tablet" | "desktop" | "largeDesktop";
+export type ProjectImageSet = Record<ProjectImageVariant, string | null>;
 
 export type ProjectCategory = "completed" | "development" | "practice-projects";
 
@@ -73,7 +53,9 @@ export type Project = {
   company: Record<Locale, string> | null;
   date: Record<Locale, string> | null;
   description: Record<Locale, string[] | null>;
-  images: Record<"lg" | "md" | "sm", ProjectImage | null>;
+  images: ProjectImageSet;
+  imageAlt: string;
+  fallbackImage: string | null;
   previewUrl: string | undefined;
   sourceUrl: string | undefined;
 };
@@ -92,11 +74,9 @@ export const projects: Project[] = projectsSource.projects.map((project) => {
     company: project.company,
     date: project.date,
     description: project.description,
-    images: {
-      lg: getProjectImage(project.images.lg, project.fallbackImage, project.alt),
-      md: getProjectImage(project.images.md, project.fallbackImage, project.alt),
-      sm: getProjectImage(project.images.sm, project.fallbackImage, project.alt),
-    },
+    images: { mobile: null, tablet: null, desktop: null, largeDesktop: null },
+    imageAlt: project.alt,
+    fallbackImage: project.fallbackImage ? `/${project.fallbackImage}` : null,
     previewUrl: preview,
     sourceUrl: source,
   };

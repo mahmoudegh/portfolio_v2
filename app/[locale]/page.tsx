@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { WorkListing } from "@/src/components/work-listing";
 import { getVisibleProjects, isLocale, site } from "@/src/data/site";
+import { getProjectImageSet } from "@/src/data/project-images.server";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -46,7 +47,15 @@ export default async function HomePage({ params }: PageProps) {
   const { locale: rawLocale } = await params;
   if (!isLocale(rawLocale)) notFound();
   const locale = rawLocale;
-  const visibleProjects = getVisibleProjects().map(({ id, slug, title, category, status, images }) => ({ id, slug, title, category, status, images }));
+  const visibleProjects = getVisibleProjects().map(({ id, slug, title, category, status, imageAlt }) => ({
+    id,
+    slug,
+    title,
+    category,
+    status,
+    imageAlt,
+    images: getProjectImageSet(slug),
+  }));
 
   const websiteJsonLd = {
     "@context": "https://schema.org",

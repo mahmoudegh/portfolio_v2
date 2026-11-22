@@ -7,7 +7,8 @@ import { Header, type CategoryFilter } from "@/src/components/header";
 import { getMessages } from "@/src/data/translations";
 import { ProjectImage } from "@/src/components/project-image";
 
-type ListingProject = Pick<Project, "id" | "slug" | "title" | "category" | "status" | "images">;
+type ListingProject = Pick<Project, "id" | "slug" | "title" | "category" | "status" | "images" | "imageAlt">;
+const desktopImageRatios = ["4 / 5", "3 / 4", "4 / 3", "1 / 1", "5 / 4", "2 / 3"];
 
 export function WorkListing({
   locale,
@@ -77,29 +78,25 @@ function ProjectCard({
   isVisible: boolean;
   desktop?: boolean;
 }) {
-  const image = project.images.sm ?? project.images.md ?? project.images.lg;
-  const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : image?.alt ?? `${project.title} project image`;
+  const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : project.imageAlt;
+  const cardStyle = desktop ? undefined : { aspectRatio: "4 / 5" };
 
   return (
     <Link
       href={`/${locale}/project/${project.slug}`}
-      className={`project-card group block transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"} ${desktop ? "mb-4 break-inside-avoid" : ""}`}
+      className={`project-card group inline-block w-full break-inside-avoid transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"} ${desktop ? "mb-4" : "mb-3"}`}
+      data-image-ratio={desktop ? index % desktopImageRatios.length : undefined}
       style={{ transitionDelay: `${index * (desktop ? 80 : 50)}ms` }}
     >
-      <div className={`project-card-image relative overflow-hidden bg-muted ${desktop ? "rounded-3xl" : "aspect-[4/5] rounded-2xl"}`}>
-        {image ? (
-          <ProjectImage
-            images={project.images}
-            alt={alt}
-            sizes="(max-width: 767px) 50vw, (max-width: 1023px) 50vw, (max-width: 1919px) 33vw, 25vw"
-            preload={index === 0}
-            className={`w-full object-cover ${desktop ? "h-auto" : "h-full"}`}
-          />
-        ) : (
-          <div aria-hidden="true" className="flex h-full min-h-40 items-center justify-center px-4 text-center font-display text-lg text-muted-foreground/70">
-            {project.title}
-          </div>
-        )}
+      <div style={cardStyle} className={`project-card-image relative overflow-hidden border border-border bg-muted ${desktop ? "rounded-3xl" : "rounded-2xl"}`}>
+        <ProjectImage
+          images={project.images}
+          title={project.title}
+          alt={alt}
+          placeholderLabel={locale === "ar" ? "معاينة المشروع" : "Project preview"}
+          preload={index === 0}
+          className="block h-full w-full object-cover object-top"
+        />
       </div>
       <div className={`project-card-caption ${desktop ? "px-1 pt-3 pb-4" : "px-0.5 pt-2 pb-3"}`}>
         <h2 className={`${desktop ? "text-sm" : "text-xs"} line-clamp-1 font-medium transition-opacity duration-300 group-hover:opacity-70`}>

@@ -122,7 +122,7 @@
           "ariaLabel": "Preview Tijara website"
         }
       ],
-      "isVisible": false,
+      "isVisible": true,
       "company": null,
       "date": null,
       "description": {

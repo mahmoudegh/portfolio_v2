@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/src/components/header";
 import { Icon } from "@/src/components/icon";
 import { getProjectBySlug, getVisibleProjects, isLocale, site } from "@/src/data/site";
+import { getProjectImageSet } from "@/src/data/project-images.server";
 import { getMessages } from "@/src/data/translations";
 import { ProjectImage } from "@/src/components/project-image";
 
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!isLocale(rawLocale)) notFound();
   const project = getProjectBySlug(slug);
   if (!project) notFound();
+  const projectImages = getProjectImageSet(project.slug);
 
   const isArabic = rawLocale === "ar";
   const ownerName = isArabic ? "محمود جلال" : site.name;
@@ -46,14 +48,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: project.images.lg ? [{ url: project.images.lg.src, width: project.images.lg.width, height: project.images.lg.height, alt: project.images.lg.alt }] : ["/images/site_sharing.jpg"],
+      images: [projectImages.largeDesktop ?? projectImages.desktop ?? project.fallbackImage ?? "/images/site_sharing.jpg"],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${ownerName}`,
       description,
-      images: [project.images.lg?.src ?? "/images/site_sharing.jpg"],
+      images: [projectImages.largeDesktop ?? projectImages.desktop ?? project.fallbackImage ?? "/images/site_sharing.jpg"],
     },
   };
 }
@@ -73,6 +75,7 @@ async function ProjectPageContent({ params }: PageProps) {
   const text = getMessages(locale);
   const project = getProjectBySlug(slug);
   if (!project) notFound();
+  const projectImages = getProjectImageSet(project.slug);
 
   const projectCategoryLabel = project.category === "completed"
     ? text.completedProjects
@@ -89,27 +92,20 @@ async function ProjectPageContent({ params }: PageProps) {
     : project.category === "development"
       ? text.underDevelopment
       : text.practice;
-  const detailImage = project.images.lg ?? project.images.md ?? project.images.sm;
-
   return (
     <>
       <Header locale={locale} path={`/project/${project.slug}`} />
       <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
         <section className="project-detail-hero px-4 pt-20 sm:px-6">
-          <div className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl bg-muted md:h-[80vh] md:rounded-3xl">
-            {detailImage ? (
-              <ProjectImage
-                images={project.images}
-                alt={locale === "ar" ? `صورة من مشروع ${project.title}` : detailImage.alt}
-                sizes="100vw"
-                preload
-                className="h-full w-full object-cover"
-              />
-            ) : (
-              <div aria-hidden="true" className="flex h-full items-center justify-center bg-muted px-6 text-center font-display text-3xl text-muted-foreground/70 md:text-5xl">
-                {project.title}
-              </div>
-            )}
+          <div className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl border border-border bg-muted md:h-[80vh] md:rounded-3xl">
+            <ProjectImage
+              images={projectImages}
+              title={project.title}
+              alt={locale === "ar" ? `صورة من مشروع ${project.title}` : project.imageAlt}
+              placeholderLabel={locale === "ar" ? "معاينة المشروع" : "Project preview"}
+              preload
+              className="h-full w-full object-cover object-top"
+            />
           </div>
         </section>
 

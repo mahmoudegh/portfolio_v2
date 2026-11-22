@@ -62,7 +62,28 @@ html[lang="ar"] .font-display { font-family: var(--font-cairo), Tahoma, sans-ser
 .about-intro-from-right { animation: about-intro-right-to-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 .about-columns-transition { animation: about-section-enter 0.8s ease-out 0.12s both; }
 .project-card-image img { display: block; transform: scale(1); transform-origin: center; transition: transform 700ms ease-out; }
+.project-card-image picture { position: absolute; inset: 0; }
+.project-card-image > .project-image-placeholder { position: absolute; inset: 0; }
 .project-card:hover .project-card-image img, .project-card:focus-visible .project-card-image img { transform: scale(1.05); }
+.desktop-project-grid .project-card-image { aspect-ratio: 4 / 5; }
+@media (min-width: 1024px) {
+  .desktop-project-grid .project-card[data-image-ratio="1"] .project-card-image { aspect-ratio: 3 / 4; }
+  .desktop-project-grid .project-card[data-image-ratio="2"] .project-card-image { aspect-ratio: 4 / 3; }
+  .desktop-project-grid .project-card[data-image-ratio="3"] .project-card-image { aspect-ratio: 1 / 1; }
+  .desktop-project-grid .project-card[data-image-ratio="4"] .project-card-image { aspect-ratio: 5 / 4; }
+  .desktop-project-grid .project-card[data-image-ratio="5"] .project-card-image { aspect-ratio: 2 / 3; }
+}
+.project-image-placeholder {
+  position: relative; display: flex; box-sizing: border-box; flex-direction: column; align-items: flex-start; justify-content: flex-end;
+  gap: 0.45rem; overflow: hidden; background-color: var(--muted);
+  background-image: repeating-linear-gradient(0deg, transparent 0 31px, color-mix(in srgb, var(--foreground) 5%, transparent) 32px),
+    repeating-linear-gradient(90deg, transparent 0 31px, color-mix(in srgb, var(--foreground) 5%, transparent) 32px),
+    radial-gradient(ellipse at 78% 20%, color-mix(in srgb, var(--foreground) 9%, transparent), transparent 58%);
+  padding: 1rem; color: var(--foreground);
+}
+.project-image-placeholder-mark { border: 1px solid color-mix(in srgb, var(--foreground) 24%, transparent); border-radius: 999px; padding: 0.3rem 0.5rem; color: var(--muted-foreground); font-size: 0.62rem; letter-spacing: 0.12em; }
+.project-image-placeholder-title { max-width: 100%; overflow: hidden; font-size: clamp(0.85rem, 2vw, 1.2rem); font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
+.project-image-placeholder-note { color: var(--muted-foreground); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; }
 
 .about-column-title {
   margin: 0 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;
