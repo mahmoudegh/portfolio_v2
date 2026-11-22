@@ -20,20 +20,32 @@ const cairo = localFont({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
-  title: {
-    default: "Mahmoud Galal — Frontend Web Developer",
-    template: "%s | Mahmoud Galal",
-  },
-  applicationName: "Mahmoud Galal Portfolio",
-  creator: "Mahmoud Galal",
-  publisher: "Mahmoud Galal",
-  robots: process.env.VERCEL_ENV === "production"
-    ? { index: true, follow: true }
-    : { index: false, follow: false },
-  icons: { icon: "/favicon.ico" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale: rawLocale } = await params;
+  if (!isLocale(rawLocale)) notFound();
+
+  const isArabic = rawLocale === "ar";
+  const ownerName = isArabic ? "محمود جلال" : site.name;
+
+  return {
+    metadataBase: new URL(site.url),
+    title: {
+      default: isArabic ? "محمود جلال — مطور واجهات ويب" : "Mahmoud Galal — Frontend Web Developer",
+      template: `%s | ${ownerName}`,
+    },
+    applicationName: isArabic ? `${ownerName} — معرض الأعمال` : "Mahmoud Galal Portfolio",
+    creator: ownerName,
+    publisher: ownerName,
+    robots: process.env.VERCEL_ENV === "production"
+      ? { index: true, follow: true }
+      : { index: false, follow: false },
+    icons: { icon: "/favicon.ico" },
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

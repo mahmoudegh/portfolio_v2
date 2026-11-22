@@ -21,9 +21,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!project) notFound();
 
   const isArabic = rawLocale === "ar";
+  const ownerName = isArabic ? "محمود جلال" : site.name;
   const title = project.title;
   const description = isArabic
-    ? `تفاصيل مشروع ${project.title} وروابطه المتاحة ضمن أعمال محمود جلال.`
+    ? `استكشف تفاصيل مشروع ${project.title} وروابطه المتاحة ضمن أعمال محمود جلال`
     : `Available details and project links for ${project.title} in Mahmoud Galal’s portfolio.`;
   const route = `/${rawLocale}/project/${project.slug}`;
 
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       type: "article",
       url: `${site.url}${route}`,
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
       images: [project.image.src],
     },

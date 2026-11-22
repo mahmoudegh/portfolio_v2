@@ -13,9 +13,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: rawLocale } = await params;
   if (!isLocale(rawLocale)) notFound();
   const isArabic = rawLocale === "ar";
+  const ownerName = isArabic ? "محمود جلال" : site.name;
   const title = isArabic ? "نبذة عني" : "About";
   const description = isArabic
-    ? "تعرف على محمود جلال وخبرته ومهاراته وشهاداته وطرق التواصل معه."
+    ? "تعرف على محمود جلال وخبرته ومهاراته وشهاداته وطرق التواصل معه"
     : "Learn about Mahmoud Galal, his experience, skills, certificates, and contact details.";
 
   return {
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       type: "profile",
       url: `${site.url}/${rawLocale}/about`,
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
       images: ["/images/site_sharing.jpg"],
     },

@@ -9,9 +9,11 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   if (!isLocale(rawLocale)) notFound();
-  const title = rawLocale === "ar" ? "السيرة الذاتية" : "Resume";
-  const description = rawLocale === "ar"
-    ? "عرض وتحميل السيرة الذاتية لمحمود جلال بصيغة PDF."
+  const isArabic = rawLocale === "ar";
+  const ownerName = isArabic ? "محمود جلال" : site.name;
+  const title = isArabic ? "السيرة الذاتية" : "Resume";
+  const description = isArabic
+    ? "تصفح أو حمل السيرة الذاتية بصيغة PDF لمحمود جلال"
     : "View or download Mahmoud Galal’s resume as a PDF.";
 
   return {
@@ -24,13 +26,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       type: "profile",
       url: `${site.url}/${rawLocale}/resume`,
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
-      images: [{ url: "/images/cv_link.jpg", alt: "Mahmoud Galal CV download" }],
+      images: [{ url: "/images/cv_link.jpg", alt: isArabic ? "تحميل السيرة الذاتية لمحمود جلال" : "Mahmoud Galal CV download" }],
       locale: rawLocale === "ar" ? "ar_EG" : "en_US",
       alternateLocale: rawLocale === "ar" ? ["en_US"] : ["ar_EG"],
     },
-    twitter: { card: "summary_large_image", title: `${title} | ${site.name}`, description, images: ["/images/cv_link.jpg"] },
+    twitter: { card: "summary_large_image", title: `${title} | ${ownerName}`, description, images: ["/images/cv_link.jpg"] },
   };
 }
 

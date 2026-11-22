@@ -10,9 +10,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!isLocale(rawLocale)) notFound();
   const locale = rawLocale;
   const isArabic = locale === "ar";
+  const ownerName = isArabic ? "محمود جلال" : site.name;
   const title = isArabic ? "الأعمال" : "Selected Work";
   const description = isArabic
-    ? "مجموعة من مشاريع محمود جلال في تطوير واجهات الويب باستخدام تقنيات حديثة."
+    ? "مجموعة من مشاريع محمود جلال في تطوير واجهات الويب باستخدام تقنيات حديثة"
     : "Selected frontend projects by Mahmoud Galal, built with modern web technologies.";
 
   return {
@@ -25,16 +26,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       type: "website",
       url: `${site.url}/${locale}`,
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: [{ url: "/images/site_sharing.jpg", alt: "Mahmoud Galal portfolio" }],
+      images: [{ url: "/images/site_sharing.jpg", alt: isArabic ? "معرض أعمال محمود جلال" : "Mahmoud Galal portfolio" }],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | ${site.name}`,
+      title: `${title} | ${ownerName}`,
       description,
       images: ["/images/site_sharing.jpg"],
     },
