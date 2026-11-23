@@ -424,7 +424,7 @@
     {
       "id": 14,
       "slug": "html-css-template",
-      "name": "HTML & CSS",
+      "name": "Landing Page 1",
       "category": "practice-projects",
       "status": "Practice",
       "alt": "HTML - CSS Template project screenshot",
@@ -478,7 +478,7 @@
     {
       "id": 11,
       "slug": "html-css-js-template",
-      "name": "HTML, CSS & JS",
+      "name": "Landing Page 2",
       "category": "practice-projects",
       "status": "Practice",
       "alt": "HTML-CSS-Js Template project screenshot",
@@ -532,7 +532,7 @@
     {
       "id": 13,
       "slug": "bootstrap-3-template",
-      "name": "Bootstrap 3",
+      "name": "Landing Page 3",
       "category": "practice-projects",
       "status": "Practice",
       "alt": "Bootstrap-3 Template project screenshot",
@@ -586,7 +586,7 @@
     {
       "id": 12,
       "slug": "bootstrap-4-template",
-      "name": "Bootstrap 4",
+      "name": "Landing Page 4",
       "category": "practice-projects",
       "status": "Practice",
       "alt": "Bootstrap-4 Template project screenshot",
