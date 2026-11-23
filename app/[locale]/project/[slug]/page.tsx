@@ -5,9 +5,9 @@ import { notFound } from "next/navigation";
 import { Header } from "@/src/components/header";
 import { Icon } from "@/src/components/icon";
 import { getProjectBySlug, getVisibleProjects, isLocale, site } from "@/src/data/site";
-import { getProjectImageSet } from "@/src/data/project-images.server";
+import { getProjectDetailHeroImageSet, getProjectImageSet } from "@/src/data/project-images.server";
 import { getMessages } from "@/src/data/translations";
-import { ProjectImage } from "@/src/components/project-image";
+import { ProjectDetailHeroImage } from "@/src/components/project-image";
 
 type PageProps = { params: Promise<{ locale: string; slug: string }> };
 
@@ -75,7 +75,7 @@ async function ProjectPageContent({ params }: PageProps) {
   const text = getMessages(locale);
   const project = getProjectBySlug(slug);
   if (!project) notFound();
-  const projectImages = getProjectImageSet(project.slug);
+  const projectHeroImages = getProjectDetailHeroImageSet(project.slug);
 
   const projectCategoryLabel = project.category === "completed"
     ? text.completedProjects
@@ -98,12 +98,11 @@ async function ProjectPageContent({ params }: PageProps) {
       <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
         <section className="project-detail-hero px-4 pt-20 sm:px-6">
           <div className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl border border-border bg-muted md:h-[80vh] md:rounded-3xl">
-            <ProjectImage
-              images={projectImages}
+            <ProjectDetailHeroImage
+              images={projectHeroImages}
               title={project.title}
               alt={locale === "ar" ? `صورة من مشروع ${project.title}` : project.imageAlt}
               placeholderLabel={locale === "ar" ? "معاينة المشروع" : "Project preview"}
-              preload
               className="h-full w-full object-cover object-top"
             />
           </div>

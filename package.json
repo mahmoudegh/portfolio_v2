@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "images:generate": "node scripts/generate-project-card-thumbnails.mjs"
+    "images:generate": "node scripts/generate-project-card-thumbnails.mjs && node scripts/generate-project-detail-heroes.mjs"
   },
   "dependencies": {
     "next": "16.4.6",

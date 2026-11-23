@@ -1,25 +1,9 @@
-import type { ProjectImageSet, ProjectImageVariant } from "@/src/data/site";
-
-type Props = {
-  images: ProjectImageSet;
-  title: string;
-  alt: string;
-  placeholderLabel: string;
-  className?: string;
-  preload?: boolean;
-};
-
-const fallbackOrder: Record<ProjectImageVariant, ProjectImageVariant[]> = {
-  mobile: ["mobile", "tablet", "desktop", "largeDesktop"],
-  tablet: ["tablet", "mobile", "desktop", "largeDesktop"],
-  desktop: ["desktop", "tablet", "largeDesktop", "mobile"],
-  largeDesktop: ["largeDesktop", "desktop", "tablet", "mobile"],
-};
-
 export type ResponsiveProjectCardImage = {
   src: string;
   srcSet: string;
 };
+
+export type ProjectDetailHeroImageSet = Record<"mobile" | "tablet" | "desktop" | "largeDesktop", ResponsiveProjectCardImage | null>;
 
 export type ProjectCardImageSet = {
   mobile: ResponsiveProjectCardImage | null;
@@ -31,17 +15,20 @@ export type ProjectCardImageSet = {
 const projectCardImageSizes =
   "(max-width: 639px) calc((100vw - 44px) / 2), (max-width: 767px) calc((100vw - 60px) / 2), (max-width: 1023px) calc((100vw - 64px) / 2), (max-width: 1919px) calc((100vw - 64px) / 3), calc((100vw - 80px) / 4)";
 
-function resolveVariant(images: ProjectImageSet, preferred: ProjectImageVariant) {
-  return fallbackOrder[preferred].map((variant) => images[variant]).find(Boolean) ?? null;
-}
-
-export function ProjectImage({ images, title, alt, placeholderLabel, className, preload = false }: Props) {
-  const mobile = resolveVariant(images, "mobile");
-  const tablet = resolveVariant(images, "tablet");
-  const desktop = resolveVariant(images, "desktop");
-  const largeDesktop = resolveVariant(images, "largeDesktop");
-
-  if (!mobile) {
+export function ProjectDetailHeroImage({
+  images,
+  title,
+  alt,
+  placeholderLabel,
+  className,
+}: {
+  images: ProjectDetailHeroImageSet | null;
+  title: string;
+  alt: string;
+  placeholderLabel: string;
+  className?: string;
+}) {
+  if (!images?.mobile) {
     return (
       <div aria-hidden="true" className="project-image-placeholder h-full w-full" style={{ height: "100%" }}>
         <span className="project-image-placeholder-mark">MG</span>
@@ -53,15 +40,23 @@ export function ProjectImage({ images, title, alt, placeholderLabel, className, 
 
   return (
     <picture className="block h-full w-full">
-      {largeDesktop && <source media="(min-width: 1440px)" srcSet={largeDesktop} />}
-      {desktop && <source media="(min-width: 1024px)" srcSet={desktop} />}
-      {tablet && <source media="(min-width: 768px)" srcSet={tablet} />}
+      {images.largeDesktop && (
+        <source media="(min-width: 1440px)" srcSet={images.largeDesktop.srcSet} sizes="100vw" />
+      )}
+      {images.desktop && (
+        <source media="(min-width: 1024px)" srcSet={images.desktop.srcSet} sizes="100vw" />
+      )}
+      {images.tablet && (
+        <source media="(min-width: 768px)" srcSet={images.tablet.srcSet} sizes="100vw" />
+      )}
       <img
-        src={mobile}
+        src={images.mobile.src}
+        srcSet={images.mobile.srcSet}
+        sizes="100vw"
         alt={alt}
         className={className}
-        loading={preload ? "eager" : "lazy"}
-        fetchPriority={preload ? "high" : "auto"}
+        loading="eager"
+        fetchPriority="high"
         decoding="async"
       />
     </picture>
