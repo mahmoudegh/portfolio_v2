@@ -979,6 +979,60 @@
         }
       },
       "fallbackImage": "images/works/19.jpeg"
+    },
+    {
+      "id": 25,
+      "slug": "movie-search",
+      "name": "Movie search",
+      "category": "practice-projects",
+      "status": "Practice",
+      "alt": "Movie search project screenshot",
+      "links": [
+        {
+          "label": "Preview",
+          "url": "https://movies-search-khaki.vercel.app/",
+          "ariaLabel": "Preview Movie search project"
+        }
+      ],
+      "isVisible": true,
+      "company": {
+        "en": "Training courses",
+        "ar": "الدورات التدريبية"
+      },
+      "date": {
+        "en": "October 2025",
+        "ar": "أكتوبر 2025"
+      },
+      "description": {
+        "en": [
+          "Built the movie search app with React.",
+          "Used The Movie Database (TMDB) API as the movie data source.",
+          "Used Appwrite for the database."
+        ],
+        "ar": [
+          "إنشاء تطبيق البحث عن الأفلام باستخدام React.",
+          "استخدام واجهة The Movie Database (TMDB) كمصدر لبيانات الأفلام.",
+          "استخدام Appwrite لقاعدة البيانات."
+        ]
+      },
+      "images": {
+        "lg": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "md": {
+          "src": null,
+          "width": null,
+          "height": null
+        },
+        "sm": {
+          "src": null,
+          "width": null,
+          "height": null
+        }
+      },
+      "fallbackImage": null
     }
   ]
 }
