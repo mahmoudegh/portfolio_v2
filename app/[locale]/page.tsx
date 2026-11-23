@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { WorkListing } from "@/src/components/work-listing";
 import { getVisibleProjects, isLocale, site } from "@/src/data/site";
-import { getProjectImageSet } from "@/src/data/project-images.server";
+import { getProjectCardImageSet } from "@/src/data/project-images.server";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -54,7 +54,7 @@ export default async function HomePage({ params }: PageProps) {
     category,
     status,
     imageAlt,
-    images: getProjectImageSet(slug),
+    cardImages: getProjectCardImageSet(slug),
   }));
 
   const websiteJsonLd = {

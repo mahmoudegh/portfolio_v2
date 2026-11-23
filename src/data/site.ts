@@ -55,7 +55,6 @@ export type Project = {
   description: Record<Locale, string[] | null>;
   images: ProjectImageSet;
   imageAlt: string;
-  fallbackImage: string | null;
   previewUrl: string | undefined;
   sourceUrl: string | undefined;
 };
@@ -76,7 +75,6 @@ export const projects: Project[] = projectsSource.projects.map((project) => {
     description: project.description,
     images: { mobile: null, tablet: null, desktop: null, largeDesktop: null },
     imageAlt: project.alt,
-    fallbackImage: project.fallbackImage ? `/${project.fallbackImage}` : null,
     previewUrl: preview,
     sourceUrl: source,
   };

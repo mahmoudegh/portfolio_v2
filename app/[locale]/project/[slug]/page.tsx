@@ -48,14 +48,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: [projectImages.largeDesktop ?? projectImages.desktop ?? project.fallbackImage ?? "/images/site_sharing.jpg"],
+      images: [projectImages.largeDesktop ?? projectImages.desktop ?? "/images/site_sharing.jpg"],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${ownerName}`,
       description,
-      images: [projectImages.largeDesktop ?? projectImages.desktop ?? project.fallbackImage ?? "/images/site_sharing.jpg"],
+      images: [projectImages.largeDesktop ?? projectImages.desktop ?? "/images/site_sharing.jpg"],
     },
   };
 }

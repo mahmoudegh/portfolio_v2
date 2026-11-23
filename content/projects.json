@@ -51,8 +51,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/01.jpeg"
+      }
     },
     {
       "id": 2,
@@ -105,8 +104,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/02.jpeg"
+      }
     },
     {
       "id": 4,
@@ -145,8 +143,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/04.jpeg"
+      }
     },
     {
       "id": 7,
@@ -185,8 +182,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/07.jpeg"
+      }
     },
     {
       "id": 10,
@@ -225,8 +221,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/10.jpeg"
+      }
     },
     {
       "id": 21,
@@ -279,8 +274,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/21.jpeg"
+      }
     },
     {
       "id": 22,
@@ -333,8 +327,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/22.jpeg"
+      }
     },
     {
       "id": 23,
@@ -373,8 +366,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/22.jpeg"
+      }
     },
     {
       "id": 24,
@@ -427,8 +419,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": null
+      }
     },
     {
       "id": 14,
@@ -482,8 +473,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/14.jpeg"
+      }
     },
     {
       "id": 11,
@@ -537,8 +527,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/11.jpeg"
+      }
     },
     {
       "id": 13,
@@ -592,8 +581,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/13.jpeg"
+      }
     },
     {
       "id": 12,
@@ -647,8 +635,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/12.jpeg"
+      }
     },
     {
       "id": 15,
@@ -702,8 +689,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/15.jpeg"
+      }
     },
     {
       "id": 20,
@@ -757,8 +743,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/20.jpeg"
+      }
     },
     {
       "id": 18,
@@ -812,8 +797,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/18.jpeg"
+      }
     },
     {
       "id": 16,
@@ -867,8 +851,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/16.jpeg"
+      }
     },
     {
       "id": 17,
@@ -922,8 +905,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/17.jpeg"
+      }
     },
     {
       "id": 19,
@@ -977,8 +959,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": "images/works/19.jpeg"
+      }
     },
     {
       "id": 25,
@@ -1031,8 +1012,7 @@
           "width": null,
           "height": null
         }
-      },
-      "fallbackImage": null
+      }
     }
   ]
 }

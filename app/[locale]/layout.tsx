@@ -65,6 +65,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
       className={`${inter.variable} ${cairo.variable} min-h-full antialiased`}
     >

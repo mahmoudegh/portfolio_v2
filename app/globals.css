@@ -58,6 +58,8 @@ html[lang="ar"] .font-display { font-family: var(--font-cairo), Tahoma, sans-ser
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 .page-transition { animation: route-slide-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+.project-card { transition-delay: var(--mobile-transition-delay); }
+@media (min-width: 768px) { .project-card { transition-delay: var(--desktop-transition-delay); } }
 .about-page-transition { animation: page-fade-in 0.5s ease-out both; }
 .about-intro-from-right { animation: about-intro-right-to-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 .about-columns-transition { animation: about-section-enter 0.8s ease-out 0.12s both; }
@@ -65,13 +67,13 @@ html[lang="ar"] .font-display { font-family: var(--font-cairo), Tahoma, sans-ser
 .project-card-image picture { position: absolute; inset: 0; }
 .project-card-image > .project-image-placeholder { position: absolute; inset: 0; }
 .project-card:hover .project-card-image img, .project-card:focus-visible .project-card-image img { transform: scale(1.05); }
-.desktop-project-grid .project-card-image { aspect-ratio: 4 / 5; }
+.project-card-image { aspect-ratio: 4 / 5; }
 @media (min-width: 1024px) {
-  .desktop-project-grid .project-card[data-image-ratio="1"] .project-card-image { aspect-ratio: 3 / 4; }
-  .desktop-project-grid .project-card[data-image-ratio="2"] .project-card-image { aspect-ratio: 4 / 3; }
-  .desktop-project-grid .project-card[data-image-ratio="3"] .project-card-image { aspect-ratio: 1 / 1; }
-  .desktop-project-grid .project-card[data-image-ratio="4"] .project-card-image { aspect-ratio: 5 / 4; }
-  .desktop-project-grid .project-card[data-image-ratio="5"] .project-card-image { aspect-ratio: 2 / 3; }
+  .project-grid .project-card[data-image-ratio="1"] .project-card-image { aspect-ratio: 3 / 4; }
+  .project-grid .project-card[data-image-ratio="2"] .project-card-image { aspect-ratio: 4 / 3; }
+  .project-grid .project-card[data-image-ratio="3"] .project-card-image { aspect-ratio: 1 / 1; }
+  .project-grid .project-card[data-image-ratio="4"] .project-card-image { aspect-ratio: 5 / 4; }
+  .project-grid .project-card[data-image-ratio="5"] .project-card-image { aspect-ratio: 2 / 3; }
 }
 .project-image-placeholder {
   position: relative; display: flex; box-sizing: border-box; flex-direction: column; align-items: flex-start; justify-content: flex-end;

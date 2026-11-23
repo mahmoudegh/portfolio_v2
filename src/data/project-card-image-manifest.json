@@ -1,0 +1,624 @@
+{
+  "projects": {
+    "hyundai-jordan": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-0-488-5f417c33326d.webp",
+        "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-0-320-87e3d69876a1.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-0-488-5f417c33326d.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/hyundai-jordan-tablet-0-959-793f7b1d959a.webp",
+        "srcSet": "/images/project-card-thumbnails/hyundai-jordan-tablet-0-320-da9ed49748b2.webp 320w, /images/project-card-thumbnails/hyundai-jordan-tablet-0-640-b0306aa75e8b.webp 640w, /images/project-card-thumbnails/hyundai-jordan-tablet-0-959-793f7b1d959a.webp 959w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-0-960-c3d17af9f43e.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-0-320-2e16fa21ea01.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-0-640-ec60522f86e9.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-0-960-c3d17af9f43e.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-1-960-356a817e4707.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-1-320-49dde7fecf3d.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-1-640-8b7736250e86.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-1-960-356a817e4707.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-2-960-3496b5a73be1.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-2-320-4d116b143cc0.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-2-640-bccc8692d385.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-2-960-3496b5a73be1.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-3-960-1af9a3ce8d0c.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-3-320-8dcc36fffeb3.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-3-640-c01a09fee696.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-3-960-1af9a3ce8d0c.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-4-960-91cd7cf233b7.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-4-320-ae7951818855.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-4-640-4043e264e979.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-4-960-91cd7cf233b7.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-5-960-f78d876e3529.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-5-320-1b81068d7f55.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-5-640-3ff031056659.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-5-960-f78d876e3529.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-960-5a2165570d1d.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-320-f2f1cf665589.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-640-f82e8cf8cd7e.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-960-5a2165570d1d.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-960-5ec47e344bec.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-320-c158546c9df4.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-640-01e39a7323df.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-960-5ec47e344bec.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-960-0885ff245e9f.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-320-ad1a01bcf46b.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-640-c734b60a65b5.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-960-0885ff245e9f.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-960-c7084fd51710.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-320-124519cacfb9.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-640-7f9a18b7da78.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-960-c7084fd51710.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-960-c04f8df7fa0e.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-320-868c01e24770.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-640-287c133a148a.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-960-c04f8df7fa0e.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-960-23a1d5f17d4a.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-320-bb491188801e.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-640-8de3e1836971.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-960-23a1d5f17d4a.webp 960w"
+        }
+      ]
+    },
+    "payit-card": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/payit-card-mobile-0-488-b19402c5b1aa.webp",
+        "srcSet": "/images/project-card-thumbnails/payit-card-mobile-0-320-6aca261a7c3f.webp 320w, /images/project-card-thumbnails/payit-card-mobile-0-488-b19402c5b1aa.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/payit-card-tablet-0-960-25b4a88c47ca.webp",
+        "srcSet": "/images/project-card-thumbnails/payit-card-tablet-0-320-4846f5175f33.webp 320w, /images/project-card-thumbnails/payit-card-tablet-0-640-241c2dac72a0.webp 640w, /images/project-card-thumbnails/payit-card-tablet-0-960-25b4a88c47ca.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/payit-card-desktop-0-960-4ef235f9287a.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-0-320-9ec75b2f68eb.webp 320w, /images/project-card-thumbnails/payit-card-desktop-0-640-a5aea8957f37.webp 640w, /images/project-card-thumbnails/payit-card-desktop-0-960-4ef235f9287a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-desktop-1-960-312fddec0285.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-1-320-8b3c4a00a2c1.webp 320w, /images/project-card-thumbnails/payit-card-desktop-1-640-2058ca5c3850.webp 640w, /images/project-card-thumbnails/payit-card-desktop-1-960-312fddec0285.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-desktop-2-960-0472d449171f.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-2-320-7d10005e346d.webp 320w, /images/project-card-thumbnails/payit-card-desktop-2-640-cb50d970a42d.webp 640w, /images/project-card-thumbnails/payit-card-desktop-2-960-0472d449171f.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-desktop-3-960-cc3a2c6cf24a.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-3-320-fe853a301c6c.webp 320w, /images/project-card-thumbnails/payit-card-desktop-3-640-7efd62e1ddec.webp 640w, /images/project-card-thumbnails/payit-card-desktop-3-960-cc3a2c6cf24a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-desktop-4-960-b2c25c998c99.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-4-320-eccde5f36c70.webp 320w, /images/project-card-thumbnails/payit-card-desktop-4-640-7b00727dd61f.webp 640w, /images/project-card-thumbnails/payit-card-desktop-4-960-b2c25c998c99.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-desktop-5-960-97c9aca618cb.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-5-320-e40cbc334a94.webp 320w, /images/project-card-thumbnails/payit-card-desktop-5-640-533955b170f8.webp 640w, /images/project-card-thumbnails/payit-card-desktop-5-960-97c9aca618cb.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-0-960-f3fd5129ee4a.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-0-320-6a374e82886d.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-0-640-30a509564e17.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-0-960-f3fd5129ee4a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-1-960-f7fdc2e51e6b.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-1-320-32002a414285.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-1-640-d41dba65a427.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-1-960-f7fdc2e51e6b.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-2-960-3dd8f038157a.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-2-320-e45407033bf7.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-2-640-c9502d5c8aa5.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-2-960-3dd8f038157a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-3-960-68ca5efcae90.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-3-320-b644e6a09173.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-3-640-0e07e0a7a753.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-3-960-68ca5efcae90.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-4-960-d031d5f2d9d7.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-4-320-c5030d5afd0e.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-4-640-ec62087e6724.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-4-960-d031d5f2d9d7.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-5-960-3f92ac2a2e78.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-5-320-b0c6fcf531c3.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-5-640-bd932e029e85.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-5-960-3f92ac2a2e78.webp 960w"
+        }
+      ]
+    },
+    "deepmarks": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/deepmarks-mobile-0-488-45362b9def4a.webp",
+        "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-0-320-b2f1c43b2ca9.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-0-488-45362b9def4a.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/deepmarks-tablet-0-960-6f1fac9075b6.webp",
+        "srcSet": "/images/project-card-thumbnails/deepmarks-tablet-0-320-000b3f29ee9e.webp 320w, /images/project-card-thumbnails/deepmarks-tablet-0-640-7ce66fccc459.webp 640w, /images/project-card-thumbnails/deepmarks-tablet-0-960-6f1fac9075b6.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-desktop-0-960-f8e1d56eba68.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-0-320-2544c47424a0.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-0-640-636e6a8ea33a.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-0-960-f8e1d56eba68.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-desktop-1-960-f8e1d56eba68.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-1-320-7059b2e5d1cf.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-1-640-4b029a2e2ec0.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-1-960-f8e1d56eba68.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-desktop-2-960-6f6b7e7180d7.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-2-320-6f3f0b92bcb2.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-2-640-92458e5e53c0.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-2-960-6f6b7e7180d7.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-desktop-3-960-276051bede6c.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-3-320-1f2f63de4145.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-3-640-5e92c8751d99.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-3-960-276051bede6c.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-desktop-4-960-246778e57870.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-4-320-d1048482eadc.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-4-640-bd6349e0c4eb.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-4-960-246778e57870.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-desktop-5-960-f8e1d56eba68.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-5-320-d68bc6c94f6b.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-5-640-a54ed7b0a5f5.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-5-960-f8e1d56eba68.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-0-960-65c6d3a155a7.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-0-320-86a39058bd36.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-0-640-b2238e14f492.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-0-960-65c6d3a155a7.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-1-960-65c6d3a155a7.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-1-320-0d3a652bc754.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-1-640-89885b35cdcb.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-1-960-65c6d3a155a7.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-2-960-51ac8b501cbe.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-2-320-ce75059afb34.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-2-640-5db0c7c8d824.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-2-960-51ac8b501cbe.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-3-960-231eb5c0c924.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-3-320-990bda24ec8d.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-3-640-34d1aac9a7f0.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-3-960-231eb5c0c924.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-4-960-dd0fb4fe0a82.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-4-320-5e1b7455ab4d.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-4-640-64e408702a97.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-4-960-dd0fb4fe0a82.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-5-960-65c6d3a155a7.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-5-320-e0597ba5f0d1.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-5-640-6eb29c689f86.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-5-960-65c6d3a155a7.webp 960w"
+        }
+      ]
+    },
+    "intwitch-live": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/intwitch-live-mobile-0-488-a64ee8754757.webp",
+        "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-0-320-0e7067ec1684.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-0-488-a64ee8754757.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/intwitch-live-tablet-0-960-2366b56e6cf0.webp",
+        "srcSet": "/images/project-card-thumbnails/intwitch-live-tablet-0-320-3109787b77c3.webp 320w, /images/project-card-thumbnails/intwitch-live-tablet-0-640-7277b071227b.webp 640w, /images/project-card-thumbnails/intwitch-live-tablet-0-960-2366b56e6cf0.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-desktop-0-960-81a8668b4304.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-0-320-597698645a87.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-0-640-da21d3348c6b.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-0-960-81a8668b4304.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-desktop-1-960-8ce157171229.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-1-320-33df60e02338.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-1-640-49d4c2e287fc.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-1-960-8ce157171229.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-desktop-2-960-ee52f8d5b48f.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-2-320-45e0c2769bff.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-2-640-dd4a59dea68b.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-2-960-ee52f8d5b48f.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-desktop-3-960-02519fd5385e.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-3-320-7781aeed7700.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-3-640-aa64f28db408.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-3-960-02519fd5385e.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-desktop-4-960-38d481be9604.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-4-320-57f25cdf7843.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-4-640-1a76945b82c2.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-4-960-38d481be9604.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-desktop-5-960-e6c7c93a4ef7.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-5-320-5ea17ce68d68.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-5-640-c1f6d8274f52.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-5-960-e6c7c93a4ef7.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-0-960-94ad2ace5769.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-0-320-3c95595e5df0.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-0-640-169e2ce578c3.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-0-960-94ad2ace5769.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-1-960-d340afd2c0cf.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-1-320-cbb646c12dc6.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-1-640-09c63b9d502c.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-1-960-d340afd2c0cf.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-2-960-5cc2b5c2cf6b.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-2-320-615a68656e75.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-2-640-fbdf70a034e6.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-2-960-5cc2b5c2cf6b.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-3-960-bf007b00f1df.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-3-320-69cdbc16ef93.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-3-640-6312e4cd2422.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-3-960-bf007b00f1df.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-4-960-5540fef2282f.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-4-320-7610de3e8642.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-4-640-f87add61dee4.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-4-960-5540fef2282f.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-5-960-a49fe22de3d5.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-5-320-0dabd0acbef3.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-5-640-3e4e7bee09a4.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-5-960-a49fe22de3d5.webp 960w"
+        }
+      ]
+    },
+    "nile-sun-cruises": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-0-488-a6721aef4e5e.webp",
+        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-0-320-4fa43a814e43.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-0-488-a6721aef4e5e.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-960-41bf311e55fd.webp",
+        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-320-406ac1d0dcc1.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-640-3d6a69c4a196.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-960-41bf311e55fd.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-a3a8c21b0102.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-320-3cb7705dcf51.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-640-db181edb41c9.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-a3a8c21b0102.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-af688eb43272.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-320-f56edf11e2e5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-640-b9b449a208d7.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-af688eb43272.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-afa15f23c112.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-320-d9ae4bf6abb5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-640-2359abd1a00f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-afa15f23c112.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-7f72773bb713.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-320-c895015af367.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-640-1877fd739df6.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-7f72773bb713.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-e6709bc795f0.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-320-d40db3df69ee.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-640-34a297d85157.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-e6709bc795f0.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-3e0604e499f9.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-320-3391f3ecb6db.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-640-eef515b60d77.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-3e0604e499f9.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-67304e098928.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-320-3a5395a84596.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-640-ac44cb42324d.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-67304e098928.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-bec75811005d.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-320-7c6d59b7ae4e.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-640-628ee329d1ae.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-bec75811005d.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-0d1b820659ba.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-320-b345ef1b136d.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-640-7b65c46f0ec1.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-0d1b820659ba.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-5d91a7885ceb.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-320-0c08ddeea322.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-640-fbc30d7429cc.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-5d91a7885ceb.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-b532f3ffcd3f.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-320-95819735c1f8.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-640-1d250c34308e.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-b532f3ffcd3f.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-3a827373a1c0.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-320-5dc99830cdb6.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-640-535ff41a5530.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-3a827373a1c0.webp 960w"
+        }
+      ]
+    },
+    "html-css-template": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/html-css-template-mobile-0-488-2151c46a2146.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-0-320-7ac7ce439c36.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-0-488-2151c46a2146.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/html-css-template-tablet-0-960-649bfdb70590.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-template-tablet-0-320-b363bb1480e0.webp 320w, /images/project-card-thumbnails/html-css-template-tablet-0-640-7b5f423fbfa1.webp 640w, /images/project-card-thumbnails/html-css-template-tablet-0-960-649bfdb70590.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-desktop-0-960-53cebb15b22b.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-0-320-af6358a6427f.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-0-640-2ffd884df8c5.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-0-960-53cebb15b22b.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-desktop-1-960-12dda42c6291.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-1-320-122442575f44.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-1-640-bc6190e76a22.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-1-960-12dda42c6291.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-desktop-2-960-49ddf38980f4.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-2-320-a2db2372a839.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-2-640-1abb91d7ee1f.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-2-960-49ddf38980f4.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-desktop-3-960-c062552c0646.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-3-320-16a9f8ad2cc9.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-3-640-b6519036bf10.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-3-960-c062552c0646.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-desktop-4-960-74b05e2641ec.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-4-320-1d626f05c72f.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-4-640-2d062a5916d9.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-4-960-74b05e2641ec.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-desktop-5-960-b7d56e8c755e.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-5-320-d0854d3941ad.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-5-640-9d5b46676ac1.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-5-960-b7d56e8c755e.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-0-960-e10a3a6dbb0a.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-0-320-7d84178d204e.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-0-640-b4d4454eb800.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-0-960-e10a3a6dbb0a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-1-960-810f57ba7e31.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-1-320-7d48903b4ee7.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-1-640-67d135c527dc.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-1-960-810f57ba7e31.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-2-960-c371043d5dc6.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-2-320-8535630c14f9.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-2-640-0783b7e1e420.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-2-960-c371043d5dc6.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-3-960-b9485b945851.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-3-320-8095838a2950.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-3-640-eec6ad7a8cfd.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-3-960-b9485b945851.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-4-960-b9d38df7fe4a.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-4-320-86866af090b1.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-4-640-1050e4091bd9.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-4-960-b9d38df7fe4a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-5-960-3962edc3fb86.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-5-320-ffd21f7b1c78.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-5-640-01af2d1b9314.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-5-960-3962edc3fb86.webp 960w"
+        }
+      ]
+    },
+    "html-css-js-template": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/html-css-js-template-mobile-0-488-1d164f8eaa3e.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-0-320-ce41aa109ceb.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-0-488-1d164f8eaa3e.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/html-css-js-template-tablet-0-960-bb7904b256f3.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-js-template-tablet-0-320-41febf4857ba.webp 320w, /images/project-card-thumbnails/html-css-js-template-tablet-0-640-f4b1353f12b4.webp 640w, /images/project-card-thumbnails/html-css-js-template-tablet-0-960-bb7904b256f3.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-0-960-a5ef4cceb644.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-0-320-bb0ca25b1426.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-0-640-a38dd92d3e58.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-0-960-a5ef4cceb644.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-1-960-c51846e47339.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-1-320-6b1c89355d58.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-1-640-314e6f28296c.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-1-960-c51846e47339.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-2-960-35175e2a20fd.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-2-320-35080532847f.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-2-640-b9ffaf7bef38.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-2-960-35175e2a20fd.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-3-960-0156025c129c.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-3-320-b8cf4fb91d34.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-3-640-b6bf61068319.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-3-960-0156025c129c.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-4-960-d4b2a40edbff.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-4-320-d68fb3c3b26b.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-4-640-b139c49c11c2.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-4-960-d4b2a40edbff.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-5-960-650b33d02941.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-5-320-a8f0778d5c03.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-5-640-ab2d52b48490.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-5-960-650b33d02941.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-0-960-e377de6d2071.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-0-320-09716dba437d.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-0-640-d2e09edf97cc.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-0-960-e377de6d2071.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-1-960-291317a44d4b.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-1-320-cb85d9a142d1.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-1-640-3629d850af51.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-1-960-291317a44d4b.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-2-960-bf81a4f5a8fe.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-2-320-e30d735e28b5.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-2-640-27063610d49a.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-2-960-bf81a4f5a8fe.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-3-960-d5721ae07aba.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-3-320-11d4753cbc0d.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-3-640-98ac730069b2.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-3-960-d5721ae07aba.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-4-960-cebae3a3577c.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-4-320-15e9522eaa78.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-4-640-5adff8ec8cf3.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-4-960-cebae3a3577c.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-5-960-f18afd2848a9.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-5-320-aed44d91900b.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-5-640-33f2d2b60d4e.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-5-960-f18afd2848a9.webp 960w"
+        }
+      ]
+    },
+    "bootstrap-3-template": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-0-488-738f79dd83d0.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-0-320-ab51db44793c.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-0-488-738f79dd83d0.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/bootstrap-3-template-tablet-0-960-5ea0f7cefd91.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-tablet-0-320-1a3de75d1350.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-tablet-0-640-faf71717db40.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-tablet-0-960-5ea0f7cefd91.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-0-960-1b4f913636b8.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-0-320-60331f889241.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-0-640-377c5a1e0df4.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-0-960-1b4f913636b8.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-1-960-46e4bb91a0fb.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-1-320-ed50c69bf472.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-1-640-d98070375a18.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-1-960-46e4bb91a0fb.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-2-960-d87f1e58dd99.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-2-320-94981bc8db02.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-2-640-419f04143faf.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-2-960-d87f1e58dd99.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-3-960-702a22e16c26.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-3-320-054545c86fd0.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-3-640-e4d20e4e60c9.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-3-960-702a22e16c26.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-4-960-0eff311c5aa0.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-4-320-30206d09d513.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-4-640-e775dd07ad9f.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-4-960-0eff311c5aa0.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-5-960-61139e75f1b1.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-5-320-f96908470c5c.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-5-640-fcbf7205e2f5.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-5-960-61139e75f1b1.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-960-31e8195d4dc6.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-320-4a646daeb587.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-640-8f344634cab2.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-960-31e8195d4dc6.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-960-80972720776f.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-320-6ef3b1ab1992.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-640-df10ad477540.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-960-80972720776f.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-960-f8e0f2fd2557.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-320-13cae263a2db.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-640-2cbc159c240b.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-960-f8e0f2fd2557.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-960-8cbe8c520aa9.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-320-5f5dba86fe0a.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-640-c7ce21393154.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-960-8cbe8c520aa9.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-960-938d0e0b383b.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-320-c71c32c28a3a.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-640-a50b1cc5199a.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-960-938d0e0b383b.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-960-d5bfe5bb533d.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-320-80a2fd9cae8d.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-640-efaa0bdabba0.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-960-d5bfe5bb533d.webp 960w"
+        }
+      ]
+    },
+    "bootstrap-4-template": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-0-488-ef15079ede76.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-0-320-574ac6a9658d.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-0-488-ef15079ede76.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/bootstrap-4-template-tablet-0-960-e8c3f46205fc.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-tablet-0-320-294a832e5fac.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-tablet-0-640-781426ae3a29.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-tablet-0-960-e8c3f46205fc.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-0-960-9f14bf12def3.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-0-320-7a9a7dcc08cb.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-0-640-561c88a2f7c5.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-0-960-9f14bf12def3.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-1-960-3f5d9a762389.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-1-320-07d51641ecd9.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-1-640-c5f1db95277f.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-1-960-3f5d9a762389.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-2-960-13a0683d49a3.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-2-320-1e1abfffb1e3.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-2-640-fd802116f872.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-2-960-13a0683d49a3.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-3-960-24d94d76ddae.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-3-320-0a0dcf09472b.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-3-640-63e2834b8161.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-3-960-24d94d76ddae.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-4-960-5e12d753642c.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-4-320-398afe01f2c0.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-4-640-c2c947c21552.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-4-960-5e12d753642c.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-5-960-f25a65439e01.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-5-320-94a539d7ccdf.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-5-640-77e9b83694df.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-5-960-f25a65439e01.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-960-e1cfec8627d9.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-320-00b9a9c6016b.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-640-f252f7f0d3dc.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-960-e1cfec8627d9.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-960-7f24de69e10a.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-320-6a8f726f3cc1.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-640-45e26cf624c3.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-960-7f24de69e10a.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-960-433e7cf64db8.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-320-a71645ed03ae.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-640-7a668fcfa56c.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-960-433e7cf64db8.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-960-24e3eb74dffb.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-320-545d1b740669.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-640-189109fda0ca.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-960-24e3eb74dffb.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-960-43ab682b5073.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-320-26c4258a294d.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-640-211f7eeb6033.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-960-43ab682b5073.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-960-4838bf7da011.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-320-76522a976f89.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-640-73976cd2f117.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-960-4838bf7da011.webp 960w"
+        }
+      ]
+    },
+    "movie-search": {
+      "mobile": {
+        "src": "/images/project-card-thumbnails/movie-search-mobile-0-488-78797bcd5a21.webp",
+        "srcSet": "/images/project-card-thumbnails/movie-search-mobile-0-320-2be509a5fbdc.webp 320w, /images/project-card-thumbnails/movie-search-mobile-0-488-78797bcd5a21.webp 488w"
+      },
+      "tablet": {
+        "src": "/images/project-card-thumbnails/movie-search-tablet-0-960-a355c56a265a.webp",
+        "srcSet": "/images/project-card-thumbnails/movie-search-tablet-0-320-eda565e77da3.webp 320w, /images/project-card-thumbnails/movie-search-tablet-0-640-6ba6b20b6b2f.webp 640w, /images/project-card-thumbnails/movie-search-tablet-0-960-a355c56a265a.webp 960w"
+      },
+      "desktop": [
+        {
+          "src": "/images/project-card-thumbnails/movie-search-desktop-0-960-e344cff196ee.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-0-320-e7a1be663790.webp 320w, /images/project-card-thumbnails/movie-search-desktop-0-640-a79153cd153c.webp 640w, /images/project-card-thumbnails/movie-search-desktop-0-960-e344cff196ee.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-desktop-1-960-a02644142486.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-1-320-a175743829e5.webp 320w, /images/project-card-thumbnails/movie-search-desktop-1-640-a24352d05e52.webp 640w, /images/project-card-thumbnails/movie-search-desktop-1-960-a02644142486.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-desktop-2-960-793d17c4b6f8.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-2-320-f567435be3e6.webp 320w, /images/project-card-thumbnails/movie-search-desktop-2-640-5bfbbdd4da24.webp 640w, /images/project-card-thumbnails/movie-search-desktop-2-960-793d17c4b6f8.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-desktop-3-960-00be1e0a011e.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-3-320-9e7b25758b2d.webp 320w, /images/project-card-thumbnails/movie-search-desktop-3-640-795e728a33ad.webp 640w, /images/project-card-thumbnails/movie-search-desktop-3-960-00be1e0a011e.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-desktop-4-960-33e1b0a55fa9.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-4-320-c8985bf0f9a4.webp 320w, /images/project-card-thumbnails/movie-search-desktop-4-640-cbb031257894.webp 640w, /images/project-card-thumbnails/movie-search-desktop-4-960-33e1b0a55fa9.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-desktop-5-960-432b0b5d9fd1.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-5-320-24b70cca155f.webp 320w, /images/project-card-thumbnails/movie-search-desktop-5-640-76525c1188e7.webp 640w, /images/project-card-thumbnails/movie-search-desktop-5-960-432b0b5d9fd1.webp 960w"
+        }
+      ],
+      "largeDesktop": [
+        {
+          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-0-960-dede4d77f400.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-0-320-25b8df241029.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-0-640-fd70e4b1f373.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-0-960-dede4d77f400.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-1-960-1889d76684ef.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-1-320-09100029b625.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-1-640-0a39261aac1e.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-1-960-1889d76684ef.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-2-960-66b08058bbb1.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-2-320-234935a0ed2f.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-2-640-d536d0c69456.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-2-960-66b08058bbb1.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-3-960-24070fee77dc.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-3-320-5e61da888597.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-3-640-baa81e1f60e3.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-3-960-24070fee77dc.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-4-960-51cccd6d8f92.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-4-320-8bf0506130c0.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-4-640-bc731989ed85.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-4-960-51cccd6d8f92.webp 960w"
+        },
+        {
+          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-5-960-12388c4a6e6b.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-5-320-fcc798eb1661.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-5-640-b97107500e0b.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-5-960-12388c4a6e6b.webp 960w"
+        }
+      ]
+    }
+  }
+}
