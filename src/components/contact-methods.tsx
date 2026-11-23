@@ -53,12 +53,12 @@ export function ContactMethods({ locale, compact = false }: ContactMethodsProps)
         ))}
         <li className="contact-phone-item">
           <Icon name="phone" size={14} />
-          <span className="contact-phone-number">{contact.phone}</span>
+          <span className="contact-phone-number max-w-fit text-[0.75rem]!">{contact.phone}</span>
           <div className="contact-phone-actions">
             <button type="button" className="contact-phone-action contact-phone-copy cursor-pointer" onClick={() => void copyPhoneNumber()}>
               {phoneCopied ? text.copied : text.copy}
             </button>
-            <a className="contact-phone-action cursor-pointer" href={contact.phoneHref}>
+            <a className="contact-phone-action cursor-pointer text-[0.6rem]! min-w-10!" href={contact.phoneHref}>
               {text.call}
             </a>
           </div>

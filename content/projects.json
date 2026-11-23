@@ -122,7 +122,7 @@
           "ariaLabel": "Preview Tijara website"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": null,
       "date": null,
       "description": {
@@ -669,7 +669,7 @@
           "ariaLabel": "View code for JavaScript To Do List app on GitHub"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": {
         "en": "Training courses",
         "ar": "الدورات التدريبية"
@@ -724,7 +724,7 @@
           "ariaLabel": "View code for Quizz App project on GitHub"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": {
         "en": "Training courses",
         "ar": "الدورات التدريبية"
@@ -779,7 +779,7 @@
           "ariaLabel": "View code for Control Local Storage project on GitHub"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": {
         "en": "Training courses",
         "ar": "الدورات التدريبية"
@@ -834,7 +834,7 @@
           "ariaLabel": "View code for Fetch GitHub Repositories project on GitHub"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": {
         "en": "Training courses",
         "ar": "الدورات التدريبية"
@@ -889,7 +889,7 @@
           "ariaLabel": "View code for Gradient Generator project on GitHub"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": {
         "en": "Training courses",
         "ar": "الدورات التدريبية"
@@ -944,7 +944,7 @@
           "ariaLabel": "View code for To-Do List by Vue project on GitHub"
         }
       ],
-      "isVisible": true,
+      "isVisible": false,
       "company": {
         "en": "Training courses",
         "ar": "الدورات التدريبية"

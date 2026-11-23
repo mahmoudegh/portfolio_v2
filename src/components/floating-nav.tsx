@@ -64,7 +64,7 @@ export function FloatingNav({ locale }: FloatingNavProps) {
         </div>
       </nav>
       {contactOpen && typeof document !== "undefined" && createPortal(
-        <div ref={contactPopoverRef} id="contact-popover" role="dialog" aria-label={text.contact} className="contact-popover fixed bottom-[5.5rem] z-[60] w-72 max-w-[calc(100vw-1.5rem)] rounded-2xl border p-4 shadow-xl" style={{ width: "min(18rem, calc(100vw - 1.5rem))" }}>
+        <div ref={contactPopoverRef} id="contact-popover" role="dialog" aria-label={text.contact} className="contact-popover fixed bottom-[5.5rem] z-[60] w-72 max-w-[calc(100vw-1.5rem)] rounded-2xl border p-4 shadow-xl" style={{ width: "min(18rem, calc(100vw - 1.5rem))", backgroundColor: "var(--background)", color: "var(--foreground)" }}>
           <p className="popover-title mb-3 text-xs uppercase tracking-widest">{text.contact}</p>
           <ContactMethods locale={locale} compact />
         </div>,

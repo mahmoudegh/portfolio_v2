@@ -128,8 +128,8 @@ html[lang="ar"] .project-facts dt, html[lang="ar"] .popover-title { letter-spaci
 .floating-link:hover { color: var(--foreground); }
 .floating-link-active, .contact-disclosure.is-open > .floating-link { background: var(--background); color: var(--foreground); box-shadow: 0 1px 3px rgb(0 0 0 / 0.1); }
 .contact-popover {
-  left: 50vw !important; border-color: var(--border); background: #fff;
-  color: #111; transform: translateX(-50%); white-space: normal; backdrop-filter: none;
+  left: 50vw !important; border-color: var(--border); background: var(--background);
+  color: var(--foreground); transform: translateX(-50%); white-space: normal; backdrop-filter: none;
 }
 .popover-title { color: var(--muted-foreground); }
 .project-detail-image { animation: fade-in-up 0.8s ease-out both; }
