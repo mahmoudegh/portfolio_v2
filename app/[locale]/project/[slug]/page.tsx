@@ -101,7 +101,7 @@ async function ProjectPageContent({ params }: PageProps) {
       <Header locale={locale} path={`/project/${project.slug}`} />
       <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
         <section className="project-detail-hero px-4 pt-20 sm:px-6">
-          <div className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl border border-border bg-muted md:h-[80vh] md:rounded-3xl">
+          <div data-project-slug={project.slug} className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl border border-border bg-muted md:h-[80vh] md:rounded-3xl">
             <ProjectDetailHeroImage
               images={projectHeroImages}
               title={project.title}

@@ -67,13 +67,17 @@ for (const project of projects) {
   for (const [variant, fallbackNames] of Object.entries(sourceNames)) {
     const imagePath = await findSource(project.slug, fallbackNames);
     if (variant === "mobile" || variant === "tablet") {
-      imageSet[variant] = await createCrop(project.slug, variant, 0, imagePath, 4 / 5);
+      const ratio = project.slug === "nile-sun-cruises" && variant === "tablet" ? 1277 / 790 : 4 / 5;
+      imageSet[variant] = await createCrop(project.slug, variant, 0, imagePath, ratio);
       continue;
     }
 
     const selectedPath = await findSource(project.slug, fallbackNames);
     imageSet[variant] = [];
-    for (const [ratioIndex, ratio] of ratios.entries()) {
+    const projectRatios = project.slug === "nile-sun-cruises"
+      ? ratios.map(() => 1277 / 790)
+      : ratios;
+    for (const [ratioIndex, ratio] of projectRatios.entries()) {
       imageSet[variant].push(await createCrop(project.slug, variant, ratioIndex, selectedPath, ratio));
     }
   }

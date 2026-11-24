@@ -71,7 +71,10 @@ for (const project of projects) {
   const variants = {};
   for (const [variant, names] of Object.entries(sourceNames)) {
     const imagePath = await findImage(project.slug, names);
-    variants[variant] = await createResponsiveCrop(project.slug, variant, imagePath, ratios[variant]);
+    const ratio = project.slug === "nile-sun-cruises" && variant === "largeDesktop"
+      ? 1600 / 703
+      : ratios[variant];
+    variants[variant] = await createResponsiveCrop(project.slug, variant, imagePath, ratio);
   }
   manifest.projects[project.slug] = variants;
 }

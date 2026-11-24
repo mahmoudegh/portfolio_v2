@@ -254,59 +254,59 @@
         "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-0-320-abff1f549ed8.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-0-487-e966efeeeefb.webp 487w"
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-957-b92f13ce84dd.webp",
-        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-320-44c24678159e.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-640-12ffa6e17fd5.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-957-b92f13ce84dd.webp 957w"
+        "src": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-957-d9a23fa05151.webp",
+        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-320-144f6552c9d1.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-640-b4fce60ca343.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-957-d9a23fa05151.webp 957w"
       },
       "desktop": [
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-03d2e576885c.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-320-e6a19d837695.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-640-7d969e6892ac.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-03d2e576885c.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-a52ae2656b56.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-a52ae2656b56.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-03d2e576885c.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-320-cbac61c11e04.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-640-7d969e6892ac.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-03d2e576885c.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-a52ae2656b56.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-a52ae2656b56.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-24d354723798.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-320-090ccd1e07e3.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-640-7439dfa898b2.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-24d354723798.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-a52ae2656b56.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-a52ae2656b56.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-03d2e576885c.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-320-79752974918d.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-640-6bb3cb507052.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-03d2e576885c.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-a52ae2656b56.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-a52ae2656b56.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-3e42776d3cd3.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-320-3ba3b0348455.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-640-adbd3ab06e68.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-3e42776d3cd3.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-a52ae2656b56.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-a52ae2656b56.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-03d2e576885c.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-320-b13bc1cb0d3a.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-640-7d969e6892ac.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-03d2e576885c.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-a52ae2656b56.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-a52ae2656b56.webp 960w"
         }
       ],
       "largeDesktop": [
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-cf661e84dd89.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-320-cff2eaaf2564.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-640-136b9d136e7e.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-cf661e84dd89.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-3a302813c837.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-320-81d4ac1d65eb.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-640-270baa3dc78f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-3a302813c837.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-cf661e84dd89.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-320-b1f769b8fd2b.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-640-136b9d136e7e.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-cf661e84dd89.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-3a302813c837.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-320-81d4ac1d65eb.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-640-270baa3dc78f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-3a302813c837.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-cf661e84dd89.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-320-8f06492b458f.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-640-17ffac46e779.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-cf661e84dd89.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-3a302813c837.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-320-81d4ac1d65eb.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-640-270baa3dc78f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-3a302813c837.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-cf661e84dd89.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-320-165833a36932.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-640-d5d245aab9c3.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-cf661e84dd89.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-3a302813c837.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-320-81d4ac1d65eb.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-640-270baa3dc78f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-3a302813c837.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-cf661e84dd89.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-320-120e2893fcb5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-640-20cddae05067.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-cf661e84dd89.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-3a302813c837.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-320-81d4ac1d65eb.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-640-270baa3dc78f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-3a302813c837.webp 960w"
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-cf661e84dd89.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-320-4f0fdb42b3db.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-640-136b9d136e7e.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-cf661e84dd89.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-3a302813c837.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-320-81d4ac1d65eb.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-640-270baa3dc78f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-3a302813c837.webp 960w"
         }
       ]
     },

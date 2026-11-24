@@ -81,6 +81,7 @@ function ProjectCard({
       href={`/${locale}/project/${project.slug}`}
       className={`project-card group inline-block w-full break-inside-avoid transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"} mb-3 md:mb-4`}
       data-image-ratio={ratioIndex}
+      data-project-slug={project.slug}
       style={{
         "--mobile-transition-delay": `${index * 50}ms`,
         "--desktop-transition-delay": `${index * 80}ms`,
