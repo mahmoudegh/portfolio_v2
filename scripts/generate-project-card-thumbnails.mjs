@@ -75,7 +75,7 @@ for (const project of projects) {
     const selectedPath = await findSource(project.slug, fallbackNames);
     imageSet[variant] = [];
     const projectRatios = project.slug === "nile-sun-cruises"
-      ? ratios.map(() => 1277 / 790)
+      ? ratios.map(() => variant === "largeDesktop" ? 1600 / 703 : 1277 / 790)
       : ratios;
     for (const [ratioIndex, ratio] of projectRatios.entries()) {
       imageSet[variant].push(await createCrop(project.slug, variant, ratioIndex, selectedPath, ratio));

@@ -16,7 +16,7 @@
 
 :root {
   color-scheme: light;
-  --background: hsl(0 0% 99%);
+  --background: hsl(0 0% 97%);
   --foreground: hsl(0 0% 5%);
   --muted: hsl(0 0% 94%);
   --muted-foreground: hsl(0 0% 45%);
@@ -80,6 +80,7 @@ html[lang="ar"] .font-display { font-family: var(--font-cairo), Tahoma, sans-ser
   .project-grid .project-card[data-project-slug="nile-sun-cruises"] .project-card-image { aspect-ratio: 1277 / 790; }
 }
 @media (min-width: 1440px) {
+  .project-grid .project-card[data-project-slug="nile-sun-cruises"] .project-card-image { aspect-ratio: 1600 / 703; }
   .project-detail-image[data-project-slug="nile-sun-cruises"] { height: auto; aspect-ratio: 1600 / 703; }
 }
 .project-image-placeholder {
