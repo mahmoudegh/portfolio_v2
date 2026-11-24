@@ -21,6 +21,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const project = getProjectBySlug(slug);
   if (!project) notFound();
   const projectImages = getProjectImageSet(project.slug);
+  const projectShareImage = getProjectDetailHeroImageSet(project.slug)?.largeDesktop?.src
+    ?? projectImages.largeDesktop
+    ?? projectImages.desktop
+    ?? "/images/site_sharing.jpg";
 
   const isArabic = rawLocale === "ar";
   const ownerName = isArabic ? "محمود جلال" : site.name;
@@ -48,14 +52,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: [projectImages.largeDesktop ?? projectImages.desktop ?? "/images/site_sharing.jpg"],
+      images: [{ url: projectShareImage, alt: `${project.title} project screenshot` }],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${ownerName}`,
       description,
-      images: [projectImages.largeDesktop ?? projectImages.desktop ?? "/images/site_sharing.jpg"],
+      images: [{ url: projectShareImage, alt: `${project.title} project screenshot` }],
     },
   };
 }

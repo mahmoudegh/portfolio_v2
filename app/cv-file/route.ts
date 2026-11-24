@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 export async function GET() {
-  const filePath = join(process.cwd(), "public", "mahmoud_galal_frontend_web_developer_cv.pdf");
+  const filePath = join(process.cwd(), "public", "files", "mahmoud_galal_frontend_web_developer_cv.pdf");
   const pdf = await readFile(filePath);
 
   return new Response(new Uint8Array(pdf), {

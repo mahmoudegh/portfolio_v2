@@ -293,6 +293,33 @@ If content needs rewriting, preserve its factual meaning.
 
 If information is unavailable, ask for clarification or leave an explicit placeholder for review.
 
+### Adding, Hiding, and Removing Projects
+
+Project content is maintained in `content/projects.json`. Keep the related image assets and generated image manifests in sync whenever project data changes.
+
+#### Add a project
+
+1. Add one entry to `content/projects.json` with a unique `id` and `slug`, genuine name, category, status, alt text, links, visibility, localized company/date/description, and the existing image data shape. Do not invent missing details.
+2. Add the project's original responsive screenshots under `public/images/projects/<slug>/`. Use the existing filenames `mobile.webp`, `tablet.webp`, `desktop.webp`, and `large-desktop.webp` where available. These are the source images; do not place generated crops here.
+3. Generate the responsive card thumbnails and detail hero crops with `npm run images:generate`. This updates `public/images/project-card-thumbnails/`, `public/images/project-detail-hero/`, `src/data/project-card-image-manifest.json`, and `src/data/project-detail-hero-image-manifest.json`.
+4. Check the new project's listing card and localized detail page. Confirm the image choice, crop, alt text, links, and share metadata use the correct project.
+
+#### Hide a project
+
+Set that project's `isVisible` to `false` in `content/projects.json`. Hidden projects are excluded from listings, detail routes, and generated image manifests. Keep its source images and content unless the owner explicitly asks to remove them; hiding is reversible.
+
+#### Remove a project
+
+Remove its entry from `content/projects.json`, then remove only that slug's source folder under `public/images/projects/<slug>/` when the project owner intends its original assets to be deleted. Run `npm run images:generate` to rebuild manifests and current generated crops. Review generated output before deleting any leftover files: the generator writes current assets and manifests but does not prune stale thumbnail or hero files. Never remove another project's assets or a shared image. Check links, routes, sitemap output, and the project listing after removal.
+
+#### Image folder responsibilities
+
+- `public/images/projects/`: original responsive screenshots grouped by project slug; edit these when replacing source screenshots.
+- `public/images/project-card-thumbnails/`: generated responsive crops for project listing cards; do not edit by hand. Regenerate after changing source screenshots, card crop handling, or project visibility.
+- `public/images/project-detail-hero/`: generated responsive crops for project detail pages and project share previews; do not edit by hand. Regenerate after changing source screenshots or project visibility.
+- `src/data/project-card-image-manifest.json` and `src/data/project-detail-hero-image-manifest.json`: generated file maps consumed by the UI and metadata; do not hand-edit. Regenerate them with the image script.
+- `src/data/site.ts`, `src/data/project-images.server.ts`, `src/components/work-listing.tsx`, and `app/[locale]/project/[slug]/page.tsx` contain the project's data mapping, image lookup, listing presentation, and detail page/metadata. Edit these only when the data shape, image behavior, or page behavior needs to change; keep all supported locales in sync.
+
 ## 10. Accessibility
 
 Follow WCAG accessibility principles.

@@ -40,7 +40,7 @@ export default async function ResumePage({ params }: PageProps) {
   const { locale: rawLocale } = await params;
   if (!isLocale(rawLocale)) notFound();
   const text = getMessages(rawLocale);
-  const pdfUrl = "/mahmoud_galal_frontend_web_developer_cv.pdf";
+  const pdfUrl = "/files/mahmoud_galal_frontend_web_developer_cv.pdf";
 
   return (
     <>

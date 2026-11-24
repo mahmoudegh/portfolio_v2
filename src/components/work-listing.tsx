@@ -74,12 +74,13 @@ function ProjectCard({
   isVisible: boolean;
 }) {
   const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : project.imageAlt;
+  const ratioIndex = project.slug === "deepmarks" ? 2 : index % desktopImageRatios.length;
 
   return (
     <Link
       href={`/${locale}/project/${project.slug}`}
       className={`project-card group inline-block w-full break-inside-avoid transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"} mb-3 md:mb-4`}
-      data-image-ratio={index % desktopImageRatios.length}
+      data-image-ratio={ratioIndex}
       style={{
         "--mobile-transition-delay": `${index * 50}ms`,
         "--desktop-transition-delay": `${index * 80}ms`,
@@ -91,7 +92,7 @@ function ProjectCard({
           title={project.title}
           alt={alt}
           placeholderLabel={locale === "ar" ? "معاينة المشروع" : "Project preview"}
-          ratioIndex={index % desktopImageRatios.length}
+          ratioIndex={ratioIndex}
           eager={index === 0}
           className="block h-full w-full object-cover object-top"
         />

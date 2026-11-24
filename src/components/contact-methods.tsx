@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { contact, site, type Locale } from "@/src/data/site";
+import { contact, type Locale } from "@/src/data/site";
 import { getMessages } from "@/src/data/translations";
 import { Icon, type IconName } from "@/src/components/icon";
 
@@ -9,7 +9,7 @@ type ContactMethodsProps = { locale: Locale; compact?: boolean };
 
 export function ContactMethods({ locale, compact = false }: ContactMethodsProps) {
   const text = getMessages(locale);
-  const whatsappHref = `${contact.whatsappHref}?text=${encodeURIComponent(`we need to get in touch: ${site.url}/en`)}`;
+  const whatsappHref = contact.whatsappHref;
   const [phoneCopied, setPhoneCopied] = useState(false);
   const noticeTimer = useRef<number | undefined>(undefined);
   const links: { label: string; href: string; icon: IconName; external?: boolean }[] = [
