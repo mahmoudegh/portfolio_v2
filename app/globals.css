@@ -167,7 +167,7 @@ html[lang="ar"] .project-facts dt, html[lang="ar"] .popover-title { letter-spaci
 }
 
 @media (max-width: 767px) {
-  .resume-page { padding-top: 9rem !important; }
+  .resume-page { padding-top: 9rem !important; animation-name: page-fade-in; }
   .resume-download {
     position: fixed !important; top: 5rem !important; right: auto !important; bottom: auto !important;
     left: 1rem !important; width: calc(100vw - 2rem) !important; box-sizing: border-box;

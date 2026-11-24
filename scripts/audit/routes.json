@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "path": "/en",
+      "type": "html",
+      "locale": "en",
+      "category": "home"
+    },
+    {
+      "path": "/ar",
+      "type": "html",
+      "locale": "ar",
+      "category": "home"
+    },
+    {
+      "path": "/en/about",
+      "type": "html",
+      "locale": "en",
+      "category": "about"
+    },
+    {
+      "path": "/ar/about",
+      "type": "html",
+      "locale": "ar",
+      "category": "about"
+    },
+    {
+      "path": "/en/resume",
+      "type": "html",
+      "locale": "en",
+      "category": "resume"
+    },
+    {
+      "path": "/ar/resume",
+      "type": "html",
+      "locale": "ar",
+      "category": "resume"
+    },
+    {
+      "path": "/mahmoud_galal_frontend_web_developer_cv",
+      "type": "html",
+      "locale": null,
+      "category": "cv-download"
+    },
+    {
+      "path": "/en/project/hyundai-jordan",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "hyundai-jordan"
+    },
+    {
+      "path": "/ar/project/hyundai-jordan",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "hyundai-jordan"
+    },
+    {
+      "path": "/en/project/payit-card",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "payit-card"
+    },
+    {
+      "path": "/ar/project/payit-card",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "payit-card"
+    },
+    {
+      "path": "/en/project/deepmarks",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "deepmarks"
+    },
+    {
+      "path": "/ar/project/deepmarks",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "deepmarks"
+    },
+    {
+      "path": "/en/project/intwitch-live",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "intwitch-live"
+    },
+    {
+      "path": "/ar/project/intwitch-live",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "intwitch-live"
+    },
+    {
+      "path": "/en/project/nile-sun-cruises",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "nile-sun-cruises"
+    },
+    {
+      "path": "/ar/project/nile-sun-cruises",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "nile-sun-cruises"
+    },
+    {
+      "path": "/en/project/html-css-template",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "html-css-template"
+    },
+    {
+      "path": "/ar/project/html-css-template",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "html-css-template"
+    },
+    {
+      "path": "/en/project/html-css-js-template",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "html-css-js-template"
+    },
+    {
+      "path": "/ar/project/html-css-js-template",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "html-css-js-template"
+    },
+    {
+      "path": "/en/project/bootstrap-3-template",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "bootstrap-3-template"
+    },
+    {
+      "path": "/ar/project/bootstrap-3-template",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "bootstrap-3-template"
+    },
+    {
+      "path": "/en/project/bootstrap-4-template",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "bootstrap-4-template"
+    },
+    {
+      "path": "/ar/project/bootstrap-4-template",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "bootstrap-4-template"
+    },
+    {
+      "path": "/en/project/movie-search",
+      "type": "html",
+      "locale": "en",
+      "category": "project-detail",
+      "projectSlug": "movie-search"
+    },
+    {
+      "path": "/ar/project/movie-search",
+      "type": "html",
+      "locale": "ar",
+      "category": "project-detail",
+      "projectSlug": "movie-search"
+    },
+    {
+      "path": "/mahmoud_galal_frontend_web_developer_cv.pdf",
+      "type": "html",
+      "locale": null,
+      "category": "cv-preview"
+    }
+  ],
+  "verification": {
+    "expectedTotal": 28,
+    "actualTotal": 28,
+    "byType": {
+      "html": 28,
+      "pdf": 0
+    },
+    "byCategory": {
+      "about": 2,
+      "cv-download": 1,
+      "cv-preview": 1,
+      "home": 2,
+      "project-detail": 20,
+      "resume": 2
+    },
+    "duplicatePaths": [],
+    "missingRoutes": [],
+    "visibleProjects": 10,
+    "localizedProjectPages": 20,
+    "projectsMissingEnglishOrArabicDescriptions": [],
+    "sitemapHtmlRoutesCovered": 27,
+    "sitemapMissingPrimaryRoutes": [
+      "/mahmoud_galal_frontend_web_developer_cv.pdf"
+    ],
+    "pdfListedInSitemap": false
+  },
+  "auxiliaryResources": [
+    {
+      "path": "/files/mahmoud_galal_frontend_web_developer_cv.pdf",
+      "type": "pdf",
+      "classification": "auxiliary-resource",
+      "displayHint": "#view=FitH",
+      "reason": "Actual static PDF asset; not a primary Lighthouse HTML route."
+    },
+    {
+      "path": "/cv-file",
+      "type": "pdf-response",
+      "classification": "auxiliary-resource",
+      "reason": "CV download endpoint; not a primary Lighthouse HTML route."
+    }
+  ]
+}

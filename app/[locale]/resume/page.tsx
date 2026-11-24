@@ -45,13 +45,13 @@ export default async function ResumePage({ params }: PageProps) {
   return (
     <>
       <Header locale={rawLocale} path="/resume" />
-      <main className="resume-page page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background px-4 pb-32 pt-20 sm:px-6">
+      <main className="resume-page page-transition box-border min-h-screen w-full min-w-0 max-w-full overflow-x-clip bg-background px-4 pb-32 pt-20 sm:px-6">
         <h1 className="sr-only">{text.resume}</h1>
         <div className="mx-auto flex min-h-[calc(100vh-8rem)] w-full min-w-0 max-w-5xl items-center justify-center overflow-hidden">
           <iframe
             src={`${pdfUrl}#view=FitH`}
             title={`${site.name} — ${text.resume}`}
-            className="resume-pdf-preview w-full rounded-xl border bg-white shadow-lg"
+            className="resume-pdf-preview block box-border w-full min-w-0 max-w-full rounded-xl border bg-white shadow-lg"
             style={{ height: "min(78vh, 64rem)", minHeight: "24rem" }}
           />
         </div>
