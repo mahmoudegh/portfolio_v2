@@ -5,7 +5,13 @@ export function DownloadCvRedirect() {
       <main className="flex min-h-screen items-center justify-center px-6 text-center">
         <p>
           Your download should start shortly. If it doesn’t,<br />
-          <a className="underline" href="/cv-file">download mahmoud_galal_frontend_web_developer_cv</a>.
+          <a
+            className="underline"
+            href="/files/mahmoud_galal_frontend_web_developer_cv.pdf"
+            download="mahmoud_galal_frontend_web_developer_cv.pdf"
+          >
+            download mahmoud_galal_frontend_web_developer_cv
+          </a>.
         </p>
       </main>
     </>

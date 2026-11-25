@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: "/mahmoud_galal_frontend_web_developer_cv" },
+  robots: { index: false, follow: true },
   openGraph: {
     type: "website",
     url: `${site.url}/mahmoud_galal_frontend_web_developer_cv`,

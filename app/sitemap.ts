@@ -21,9 +21,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ];
   });
 
-  return [
-    ...localizedEntries,
-    // This language-neutral page is publicly indexable and redirects to the CV download.
-    { url: `${site.url}/mahmoud_galal_frontend_web_developer_cv` },
-  ];
+  return localizedEntries;
 }
