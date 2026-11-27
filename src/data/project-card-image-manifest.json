@@ -2,621 +2,641 @@
   "projects": {
     "hyundai-jordan": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-0-488-5f417c33326d.webp",
-        "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-0-320-87e3d69876a1.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-0-488-5f417c33326d.webp 488w"
+        "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-card-1170-d0dbf155763a.webp",
+        "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-card-320-ab83ff0aa257.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-card-480-1ea11091fa1e.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-card-640-b332af6a10a3.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-card-960-96b0336a1d89.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-card-1170-d0dbf155763a.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/hyundai-jordan-tablet-0-959-793f7b1d959a.webp",
-        "srcSet": "/images/project-card-thumbnails/hyundai-jordan-tablet-0-320-da9ed49748b2.webp 320w, /images/project-card-thumbnails/hyundai-jordan-tablet-0-640-b0306aa75e8b.webp 640w, /images/project-card-thumbnails/hyundai-jordan-tablet-0-959-793f7b1d959a.webp 959w"
+        "src": "/images/project-card-thumbnails/hyundai-jordan-tablet-card-1600-58ec94ddfaa8.webp",
+        "srcSet": "/images/project-card-thumbnails/hyundai-jordan-tablet-card-320-5553a6b9b077.webp 320w, /images/project-card-thumbnails/hyundai-jordan-tablet-card-480-e9fcff308f17.webp 480w, /images/project-card-thumbnails/hyundai-jordan-tablet-card-640-5c1a9aa65e52.webp 640w, /images/project-card-thumbnails/hyundai-jordan-tablet-card-960-068adafd15af.webp 960w, /images/project-card-thumbnails/hyundai-jordan-tablet-card-1280-b3f5db0c6344.webp 1280w, /images/project-card-thumbnails/hyundai-jordan-tablet-card-1600-58ec94ddfaa8.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-0-960-c3d17af9f43e.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-0-320-2e16fa21ea01.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-0-640-ec60522f86e9.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-0-960-c3d17af9f43e.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-0-1170-06a52c04ecd8.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-0-320-690c8313a9d9.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-0-480-8e6a0fbec4ac.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-0-640-a92d57a39747.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-0-960-2157a5eca7c4.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-0-1170-06a52c04ecd8.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-1-960-356a817e4707.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-1-320-49dde7fecf3d.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-1-640-8b7736250e86.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-1-960-356a817e4707.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-1-1170-a4e37efc85d0.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-1-320-3617cb2367d7.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-1-480-b9df7a102e47.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-1-640-de23aba826f0.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-1-960-448aff762fc8.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-1-1170-a4e37efc85d0.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-2-960-3496b5a73be1.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-2-320-4d116b143cc0.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-2-640-bccc8692d385.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-2-960-3496b5a73be1.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-2-1170-896edc4c2735.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-2-320-339467736b92.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-2-480-178afaf9b091.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-2-640-4f6a5106875d.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-2-960-553ad136b5ee.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-2-1170-896edc4c2735.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-3-960-1af9a3ce8d0c.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-3-320-8dcc36fffeb3.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-3-640-c01a09fee696.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-3-960-1af9a3ce8d0c.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-3-1170-d0dbf155763a.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-3-320-ab83ff0aa257.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-3-480-1ea11091fa1e.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-3-640-b332af6a10a3.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-3-960-96b0336a1d89.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-3-1170-d0dbf155763a.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-4-960-91cd7cf233b7.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-4-320-ae7951818855.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-4-640-4043e264e979.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-4-960-91cd7cf233b7.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-4-1170-90b7e922e6ac.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-4-320-fb26389565cf.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-4-480-4c7ef1f34af8.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-4-640-e01e6d5a6c02.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-4-960-101d794b21f2.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-4-1170-90b7e922e6ac.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-desktop-5-960-f78d876e3529.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-desktop-5-320-1b81068d7f55.webp 320w, /images/project-card-thumbnails/hyundai-jordan-desktop-5-640-3ff031056659.webp 640w, /images/project-card-thumbnails/hyundai-jordan-desktop-5-960-f78d876e3529.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-960-5a2165570d1d.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-320-f2f1cf665589.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-640-f82e8cf8cd7e.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-0-960-5a2165570d1d.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-5-1170-0b319262620f.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-5-320-3f74ec2afe67.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-5-480-d5b7f4c06fa5.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-5-640-514a952a0209.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-5-960-495417102617.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-5-1170-0b319262620f.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-960-5ec47e344bec.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-320-c158546c9df4.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-640-01e39a7323df.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-1-960-5ec47e344bec.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-6-1170-3997de1a959c.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-6-320-52a55421835a.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-6-480-5d561fbfe0e6.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-6-640-ddcded8d8f2e.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-6-960-3a93ca42dced.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-6-1170-3997de1a959c.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-960-0885ff245e9f.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-320-ad1a01bcf46b.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-640-c734b60a65b5.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-2-960-0885ff245e9f.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-960-c7084fd51710.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-320-124519cacfb9.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-640-7f9a18b7da78.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-3-960-c7084fd51710.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-960-c04f8df7fa0e.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-320-868c01e24770.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-640-287c133a148a.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-4-960-c04f8df7fa0e.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-960-23a1d5f17d4a.webp",
-          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-320-bb491188801e.webp 320w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-640-8de3e1836971.webp 640w, /images/project-card-thumbnails/hyundai-jordan-largeDesktop-5-960-23a1d5f17d4a.webp 960w"
+          "src": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-7-1170-660be19fbd6c.webp",
+          "srcSet": "/images/project-card-thumbnails/hyundai-jordan-mobile-phone-7-320-71fa518b9865.webp 320w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-7-480-70e9aee023df.webp 480w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-7-640-33a2370cb06b.webp 640w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-7-960-8949f1ee908b.webp 960w, /images/project-card-thumbnails/hyundai-jordan-mobile-phone-7-1170-660be19fbd6c.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "payit-card": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/payit-card-mobile-0-488-b19402c5b1aa.webp",
-        "srcSet": "/images/project-card-thumbnails/payit-card-mobile-0-320-6aca261a7c3f.webp 320w, /images/project-card-thumbnails/payit-card-mobile-0-488-b19402c5b1aa.webp 488w"
+        "src": "/images/project-card-thumbnails/payit-card-mobile-card-1170-329bab0f7d31.webp",
+        "srcSet": "/images/project-card-thumbnails/payit-card-mobile-card-320-639c1bc4b7f0.webp 320w, /images/project-card-thumbnails/payit-card-mobile-card-480-40867f54ff3b.webp 480w, /images/project-card-thumbnails/payit-card-mobile-card-640-406b34e19fa8.webp 640w, /images/project-card-thumbnails/payit-card-mobile-card-960-8a7bf58a484d.webp 960w, /images/project-card-thumbnails/payit-card-mobile-card-1170-329bab0f7d31.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/payit-card-tablet-0-960-25b4a88c47ca.webp",
-        "srcSet": "/images/project-card-thumbnails/payit-card-tablet-0-320-4846f5175f33.webp 320w, /images/project-card-thumbnails/payit-card-tablet-0-640-241c2dac72a0.webp 640w, /images/project-card-thumbnails/payit-card-tablet-0-960-25b4a88c47ca.webp 960w"
+        "src": "/images/project-card-thumbnails/payit-card-tablet-card-1600-44a4f3d6ce4f.webp",
+        "srcSet": "/images/project-card-thumbnails/payit-card-tablet-card-320-f5fec5cf47c4.webp 320w, /images/project-card-thumbnails/payit-card-tablet-card-480-d2c442229634.webp 480w, /images/project-card-thumbnails/payit-card-tablet-card-640-b87c08c7173f.webp 640w, /images/project-card-thumbnails/payit-card-tablet-card-960-07b3d048a3ec.webp 960w, /images/project-card-thumbnails/payit-card-tablet-card-1280-1c502c02efb7.webp 1280w, /images/project-card-thumbnails/payit-card-tablet-card-1600-44a4f3d6ce4f.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/payit-card-desktop-0-960-4ef235f9287a.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-0-320-9ec75b2f68eb.webp 320w, /images/project-card-thumbnails/payit-card-desktop-0-640-a5aea8957f37.webp 640w, /images/project-card-thumbnails/payit-card-desktop-0-960-4ef235f9287a.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-0-1170-3180ff701f3a.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-0-320-e09a0e3672be.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-0-480-4f0f0919f34a.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-0-640-5a9b87786410.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-0-960-2ae067f8e318.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-0-1170-3180ff701f3a.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-desktop-1-960-312fddec0285.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-1-320-8b3c4a00a2c1.webp 320w, /images/project-card-thumbnails/payit-card-desktop-1-640-2058ca5c3850.webp 640w, /images/project-card-thumbnails/payit-card-desktop-1-960-312fddec0285.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-1-1170-c87f34ce3715.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-1-320-d539b7cb1c6d.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-1-480-ed573423655f.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-1-640-b1e2b6bb1134.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-1-960-4654437c62a4.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-1-1170-c87f34ce3715.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-desktop-2-960-0472d449171f.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-2-320-7d10005e346d.webp 320w, /images/project-card-thumbnails/payit-card-desktop-2-640-cb50d970a42d.webp 640w, /images/project-card-thumbnails/payit-card-desktop-2-960-0472d449171f.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-2-1170-5576a24955e5.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-2-320-5f8a8c601972.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-2-480-01b674b41cf1.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-2-640-ab855d29da62.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-2-960-e8cf9143b033.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-2-1170-5576a24955e5.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-desktop-3-960-cc3a2c6cf24a.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-3-320-fe853a301c6c.webp 320w, /images/project-card-thumbnails/payit-card-desktop-3-640-7efd62e1ddec.webp 640w, /images/project-card-thumbnails/payit-card-desktop-3-960-cc3a2c6cf24a.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-3-1170-329bab0f7d31.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-3-320-639c1bc4b7f0.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-3-480-40867f54ff3b.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-3-640-406b34e19fa8.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-3-960-8a7bf58a484d.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-3-1170-329bab0f7d31.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-desktop-4-960-b2c25c998c99.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-4-320-eccde5f36c70.webp 320w, /images/project-card-thumbnails/payit-card-desktop-4-640-7b00727dd61f.webp 640w, /images/project-card-thumbnails/payit-card-desktop-4-960-b2c25c998c99.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-4-1170-98264c204469.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-4-320-a133f0f9bf65.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-4-480-e3c25443f923.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-4-640-86c9b137120c.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-4-960-605b56e0eacc.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-4-1170-98264c204469.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-desktop-5-960-97c9aca618cb.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-desktop-5-320-e40cbc334a94.webp 320w, /images/project-card-thumbnails/payit-card-desktop-5-640-533955b170f8.webp 640w, /images/project-card-thumbnails/payit-card-desktop-5-960-97c9aca618cb.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-0-960-f3fd5129ee4a.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-0-320-6a374e82886d.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-0-640-30a509564e17.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-0-960-f3fd5129ee4a.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-5-1170-23e4463d14c8.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-5-320-e6c10619713e.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-5-480-c2d4ed6e62bd.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-5-640-85049f4c62b2.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-5-960-fc863a2cbec7.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-5-1170-23e4463d14c8.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-1-960-f7fdc2e51e6b.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-1-320-32002a414285.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-1-640-d41dba65a427.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-1-960-f7fdc2e51e6b.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-6-1170-002cdf9ef223.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-6-320-beeb7f512b7c.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-6-480-631594825089.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-6-640-3e7c9ba886f5.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-6-960-0478ee23326c.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-6-1170-002cdf9ef223.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-2-960-3dd8f038157a.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-2-320-e45407033bf7.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-2-640-c9502d5c8aa5.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-2-960-3dd8f038157a.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-3-960-68ca5efcae90.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-3-320-b644e6a09173.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-3-640-0e07e0a7a753.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-3-960-68ca5efcae90.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-4-960-d031d5f2d9d7.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-4-320-c5030d5afd0e.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-4-640-ec62087e6724.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-4-960-d031d5f2d9d7.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/payit-card-largeDesktop-5-960-3f92ac2a2e78.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-largeDesktop-5-320-b0c6fcf531c3.webp 320w, /images/project-card-thumbnails/payit-card-largeDesktop-5-640-bd932e029e85.webp 640w, /images/project-card-thumbnails/payit-card-largeDesktop-5-960-3f92ac2a2e78.webp 960w"
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-7-1170-4f4754188b19.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-7-320-314d1aaf06dc.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-7-480-9510fc472388.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-7-640-0b1539f418ee.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-7-960-71cafd813b16.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-7-1170-4f4754188b19.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "deepmarks": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/deepmarks-mobile-0-488-45362b9def4a.webp",
-        "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-0-320-b2f1c43b2ca9.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-0-488-45362b9def4a.webp 488w"
+        "src": "/images/project-card-thumbnails/deepmarks-mobile-card-1170-ee3d1e3de7a2.webp",
+        "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-card-320-a2cdbdd8590e.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-card-480-f28368fb1940.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-card-640-1c06deccce8d.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-card-960-4f8c1f654e59.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-card-1170-ee3d1e3de7a2.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/deepmarks-tablet-0-960-6f1fac9075b6.webp",
-        "srcSet": "/images/project-card-thumbnails/deepmarks-tablet-0-320-000b3f29ee9e.webp 320w, /images/project-card-thumbnails/deepmarks-tablet-0-640-7ce66fccc459.webp 640w, /images/project-card-thumbnails/deepmarks-tablet-0-960-6f1fac9075b6.webp 960w"
+        "src": "/images/project-card-thumbnails/deepmarks-tablet-card-1600-a508508f15cf.webp",
+        "srcSet": "/images/project-card-thumbnails/deepmarks-tablet-card-320-e02b751d0ff7.webp 320w, /images/project-card-thumbnails/deepmarks-tablet-card-480-5d634d308c76.webp 480w, /images/project-card-thumbnails/deepmarks-tablet-card-640-8b06522e6516.webp 640w, /images/project-card-thumbnails/deepmarks-tablet-card-960-a6acb90310a7.webp 960w, /images/project-card-thumbnails/deepmarks-tablet-card-1280-a368993e45dd.webp 1280w, /images/project-card-thumbnails/deepmarks-tablet-card-1600-a508508f15cf.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/deepmarks-desktop-0-960-f8e1d56eba68.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-0-320-2544c47424a0.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-0-640-636e6a8ea33a.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-0-960-f8e1d56eba68.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-0-1170-6873ffacfda1.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-0-320-3f7d5c4f8f50.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-0-480-880c6da0a8a5.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-0-640-c709ac4fbf02.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-0-960-511b32c95ed3.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-0-1170-6873ffacfda1.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-desktop-1-960-f8e1d56eba68.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-1-320-7059b2e5d1cf.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-1-640-4b029a2e2ec0.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-1-960-f8e1d56eba68.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-1-1170-23fa393faa7b.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-1-320-a779ad482f5f.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-1-480-45faf26997e2.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-1-640-7542e4aa2a44.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-1-960-60c4189c3c09.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-1-1170-23fa393faa7b.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-desktop-2-960-6f6b7e7180d7.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-2-320-6f3f0b92bcb2.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-2-640-92458e5e53c0.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-2-960-6f6b7e7180d7.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-2-1170-56e8a32cda11.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-2-320-a13ba6cd1006.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-2-480-73af793a68f5.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-2-640-a5e6036ff976.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-2-960-2f6f31849061.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-2-1170-56e8a32cda11.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-desktop-3-960-276051bede6c.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-3-320-1f2f63de4145.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-3-640-5e92c8751d99.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-3-960-276051bede6c.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-3-1170-ee3d1e3de7a2.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-3-320-a2cdbdd8590e.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-3-480-f28368fb1940.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-3-640-1c06deccce8d.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-3-960-4f8c1f654e59.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-3-1170-ee3d1e3de7a2.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-desktop-4-960-246778e57870.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-4-320-d1048482eadc.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-4-640-bd6349e0c4eb.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-4-960-246778e57870.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-4-1170-47b9febb4d3b.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-4-320-5c3aca91f56d.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-4-480-fdc616ab3d24.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-4-640-fcac23603514.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-4-960-7aed6f0573cd.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-4-1170-47b9febb4d3b.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-desktop-5-960-f8e1d56eba68.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-desktop-5-320-d68bc6c94f6b.webp 320w, /images/project-card-thumbnails/deepmarks-desktop-5-640-a54ed7b0a5f5.webp 640w, /images/project-card-thumbnails/deepmarks-desktop-5-960-f8e1d56eba68.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-0-960-65c6d3a155a7.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-0-320-86a39058bd36.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-0-640-b2238e14f492.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-0-960-65c6d3a155a7.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-5-1170-870e3e8f054a.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-5-320-6f04afc9a8e4.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-5-480-b8628c8445c2.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-5-640-c8bf1c5cdea2.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-5-960-ca5ffc9e17b4.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-5-1170-870e3e8f054a.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-1-960-65c6d3a155a7.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-1-320-0d3a652bc754.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-1-640-89885b35cdcb.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-1-960-65c6d3a155a7.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-6-1170-39ebb510c5c3.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-6-320-71173e6ab61f.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-6-480-6e19f8419e32.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-6-640-8cb315f26295.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-6-960-30578ca62800.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-6-1170-39ebb510c5c3.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-2-960-51ac8b501cbe.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-2-320-ce75059afb34.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-2-640-5db0c7c8d824.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-2-960-51ac8b501cbe.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-3-960-231eb5c0c924.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-3-320-990bda24ec8d.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-3-640-34d1aac9a7f0.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-3-960-231eb5c0c924.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-4-960-dd0fb4fe0a82.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-4-320-5e1b7455ab4d.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-4-640-64e408702a97.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-4-960-dd0fb4fe0a82.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/deepmarks-largeDesktop-5-960-65c6d3a155a7.webp",
-          "srcSet": "/images/project-card-thumbnails/deepmarks-largeDesktop-5-320-e0597ba5f0d1.webp 320w, /images/project-card-thumbnails/deepmarks-largeDesktop-5-640-6eb29c689f86.webp 640w, /images/project-card-thumbnails/deepmarks-largeDesktop-5-960-65c6d3a155a7.webp 960w"
+          "src": "/images/project-card-thumbnails/deepmarks-mobile-phone-7-1170-8c3cd47e6d9d.webp",
+          "srcSet": "/images/project-card-thumbnails/deepmarks-mobile-phone-7-320-2b8f94de9f22.webp 320w, /images/project-card-thumbnails/deepmarks-mobile-phone-7-480-d8cc9e9fc7d4.webp 480w, /images/project-card-thumbnails/deepmarks-mobile-phone-7-640-4d05db4b3742.webp 640w, /images/project-card-thumbnails/deepmarks-mobile-phone-7-960-bd8814deb8cb.webp 960w, /images/project-card-thumbnails/deepmarks-mobile-phone-7-1170-8c3cd47e6d9d.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "intwitch-live": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/intwitch-live-mobile-0-488-a64ee8754757.webp",
-        "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-0-320-0e7067ec1684.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-0-488-a64ee8754757.webp 488w"
+        "src": "/images/project-card-thumbnails/intwitch-live-mobile-card-1170-d1a1f61a2dbf.webp",
+        "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-card-320-4fb2da7035ba.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-card-480-932844aaa5c1.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-card-640-0c140bfba6b0.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-card-960-0489d767275f.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-card-1170-d1a1f61a2dbf.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/intwitch-live-tablet-0-960-2366b56e6cf0.webp",
-        "srcSet": "/images/project-card-thumbnails/intwitch-live-tablet-0-320-3109787b77c3.webp 320w, /images/project-card-thumbnails/intwitch-live-tablet-0-640-7277b071227b.webp 640w, /images/project-card-thumbnails/intwitch-live-tablet-0-960-2366b56e6cf0.webp 960w"
+        "src": "/images/project-card-thumbnails/intwitch-live-tablet-card-1600-c437b4018a60.webp",
+        "srcSet": "/images/project-card-thumbnails/intwitch-live-tablet-card-320-6d2a35dffd60.webp 320w, /images/project-card-thumbnails/intwitch-live-tablet-card-480-5f87195299a5.webp 480w, /images/project-card-thumbnails/intwitch-live-tablet-card-640-b51850068f69.webp 640w, /images/project-card-thumbnails/intwitch-live-tablet-card-960-6b54e7aa78a7.webp 960w, /images/project-card-thumbnails/intwitch-live-tablet-card-1280-159ed69fe907.webp 1280w, /images/project-card-thumbnails/intwitch-live-tablet-card-1600-c437b4018a60.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-desktop-0-960-81a8668b4304.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-0-320-597698645a87.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-0-640-da21d3348c6b.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-0-960-81a8668b4304.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-0-1170-b890a12fb11c.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-0-320-c2bc83c07e1d.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-0-480-2fc9524d7cb0.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-0-640-beeab59e755c.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-0-960-ddd8857f8420.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-0-1170-b890a12fb11c.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-desktop-1-960-8ce157171229.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-1-320-33df60e02338.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-1-640-49d4c2e287fc.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-1-960-8ce157171229.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-1-1170-559dc19d87ec.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-1-320-72aaa0a0ab81.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-1-480-8193959a0da1.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-1-640-f7f259f22935.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-1-960-7d6bcf1ce8c0.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-1-1170-559dc19d87ec.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-desktop-2-960-ee52f8d5b48f.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-2-320-45e0c2769bff.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-2-640-dd4a59dea68b.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-2-960-ee52f8d5b48f.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-2-1170-74249f0f9989.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-2-320-1377003c213c.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-2-480-acc796b4c13a.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-2-640-70b2c7d5f5b9.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-2-960-12bb4951ebdf.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-2-1170-74249f0f9989.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-desktop-3-960-02519fd5385e.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-3-320-7781aeed7700.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-3-640-aa64f28db408.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-3-960-02519fd5385e.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-3-1170-d1a1f61a2dbf.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-3-320-4fb2da7035ba.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-3-480-932844aaa5c1.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-3-640-0c140bfba6b0.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-3-960-0489d767275f.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-3-1170-d1a1f61a2dbf.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-desktop-4-960-38d481be9604.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-4-320-57f25cdf7843.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-4-640-1a76945b82c2.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-4-960-38d481be9604.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-4-1170-d1b30ed80889.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-4-320-43448a01b9f3.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-4-480-e82a3f790db6.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-4-640-942790a71ed4.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-4-960-c32d8e42fc3b.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-4-1170-d1b30ed80889.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-desktop-5-960-e6c7c93a4ef7.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-desktop-5-320-5ea17ce68d68.webp 320w, /images/project-card-thumbnails/intwitch-live-desktop-5-640-c1f6d8274f52.webp 640w, /images/project-card-thumbnails/intwitch-live-desktop-5-960-e6c7c93a4ef7.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-0-960-94ad2ace5769.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-0-320-3c95595e5df0.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-0-640-169e2ce578c3.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-0-960-94ad2ace5769.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-5-1170-f256a70b739b.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-5-320-fc327b761ed3.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-5-480-6a5b7ded894e.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-5-640-205b6d079f84.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-5-960-084f079fb4bb.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-5-1170-f256a70b739b.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-1-960-d340afd2c0cf.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-1-320-cbb646c12dc6.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-1-640-09c63b9d502c.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-1-960-d340afd2c0cf.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-6-1170-101c4c91ee96.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-6-320-78b3e2b65a43.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-6-480-ecb749969e35.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-6-640-912b307deb08.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-6-960-2d19a7c962f0.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-6-1170-101c4c91ee96.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-2-960-5cc2b5c2cf6b.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-2-320-615a68656e75.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-2-640-fbdf70a034e6.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-2-960-5cc2b5c2cf6b.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-3-960-bf007b00f1df.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-3-320-69cdbc16ef93.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-3-640-6312e4cd2422.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-3-960-bf007b00f1df.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-4-960-5540fef2282f.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-4-320-7610de3e8642.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-4-640-f87add61dee4.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-4-960-5540fef2282f.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/intwitch-live-largeDesktop-5-960-a49fe22de3d5.webp",
-          "srcSet": "/images/project-card-thumbnails/intwitch-live-largeDesktop-5-320-0dabd0acbef3.webp 320w, /images/project-card-thumbnails/intwitch-live-largeDesktop-5-640-3e4e7bee09a4.webp 640w, /images/project-card-thumbnails/intwitch-live-largeDesktop-5-960-a49fe22de3d5.webp 960w"
+          "src": "/images/project-card-thumbnails/intwitch-live-mobile-phone-7-1170-70ccdaa92eec.webp",
+          "srcSet": "/images/project-card-thumbnails/intwitch-live-mobile-phone-7-320-e37704df00ed.webp 320w, /images/project-card-thumbnails/intwitch-live-mobile-phone-7-480-d841c09542bd.webp 480w, /images/project-card-thumbnails/intwitch-live-mobile-phone-7-640-c9cc83f5ce06.webp 640w, /images/project-card-thumbnails/intwitch-live-mobile-phone-7-960-01c6eca68f45.webp 960w, /images/project-card-thumbnails/intwitch-live-mobile-phone-7-1170-70ccdaa92eec.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "nile-sun-cruises": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-0-487-e966efeeeefb.webp",
-        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-0-320-abff1f549ed8.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-0-487-e966efeeeefb.webp 487w"
+        "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-card-1170-7898eebe09ac.webp",
+        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-card-320-1fdb1bd38f95.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-card-480-df577c7aeae6.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-card-640-e5d1aebc4be7.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-card-960-a467962dfab8.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-card-1170-7898eebe09ac.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-957-d9a23fa05151.webp",
-        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-tablet-0-320-144f6552c9d1.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-640-b4fce60ca343.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-tablet-0-957-d9a23fa05151.webp 957w"
+        "src": "/images/project-card-thumbnails/nile-sun-cruises-tablet-card-1600-3da75c84f873.webp",
+        "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-tablet-card-320-0cd0cc5079a3.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-tablet-card-480-f6f94e0c515f.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-tablet-card-640-576fc3c25ce7.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-tablet-card-960-327a540a8d07.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-tablet-card-1280-7a36d267301e.webp 1280w, /images/project-card-thumbnails/nile-sun-cruises-tablet-card-1600-3da75c84f873.webp 1600w",
+        "width": 1600,
+        "height": 990
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-a52ae2656b56.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-0-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-0-960-a52ae2656b56.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-0-1170-f66d2996532d.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-0-320-8af791ad626e.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-0-480-4d733a73b0b3.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-0-640-f44f69bc2cac.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-0-960-1685d8d29b04.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-0-1170-f66d2996532d.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-a52ae2656b56.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-1-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-1-960-a52ae2656b56.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-1-1170-8ab7e4119d13.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-1-320-f6a6382766cc.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-1-480-ff57c3a4db94.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-1-640-7cbbeadc1c75.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-1-960-bc20006cb345.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-1-1170-8ab7e4119d13.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-a52ae2656b56.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-2-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-2-960-a52ae2656b56.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-2-1170-ac0acf839a93.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-2-320-d05e1072f91e.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-2-480-2d97125750e0.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-2-640-a9eb49e27344.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-2-960-c02ee3dca31c.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-2-1170-ac0acf839a93.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-a52ae2656b56.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-3-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-3-960-a52ae2656b56.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-3-1170-7898eebe09ac.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-3-320-1fdb1bd38f95.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-3-480-df577c7aeae6.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-3-640-e5d1aebc4be7.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-3-960-a467962dfab8.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-3-1170-7898eebe09ac.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-a52ae2656b56.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-4-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-4-960-a52ae2656b56.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-4-1170-44d01a27bf49.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-4-320-bd8529341e70.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-4-480-ebf638894b20.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-4-640-9700d21565b8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-4-960-0553adb19cdf.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-4-1170-44d01a27bf49.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-a52ae2656b56.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-desktop-5-320-1483956fcd05.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-640-a42eb986a4f8.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-desktop-5-960-a52ae2656b56.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-0a5c07114740.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-320-300243be23d5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-640-885db4f9a842.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-0-960-0a5c07114740.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-5-1170-13d8971e09ed.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-5-320-f774e9467d33.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-5-480-890cabed2728.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-5-640-1f6bf245b07f.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-5-960-420d4f85888a.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-5-1170-13d8971e09ed.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-0a5c07114740.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-320-300243be23d5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-640-885db4f9a842.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-1-960-0a5c07114740.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-6-1170-59f970d72b2d.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-6-320-3d14e97e4f67.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-6-480-5581426401ab.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-6-640-66cb3c49083d.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-6-960-79627a55cb8b.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-6-1170-59f970d72b2d.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-0a5c07114740.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-320-300243be23d5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-640-885db4f9a842.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-2-960-0a5c07114740.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-0a5c07114740.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-320-300243be23d5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-640-885db4f9a842.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-3-960-0a5c07114740.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-0a5c07114740.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-320-300243be23d5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-640-885db4f9a842.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-4-960-0a5c07114740.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-0a5c07114740.webp",
-          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-320-300243be23d5.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-640-885db4f9a842.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-largeDesktop-5-960-0a5c07114740.webp 960w"
+          "src": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-7-1170-eb460a547713.webp",
+          "srcSet": "/images/project-card-thumbnails/nile-sun-cruises-mobile-phone-7-320-dd5956ac2722.webp 320w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-7-480-6620549ec174.webp 480w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-7-640-54c91c6ceb14.webp 640w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-7-960-c302dab6f495.webp 960w, /images/project-card-thumbnails/nile-sun-cruises-mobile-phone-7-1170-eb460a547713.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "html-css-template": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/html-css-template-mobile-0-488-2151c46a2146.webp",
-        "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-0-320-7ac7ce439c36.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-0-488-2151c46a2146.webp 488w"
+        "src": "/images/project-card-thumbnails/html-css-template-mobile-card-1170-b470c255f7b7.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-card-320-38f1612ce707.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-card-480-e621ee154a1a.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-card-640-5f2ab7ef3d58.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-card-960-50de0f056654.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-card-1170-b470c255f7b7.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/html-css-template-tablet-0-960-649bfdb70590.webp",
-        "srcSet": "/images/project-card-thumbnails/html-css-template-tablet-0-320-b363bb1480e0.webp 320w, /images/project-card-thumbnails/html-css-template-tablet-0-640-7b5f423fbfa1.webp 640w, /images/project-card-thumbnails/html-css-template-tablet-0-960-649bfdb70590.webp 960w"
+        "src": "/images/project-card-thumbnails/html-css-template-tablet-card-1600-d94c1f4f7dcf.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-template-tablet-card-320-509421359794.webp 320w, /images/project-card-thumbnails/html-css-template-tablet-card-480-3f71ac39125c.webp 480w, /images/project-card-thumbnails/html-css-template-tablet-card-640-1a3f367f799e.webp 640w, /images/project-card-thumbnails/html-css-template-tablet-card-960-630647dcb01f.webp 960w, /images/project-card-thumbnails/html-css-template-tablet-card-1280-bf79d7852a15.webp 1280w, /images/project-card-thumbnails/html-css-template-tablet-card-1600-d94c1f4f7dcf.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/html-css-template-desktop-0-960-53cebb15b22b.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-0-320-af6358a6427f.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-0-640-2ffd884df8c5.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-0-960-53cebb15b22b.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-0-1170-9361d53797b3.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-0-320-c76d81cb12c9.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-0-480-0fa9c1a97000.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-0-640-e5637a14299f.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-0-960-21d73b97c295.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-0-1170-9361d53797b3.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-desktop-1-960-12dda42c6291.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-1-320-122442575f44.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-1-640-bc6190e76a22.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-1-960-12dda42c6291.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-1-1170-b7b771bcc51b.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-1-320-ce8577de333c.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-1-480-f6fedb0ca188.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-1-640-e3bd2ae051ac.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-1-960-cdb63c5e7461.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-1-1170-b7b771bcc51b.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-desktop-2-960-49ddf38980f4.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-2-320-a2db2372a839.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-2-640-1abb91d7ee1f.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-2-960-49ddf38980f4.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-2-1170-9abc97969a17.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-2-320-2ef9c6293857.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-2-480-a1daf7daf51d.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-2-640-64dc580ef6a2.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-2-960-429acd659cec.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-2-1170-9abc97969a17.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-desktop-3-960-c062552c0646.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-3-320-16a9f8ad2cc9.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-3-640-b6519036bf10.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-3-960-c062552c0646.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-3-1170-b470c255f7b7.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-3-320-38f1612ce707.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-3-480-e621ee154a1a.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-3-640-5f2ab7ef3d58.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-3-960-50de0f056654.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-3-1170-b470c255f7b7.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-desktop-4-960-74b05e2641ec.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-4-320-1d626f05c72f.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-4-640-2d062a5916d9.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-4-960-74b05e2641ec.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-4-1170-27f3a39e3f36.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-4-320-08a335324bbd.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-4-480-23d9f624f0eb.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-4-640-bf5c90f10304.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-4-960-b20724eae6e0.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-4-1170-27f3a39e3f36.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-desktop-5-960-b7d56e8c755e.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-desktop-5-320-d0854d3941ad.webp 320w, /images/project-card-thumbnails/html-css-template-desktop-5-640-9d5b46676ac1.webp 640w, /images/project-card-thumbnails/html-css-template-desktop-5-960-b7d56e8c755e.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-0-960-e10a3a6dbb0a.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-0-320-7d84178d204e.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-0-640-b4d4454eb800.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-0-960-e10a3a6dbb0a.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-5-1170-41cdcd9213f9.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-5-320-74253f0a51eb.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-5-480-494990e29fe5.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-5-640-5894a732c25e.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-5-960-1ce416332ef4.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-5-1170-41cdcd9213f9.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-1-960-810f57ba7e31.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-1-320-7d48903b4ee7.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-1-640-67d135c527dc.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-1-960-810f57ba7e31.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-6-1170-992b93d4250a.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-6-320-f2a5b1e1c971.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-6-480-189d79b06877.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-6-640-ac8a523d46cb.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-6-960-6b93367db0c0.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-6-1170-992b93d4250a.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-2-960-c371043d5dc6.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-2-320-8535630c14f9.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-2-640-0783b7e1e420.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-2-960-c371043d5dc6.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-3-960-b9485b945851.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-3-320-8095838a2950.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-3-640-eec6ad7a8cfd.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-3-960-b9485b945851.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-4-960-b9d38df7fe4a.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-4-320-86866af090b1.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-4-640-1050e4091bd9.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-4-960-b9d38df7fe4a.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/html-css-template-largeDesktop-5-960-3962edc3fb86.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-template-largeDesktop-5-320-ffd21f7b1c78.webp 320w, /images/project-card-thumbnails/html-css-template-largeDesktop-5-640-01af2d1b9314.webp 640w, /images/project-card-thumbnails/html-css-template-largeDesktop-5-960-3962edc3fb86.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-template-mobile-phone-7-1170-740c52603eff.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-template-mobile-phone-7-320-e3102a672667.webp 320w, /images/project-card-thumbnails/html-css-template-mobile-phone-7-480-326b7e653f73.webp 480w, /images/project-card-thumbnails/html-css-template-mobile-phone-7-640-fe77878935c8.webp 640w, /images/project-card-thumbnails/html-css-template-mobile-phone-7-960-e5be78eded27.webp 960w, /images/project-card-thumbnails/html-css-template-mobile-phone-7-1170-740c52603eff.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "html-css-js-template": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/html-css-js-template-mobile-0-488-1d164f8eaa3e.webp",
-        "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-0-320-ce41aa109ceb.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-0-488-1d164f8eaa3e.webp 488w"
+        "src": "/images/project-card-thumbnails/html-css-js-template-mobile-card-1170-81757adaaa82.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-card-320-c633190e86b0.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-card-480-6b77b0f9d62a.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-card-640-9eb99129d7d9.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-card-960-59c9d554080f.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-card-1170-81757adaaa82.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/html-css-js-template-tablet-0-960-bb7904b256f3.webp",
-        "srcSet": "/images/project-card-thumbnails/html-css-js-template-tablet-0-320-41febf4857ba.webp 320w, /images/project-card-thumbnails/html-css-js-template-tablet-0-640-f4b1353f12b4.webp 640w, /images/project-card-thumbnails/html-css-js-template-tablet-0-960-bb7904b256f3.webp 960w"
+        "src": "/images/project-card-thumbnails/html-css-js-template-tablet-card-1600-bbacecf73aa3.webp",
+        "srcSet": "/images/project-card-thumbnails/html-css-js-template-tablet-card-320-3faaf7575a87.webp 320w, /images/project-card-thumbnails/html-css-js-template-tablet-card-480-74edae1352bd.webp 480w, /images/project-card-thumbnails/html-css-js-template-tablet-card-640-845e16c6da6c.webp 640w, /images/project-card-thumbnails/html-css-js-template-tablet-card-960-5d941a2bf8a9.webp 960w, /images/project-card-thumbnails/html-css-js-template-tablet-card-1280-58d78b6c5dd5.webp 1280w, /images/project-card-thumbnails/html-css-js-template-tablet-card-1600-bbacecf73aa3.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-0-960-a5ef4cceb644.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-0-320-bb0ca25b1426.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-0-640-a38dd92d3e58.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-0-960-a5ef4cceb644.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-0-1170-93d845e66ef8.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-0-320-f9965bbef4b9.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-0-480-cd14196565b1.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-0-640-309ec5be4f38.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-0-960-1a6a6ee75db1.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-0-1170-93d845e66ef8.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-1-960-c51846e47339.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-1-320-6b1c89355d58.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-1-640-314e6f28296c.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-1-960-c51846e47339.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-1-1170-47843d1bc181.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-1-320-9331359651a7.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-1-480-5e31622616a1.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-1-640-237146541023.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-1-960-13a6aaf46faa.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-1-1170-47843d1bc181.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-2-960-35175e2a20fd.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-2-320-35080532847f.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-2-640-b9ffaf7bef38.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-2-960-35175e2a20fd.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-2-1170-f7645d8cc0b0.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-2-320-4fe5f53d90cc.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-2-480-9a5a828414eb.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-2-640-74631e1ea13d.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-2-960-6e5d7d6e4325.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-2-1170-f7645d8cc0b0.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-3-960-0156025c129c.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-3-320-b8cf4fb91d34.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-3-640-b6bf61068319.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-3-960-0156025c129c.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-3-1170-81757adaaa82.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-3-320-c633190e86b0.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-3-480-6b77b0f9d62a.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-3-640-9eb99129d7d9.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-3-960-59c9d554080f.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-3-1170-81757adaaa82.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-4-960-d4b2a40edbff.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-4-320-d68fb3c3b26b.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-4-640-b139c49c11c2.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-4-960-d4b2a40edbff.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-4-1170-ce456e073454.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-4-320-07e9fbb77e87.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-4-480-07d11c2f8ef4.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-4-640-7f423feda6fa.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-4-960-a916cc4b1bff.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-4-1170-ce456e073454.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-desktop-5-960-650b33d02941.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-desktop-5-320-a8f0778d5c03.webp 320w, /images/project-card-thumbnails/html-css-js-template-desktop-5-640-ab2d52b48490.webp 640w, /images/project-card-thumbnails/html-css-js-template-desktop-5-960-650b33d02941.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-0-960-e377de6d2071.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-0-320-09716dba437d.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-0-640-d2e09edf97cc.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-0-960-e377de6d2071.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-5-1170-02118af9d4f3.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-5-320-ed58b9ad7777.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-5-480-5daca15a2723.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-5-640-548d47647e9a.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-5-960-2bb0d8ed9e31.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-5-1170-02118af9d4f3.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-1-960-291317a44d4b.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-1-320-cb85d9a142d1.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-1-640-3629d850af51.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-1-960-291317a44d4b.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-6-1170-87e85635f88d.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-6-320-849b9e2a41ee.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-6-480-b6ffdc0ebaec.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-6-640-7a8d6ecd7819.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-6-960-b4fbfe91eda1.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-6-1170-87e85635f88d.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-2-960-bf81a4f5a8fe.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-2-320-e30d735e28b5.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-2-640-27063610d49a.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-2-960-bf81a4f5a8fe.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-3-960-d5721ae07aba.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-3-320-11d4753cbc0d.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-3-640-98ac730069b2.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-3-960-d5721ae07aba.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-4-960-cebae3a3577c.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-4-320-15e9522eaa78.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-4-640-5adff8ec8cf3.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-4-960-cebae3a3577c.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-5-960-f18afd2848a9.webp",
-          "srcSet": "/images/project-card-thumbnails/html-css-js-template-largeDesktop-5-320-aed44d91900b.webp 320w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-5-640-33f2d2b60d4e.webp 640w, /images/project-card-thumbnails/html-css-js-template-largeDesktop-5-960-f18afd2848a9.webp 960w"
+          "src": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-7-1170-a8a91065fb6c.webp",
+          "srcSet": "/images/project-card-thumbnails/html-css-js-template-mobile-phone-7-320-fc97689a67f4.webp 320w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-7-480-e720d4e4435f.webp 480w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-7-640-3500b0a5443b.webp 640w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-7-960-b842160c1f4d.webp 960w, /images/project-card-thumbnails/html-css-js-template-mobile-phone-7-1170-a8a91065fb6c.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "bootstrap-3-template": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-0-488-738f79dd83d0.webp",
-        "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-0-320-ab51db44793c.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-0-488-738f79dd83d0.webp 488w"
+        "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-card-1170-21dec9996bc1.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-card-320-9f078c58c746.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-card-480-d3611a13b236.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-card-640-70e87e4db5fa.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-card-960-68d467358cb7.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-card-1170-21dec9996bc1.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/bootstrap-3-template-tablet-0-960-5ea0f7cefd91.webp",
-        "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-tablet-0-320-1a3de75d1350.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-tablet-0-640-faf71717db40.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-tablet-0-960-5ea0f7cefd91.webp 960w"
+        "src": "/images/project-card-thumbnails/bootstrap-3-template-tablet-card-1600-1398bde76c3e.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-tablet-card-320-29da744cc1ad.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-tablet-card-480-803e0f923cce.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-tablet-card-640-fcd0c2bd1a3b.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-tablet-card-960-db383349f730.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-tablet-card-1280-64e8b63e2dd8.webp 1280w, /images/project-card-thumbnails/bootstrap-3-template-tablet-card-1600-1398bde76c3e.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-0-960-1b4f913636b8.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-0-320-60331f889241.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-0-640-377c5a1e0df4.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-0-960-1b4f913636b8.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-0-1170-aa7d4e3b0e21.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-0-320-3b75d96bbd19.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-0-480-8efa07314c45.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-0-640-d4bc766d390f.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-0-960-d043b6357906.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-0-1170-aa7d4e3b0e21.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-1-960-46e4bb91a0fb.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-1-320-ed50c69bf472.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-1-640-d98070375a18.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-1-960-46e4bb91a0fb.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-1-1170-ca72af20c38e.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-1-320-b66f6d89d584.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-1-480-c2d9ee7f3875.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-1-640-7e933605ac13.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-1-960-331554d44f77.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-1-1170-ca72af20c38e.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-2-960-d87f1e58dd99.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-2-320-94981bc8db02.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-2-640-419f04143faf.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-2-960-d87f1e58dd99.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-2-1170-b27f2a2527db.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-2-320-51d5d05cc04f.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-2-480-340f30d95b85.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-2-640-2a29e8ce67a7.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-2-960-36b467be9543.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-2-1170-b27f2a2527db.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-3-960-702a22e16c26.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-3-320-054545c86fd0.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-3-640-e4d20e4e60c9.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-3-960-702a22e16c26.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-3-1170-21dec9996bc1.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-3-320-9f078c58c746.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-3-480-d3611a13b236.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-3-640-70e87e4db5fa.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-3-960-68d467358cb7.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-3-1170-21dec9996bc1.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-4-960-0eff311c5aa0.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-4-320-30206d09d513.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-4-640-e775dd07ad9f.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-4-960-0eff311c5aa0.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-4-1170-ae76b16dd3b9.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-4-320-2c3304ce2c5b.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-4-480-9c9ace07cc74.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-4-640-3497975c27fc.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-4-960-1fd3e99a33cd.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-4-1170-ae76b16dd3b9.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-desktop-5-960-61139e75f1b1.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-desktop-5-320-f96908470c5c.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-desktop-5-640-fcbf7205e2f5.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-desktop-5-960-61139e75f1b1.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-960-31e8195d4dc6.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-320-4a646daeb587.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-640-8f344634cab2.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-0-960-31e8195d4dc6.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-5-1170-10eecfa7db78.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-5-320-1800d64bafb8.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-5-480-0b3d5317327f.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-5-640-3c34bea7bb9b.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-5-960-0ca9d79b98ee.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-5-1170-10eecfa7db78.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-960-80972720776f.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-320-6ef3b1ab1992.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-640-df10ad477540.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-1-960-80972720776f.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-6-1170-d21c891e61ba.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-6-320-eeda064a964f.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-6-480-2779cf383d08.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-6-640-d7cbac87b5fe.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-6-960-ddd2d8f48f30.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-6-1170-d21c891e61ba.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-960-f8e0f2fd2557.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-320-13cae263a2db.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-640-2cbc159c240b.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-2-960-f8e0f2fd2557.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-960-8cbe8c520aa9.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-320-5f5dba86fe0a.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-640-c7ce21393154.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-3-960-8cbe8c520aa9.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-960-938d0e0b383b.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-320-c71c32c28a3a.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-640-a50b1cc5199a.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-4-960-938d0e0b383b.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-960-d5bfe5bb533d.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-320-80a2fd9cae8d.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-640-efaa0bdabba0.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-largeDesktop-5-960-d5bfe5bb533d.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-7-1170-c4927048031c.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-3-template-mobile-phone-7-320-aa277964462e.webp 320w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-7-480-1e55924c60e0.webp 480w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-7-640-b44630e336fd.webp 640w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-7-960-05a583426320.webp 960w, /images/project-card-thumbnails/bootstrap-3-template-mobile-phone-7-1170-c4927048031c.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "bootstrap-4-template": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-0-488-ef15079ede76.webp",
-        "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-0-320-574ac6a9658d.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-0-488-ef15079ede76.webp 488w"
+        "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-card-1170-405b7af30049.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-card-320-864baee91530.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-card-480-e67280b48b85.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-card-640-bf5418d4eceb.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-card-960-8070be2f08fb.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-card-1170-405b7af30049.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/bootstrap-4-template-tablet-0-960-e8c3f46205fc.webp",
-        "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-tablet-0-320-294a832e5fac.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-tablet-0-640-781426ae3a29.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-tablet-0-960-e8c3f46205fc.webp 960w"
+        "src": "/images/project-card-thumbnails/bootstrap-4-template-tablet-card-1600-90b81ea36b02.webp",
+        "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-tablet-card-320-ba034c03f0b0.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-tablet-card-480-2f656fadded8.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-tablet-card-640-5b8bedcdaed3.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-tablet-card-960-b6242e0b6a8d.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-tablet-card-1280-76fb409e3443.webp 1280w, /images/project-card-thumbnails/bootstrap-4-template-tablet-card-1600-90b81ea36b02.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-0-960-9f14bf12def3.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-0-320-7a9a7dcc08cb.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-0-640-561c88a2f7c5.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-0-960-9f14bf12def3.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-0-1170-644f7aed7a1a.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-0-320-659f7c69db0f.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-0-480-1c2004f6ef30.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-0-640-6ee6c815dc6b.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-0-960-af1e6e306b3b.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-0-1170-644f7aed7a1a.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-1-960-3f5d9a762389.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-1-320-07d51641ecd9.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-1-640-c5f1db95277f.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-1-960-3f5d9a762389.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-1-1170-44b4d385205b.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-1-320-f2f56cf3df61.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-1-480-f01a1f965825.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-1-640-5fb504b48a8c.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-1-960-3c37dd0751b1.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-1-1170-44b4d385205b.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-2-960-13a0683d49a3.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-2-320-1e1abfffb1e3.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-2-640-fd802116f872.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-2-960-13a0683d49a3.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-2-1170-02dfa8b80305.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-2-320-528e57ab53b0.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-2-480-768ff138582f.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-2-640-290c10bc716a.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-2-960-2f685cb67322.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-2-1170-02dfa8b80305.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-3-960-24d94d76ddae.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-3-320-0a0dcf09472b.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-3-640-63e2834b8161.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-3-960-24d94d76ddae.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-3-1170-405b7af30049.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-3-320-864baee91530.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-3-480-e67280b48b85.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-3-640-bf5418d4eceb.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-3-960-8070be2f08fb.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-3-1170-405b7af30049.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-4-960-5e12d753642c.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-4-320-398afe01f2c0.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-4-640-c2c947c21552.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-4-960-5e12d753642c.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-4-1170-235073f7624d.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-4-320-f812c559dd81.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-4-480-869e1ac5fe9b.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-4-640-07437fd44e79.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-4-960-36f176b02629.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-4-1170-235073f7624d.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-desktop-5-960-f25a65439e01.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-desktop-5-320-94a539d7ccdf.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-desktop-5-640-77e9b83694df.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-desktop-5-960-f25a65439e01.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-960-e1cfec8627d9.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-320-00b9a9c6016b.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-640-f252f7f0d3dc.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-0-960-e1cfec8627d9.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-5-1170-b81e01f2aa38.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-5-320-241e647b0dc8.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-5-480-f8ba5cb48ddc.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-5-640-7d77c3d3d645.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-5-960-893cd8fca147.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-5-1170-b81e01f2aa38.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-960-7f24de69e10a.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-320-6a8f726f3cc1.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-640-45e26cf624c3.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-1-960-7f24de69e10a.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-6-1170-6dbc99018b59.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-6-320-08081fb2f4f3.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-6-480-1387877d5e2c.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-6-640-8a2db8f0e2c4.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-6-960-c7418b429fa5.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-6-1170-6dbc99018b59.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-960-433e7cf64db8.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-320-a71645ed03ae.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-640-7a668fcfa56c.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-2-960-433e7cf64db8.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-960-24e3eb74dffb.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-320-545d1b740669.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-640-189109fda0ca.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-3-960-24e3eb74dffb.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-960-43ab682b5073.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-320-26c4258a294d.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-640-211f7eeb6033.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-4-960-43ab682b5073.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-960-4838bf7da011.webp",
-          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-320-76522a976f89.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-640-73976cd2f117.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-largeDesktop-5-960-4838bf7da011.webp 960w"
+          "src": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-7-1170-831e807f54a0.webp",
+          "srcSet": "/images/project-card-thumbnails/bootstrap-4-template-mobile-phone-7-320-d7da01117356.webp 320w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-7-480-78f0a17ffdc2.webp 480w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-7-640-056beed80cf2.webp 640w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-7-960-6856396d6743.webp 960w, /images/project-card-thumbnails/bootstrap-4-template-mobile-phone-7-1170-831e807f54a0.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     },
     "movie-search": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/movie-search-mobile-0-488-78797bcd5a21.webp",
-        "srcSet": "/images/project-card-thumbnails/movie-search-mobile-0-320-2be509a5fbdc.webp 320w, /images/project-card-thumbnails/movie-search-mobile-0-488-78797bcd5a21.webp 488w"
+        "src": "/images/project-card-thumbnails/movie-search-mobile-card-1170-1e4ad9a1c396.webp",
+        "srcSet": "/images/project-card-thumbnails/movie-search-mobile-card-320-b4bdb3ace5a4.webp 320w, /images/project-card-thumbnails/movie-search-mobile-card-480-a42674e65c11.webp 480w, /images/project-card-thumbnails/movie-search-mobile-card-640-aa5c48bb87ce.webp 640w, /images/project-card-thumbnails/movie-search-mobile-card-960-6c06bba877d9.webp 960w, /images/project-card-thumbnails/movie-search-mobile-card-1170-1e4ad9a1c396.webp 1170w",
+        "width": 1170,
+        "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/movie-search-tablet-0-960-a355c56a265a.webp",
-        "srcSet": "/images/project-card-thumbnails/movie-search-tablet-0-320-eda565e77da3.webp 320w, /images/project-card-thumbnails/movie-search-tablet-0-640-6ba6b20b6b2f.webp 640w, /images/project-card-thumbnails/movie-search-tablet-0-960-a355c56a265a.webp 960w"
+        "src": "/images/project-card-thumbnails/movie-search-tablet-card-1600-939650a4017a.webp",
+        "srcSet": "/images/project-card-thumbnails/movie-search-tablet-card-320-69abc40759be.webp 320w, /images/project-card-thumbnails/movie-search-tablet-card-480-d7460f4c98c3.webp 480w, /images/project-card-thumbnails/movie-search-tablet-card-640-88d3442c3ba9.webp 640w, /images/project-card-thumbnails/movie-search-tablet-card-960-d16f4b99de1f.webp 960w, /images/project-card-thumbnails/movie-search-tablet-card-1280-67e1bee4d530.webp 1280w, /images/project-card-thumbnails/movie-search-tablet-card-1600-939650a4017a.webp 1600w",
+        "width": 1600,
+        "height": 2000
       },
-      "desktop": [
+      "phone": [
         {
-          "src": "/images/project-card-thumbnails/movie-search-desktop-0-960-e344cff196ee.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-0-320-e7a1be663790.webp 320w, /images/project-card-thumbnails/movie-search-desktop-0-640-a79153cd153c.webp 640w, /images/project-card-thumbnails/movie-search-desktop-0-960-e344cff196ee.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-0-1170-042de6acaaa5.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-0-320-8f478e2e9054.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-0-480-1a5c2f66775b.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-0-640-3904abd0bb8c.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-0-960-de3a7b3345a7.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-0-1170-042de6acaaa5.webp 1170w",
+          "width": 1170,
+          "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-desktop-1-960-a02644142486.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-1-320-a175743829e5.webp 320w, /images/project-card-thumbnails/movie-search-desktop-1-640-a24352d05e52.webp 640w, /images/project-card-thumbnails/movie-search-desktop-1-960-a02644142486.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-1-1170-b38ccd4cae88.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-1-320-f589f6576883.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-1-480-e4956725ad5f.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-1-640-b3be6e18b714.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-1-960-d195db0a2712.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-1-1170-b38ccd4cae88.webp 1170w",
+          "width": 1170,
+          "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-desktop-2-960-793d17c4b6f8.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-2-320-f567435be3e6.webp 320w, /images/project-card-thumbnails/movie-search-desktop-2-640-5bfbbdd4da24.webp 640w, /images/project-card-thumbnails/movie-search-desktop-2-960-793d17c4b6f8.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-2-1170-52334eeb582c.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-2-320-ceb73c5a8507.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-2-480-9b26810900b3.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-2-640-31ec59c877b0.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-2-960-df70b558f1d5.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-2-1170-52334eeb582c.webp 1170w",
+          "width": 1170,
+          "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-desktop-3-960-00be1e0a011e.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-3-320-9e7b25758b2d.webp 320w, /images/project-card-thumbnails/movie-search-desktop-3-640-795e728a33ad.webp 640w, /images/project-card-thumbnails/movie-search-desktop-3-960-00be1e0a011e.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-3-1170-1e4ad9a1c396.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-3-320-b4bdb3ace5a4.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-3-480-a42674e65c11.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-3-640-aa5c48bb87ce.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-3-960-6c06bba877d9.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-3-1170-1e4ad9a1c396.webp 1170w",
+          "width": 1170,
+          "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-desktop-4-960-33e1b0a55fa9.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-4-320-c8985bf0f9a4.webp 320w, /images/project-card-thumbnails/movie-search-desktop-4-640-cbb031257894.webp 640w, /images/project-card-thumbnails/movie-search-desktop-4-960-33e1b0a55fa9.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-4-1170-f2c121b63b5a.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-4-320-6f526bca936e.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-4-480-b93e7fb54bd7.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-4-640-af8da3c2c049.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-4-960-1c59c3b7f08b.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-4-1170-f2c121b63b5a.webp 1170w",
+          "width": 1170,
+          "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-desktop-5-960-432b0b5d9fd1.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-desktop-5-320-24b70cca155f.webp 320w, /images/project-card-thumbnails/movie-search-desktop-5-640-76525c1188e7.webp 640w, /images/project-card-thumbnails/movie-search-desktop-5-960-432b0b5d9fd1.webp 960w"
-        }
-      ],
-      "largeDesktop": [
-        {
-          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-0-960-dede4d77f400.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-0-320-25b8df241029.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-0-640-fd70e4b1f373.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-0-960-dede4d77f400.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-5-1170-21bbac2f8750.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-5-320-6479ea96f670.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-5-480-6ecb7cc52b16.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-5-640-febd0414e32e.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-5-960-c37391aa798c.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-5-1170-21bbac2f8750.webp 1170w",
+          "width": 1170,
+          "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-1-960-1889d76684ef.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-1-320-09100029b625.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-1-640-0a39261aac1e.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-1-960-1889d76684ef.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-6-1170-f77aa88c2e60.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-6-320-37000fa931e5.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-6-480-cc289043d843.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-6-640-f6e256584b98.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-6-960-4204a16eaec1.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-6-1170-f77aa88c2e60.webp 1170w",
+          "width": 1170,
+          "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-2-960-66b08058bbb1.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-2-320-234935a0ed2f.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-2-640-d536d0c69456.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-2-960-66b08058bbb1.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-3-960-24070fee77dc.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-3-320-5e61da888597.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-3-640-baa81e1f60e3.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-3-960-24070fee77dc.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-4-960-51cccd6d8f92.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-4-320-8bf0506130c0.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-4-640-bc731989ed85.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-4-960-51cccd6d8f92.webp 960w"
-        },
-        {
-          "src": "/images/project-card-thumbnails/movie-search-largeDesktop-5-960-12388c4a6e6b.webp",
-          "srcSet": "/images/project-card-thumbnails/movie-search-largeDesktop-5-320-fcc798eb1661.webp 320w, /images/project-card-thumbnails/movie-search-largeDesktop-5-640-b97107500e0b.webp 640w, /images/project-card-thumbnails/movie-search-largeDesktop-5-960-12388c4a6e6b.webp 960w"
+          "src": "/images/project-card-thumbnails/movie-search-mobile-phone-7-1170-204c567ad10e.webp",
+          "srcSet": "/images/project-card-thumbnails/movie-search-mobile-phone-7-320-f4ac76d3168e.webp 320w, /images/project-card-thumbnails/movie-search-mobile-phone-7-480-4280a09a5942.webp 480w, /images/project-card-thumbnails/movie-search-mobile-phone-7-640-ef529d2aa86c.webp 640w, /images/project-card-thumbnails/movie-search-mobile-phone-7-960-082b1df82d38.webp 960w, /images/project-card-thumbnails/movie-search-mobile-phone-7-1170-204c567ad10e.webp 1170w",
+          "width": 1170,
+          "height": 878
         }
       ]
     }

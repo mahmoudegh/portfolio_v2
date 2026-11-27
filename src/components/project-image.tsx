@@ -3,17 +3,19 @@ export type ResponsiveProjectCardImage = {
   srcSet: string;
 };
 
-export type ProjectDetailHeroImageSet = Record<"mobile" | "tablet" | "desktop" | "largeDesktop", ResponsiveProjectCardImage | null>;
-
 export type ProjectCardImageSet = {
   mobile: ResponsiveProjectCardImage | null;
   tablet: ResponsiveProjectCardImage | null;
-  desktop: ResponsiveProjectCardImage[];
-  largeDesktop: ResponsiveProjectCardImage[];
+  phone: ResponsiveProjectCardImage[];
 };
 
+export type ProjectDetailHeroImageSet = Record<"mobile" | "tablet" | "desktop" | "largeDesktop", ResponsiveProjectCardImage | null>;
+
 const projectCardImageSizes =
-  "(max-width: 639px) calc((100vw - 44px) / 2), (max-width: 767px) calc((100vw - 60px) / 2), (max-width: 1023px) calc((100vw - 64px) / 2), (max-width: 1919px) calc((100vw - 64px) / 3), calc((100vw - 80px) / 4)";
+  "(max-width: 639px) calc((100vw - 44px) / 2), (max-width: 767px) calc((100vw - 60px) / 2), (max-width: 1023px) calc((100vw - 64px) / 2), (max-width: 1919px) calc((100vw - 80px) / 3), calc((100vw - 96px) / 4)";
+
+const projectDetailHeroImageSizes =
+  "(max-width: 639px) calc(100vw - 2rem), calc(100vw - 3rem)";
 
 export function ProjectDetailHeroImage({
   images,
@@ -41,18 +43,18 @@ export function ProjectDetailHeroImage({
   return (
     <picture className="block h-full w-full">
       {images.largeDesktop && (
-        <source media="(min-width: 1440px)" srcSet={images.largeDesktop.srcSet} sizes="100vw" />
+        <source media="(min-width: 1440px)" srcSet={images.largeDesktop.srcSet} sizes={projectDetailHeroImageSizes} />
       )}
       {images.desktop && (
-        <source media="(min-width: 1024px)" srcSet={images.desktop.srcSet} sizes="100vw" />
+        <source media="(min-width: 1024px)" srcSet={images.desktop.srcSet} sizes={projectDetailHeroImageSizes} />
       )}
       {images.tablet && (
-        <source media="(min-width: 768px)" srcSet={images.tablet.srcSet} sizes="100vw" />
+        <source media="(min-width: 768px)" srcSet={images.tablet.srcSet} sizes={projectDetailHeroImageSizes} />
       )}
       <img
         src={images.mobile.src}
         srcSet={images.mobile.srcSet}
-        sizes="100vw"
+        sizes={projectDetailHeroImageSizes}
         alt={alt}
         className={className}
         loading="eager"
@@ -80,7 +82,9 @@ export function ProjectCardImage({
   ratioIndex: number;
   eager?: boolean;
 }) {
-  if (!images?.mobile) {
+  const image = images?.phone?.[ratioIndex] ?? images?.phone?.[0] ?? null;
+
+  if (!image) {
     return (
       <div aria-hidden="true" className="project-image-placeholder h-full w-full" style={{ height: "100%" }}>
         <span className="project-image-placeholder-mark">MG</span>
@@ -90,28 +94,16 @@ export function ProjectCardImage({
     );
   }
 
-  const desktop = images.desktop[ratioIndex] ?? images.desktop[0];
-  const largeDesktop = images.largeDesktop[ratioIndex] ?? images.largeDesktop[0];
-
   return (
-    <picture className="block h-full w-full">
-      {largeDesktop && (
-        <source media="(min-width: 1440px)" srcSet={largeDesktop.srcSet} sizes={projectCardImageSizes} />
-      )}
-      {desktop && <source media="(min-width: 1024px)" srcSet={desktop.srcSet} sizes={projectCardImageSizes} />}
-      {images.tablet && (
-        <source media="(min-width: 768px)" srcSet={images.tablet.srcSet} sizes={projectCardImageSizes} />
-      )}
-      <img
-        src={images.mobile.src}
-        srcSet={images.mobile.srcSet}
-        sizes={projectCardImageSizes}
-        alt={alt}
-        className={className}
-        loading={eager ? "eager" : "lazy"}
-        fetchPriority={eager ? "high" : "auto"}
-        decoding="async"
-      />
-    </picture>
+    <img
+      src={image.src}
+      srcSet={image.srcSet}
+      sizes={projectCardImageSizes}
+      alt={alt}
+      className={className}
+      loading={eager ? "eager" : "lazy"}
+      fetchPriority={eager ? "high" : "auto"}
+      decoding="async"
+    />
   );
 }

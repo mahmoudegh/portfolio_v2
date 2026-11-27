@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     url: `${site.url}/mahmoud_galal_frontend_web_developer_cv`,
     title,
     description,
-    images: [{ url: "/images/cv_link.jpg", alt: "Download Mahmoud Galal’s CV" }],
+    images: [{ url: "/images/cv_link.jpg", alt: "Download Mahmoud Galal’s CV", width: 1200, height: 630 }],
   },
-  twitter: { card: "summary_large_image", title, description, images: ["/images/cv_link.jpg"] },
+  twitter: { card: "summary_large_image", title, description, images: [{ url: "/images/cv_link.jpg", width: 1200, height: 630 }] },
 };
 
 export default function DownloadCvPage() {

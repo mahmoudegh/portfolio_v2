@@ -10,7 +10,7 @@ import { ProjectCardImage, type ProjectCardImageSet } from "@/src/components/pro
 type ListingProject = Pick<Project, "id" | "slug" | "title" | "category" | "status" | "imageAlt"> & {
   cardImages: ProjectCardImageSet | null;
 };
-const desktopImageRatios = ["4 / 5", "3 / 4", "4 / 3", "1 / 1", "5 / 4", "2 / 3"];
+const desktopImageRatios = ["1 / 2", "2 / 3", "3 / 4", "4 / 5", "5 / 6", "1 / 1", "6 / 5", "4 / 3"];
 
 export function WorkListing({
   locale,
@@ -74,7 +74,7 @@ function ProjectCard({
   isVisible: boolean;
 }) {
   const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : project.imageAlt;
-  const ratioIndex = project.slug === "deepmarks" ? 2 : index % desktopImageRatios.length;
+  const ratioIndex = index % desktopImageRatios.length;
 
   return (
     <Link

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "hyundai-jordan": "/images/project-share/hyundai-jordan.jpg",
+    "payit-card": "/images/project-share/payit-card.jpg",
+    "deepmarks": "/images/project-share/deepmarks.jpg",
+    "intwitch-live": "/images/project-share/intwitch-live.jpg",
+    "nile-sun-cruises": "/images/project-share/nile-sun-cruises.jpg",
+    "html-css-template": "/images/project-share/html-css-template.jpg",
+    "html-css-js-template": "/images/project-share/html-css-js-template.jpg",
+    "bootstrap-3-template": "/images/project-share/bootstrap-3-template.jpg",
+    "bootstrap-4-template": "/images/project-share/bootstrap-4-template.jpg",
+    "movie-search": "/images/project-share/movie-search.jpg"
+  }
+}

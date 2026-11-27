@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     url: `${site.url}/mahmoud_galal_frontend_web_developer_cv.pdf`,
     title,
     description,
-    images: [{ url: "/images/cv_link.jpg", alt: "Mahmoud Galal CV preview" }],
+    images: [{ url: "/images/cv_link.jpg", alt: "Mahmoud Galal CV preview", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: [{ url: "/images/cv_link.jpg", alt: "Mahmoud Galal CV preview" }],
+    images: [{ url: "/images/cv_link.jpg", alt: "Mahmoud Galal CV preview", width: 1200, height: 630 }],
   },
 };
 

@@ -1,89 +1,108 @@
 import { createHash } from "node:crypto";
 import { existsSync } from "node:fs";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import sharp from "sharp";
+import {
+  cardPhoneWidths,
+  cardWidths,
+  largestEntry,
+  nileSlug,
+  nileTabletCardRatio,
+  planWidths,
+  projectsPath,
+  sourceNames,
+  sourceRoot,
+  toSrcSet,
+} from "./project-image-config.mjs";
 
 const root = process.cwd();
-const projectDataPath = join(root, "content", "projects.json");
 const outputDirectory = join(root, "public", "images", "project-card-thumbnails");
 const manifestPath = join(root, "src", "data", "project-card-image-manifest.json");
-const widths = [320, 640, 960];
-const ratios = [4 / 5, 3 / 4, 4 / 3, 1, 5 / 4, 2 / 3];
-const sourceNames = {
-  mobile: ["mobile", "tablet", "desktop", "large-desktop"],
-  tablet: ["tablet", "mobile", "desktop", "large-desktop"],
-  desktop: ["desktop", "tablet", "large-desktop", "mobile"],
-  largeDesktop: ["large-desktop", "desktop", "tablet", "mobile"],
-};
+const phoneCardRatios = [1 / 2, 2 / 3, 3 / 4, 4 / 5, 5 / 6, 1, 6 / 5, 4 / 3];
 
-const source = JSON.parse(await readFile(projectDataPath, "utf8"));
+const source = JSON.parse(await readFile(projectsPath, "utf8"));
 const projects = source.projects.filter((project) => project.isVisible);
 const manifest = { projects: {} };
+const written = new Set();
+
 await mkdir(outputDirectory, { recursive: true });
 
 async function findSource(slug, preferredNames) {
   for (const name of preferredNames) {
-    const path = join(root, "public", "images", "projects", slug, `${name}.webp`);
+    const path = join(sourceRoot, slug, `${name}.webp`);
     if (existsSync(path)) return path;
   }
   return null;
 }
 
-async function createCrop(slug, variant, ratioIndex, sourcePath, ratio) {
-  if (!sourcePath) return null;
-  const metadata = await sharp(sourcePath).metadata();
-  const sourceWidth = metadata.width;
-  if (!sourceWidth || !metadata.height) return null;
-
-  const outputWidths = widths.filter((width) => width <= sourceWidth);
-  if (sourceWidth < widths[widths.length - 1] && !outputWidths.includes(sourceWidth)) {
-    outputWidths.push(sourceWidth);
-  }
-  if (!outputWidths.length) outputWidths.push(sourceWidth);
+async function createCrop(slug, variant, label, sourcePath, metadata, ratio, ladder) {
   const entries = [];
 
-  for (const width of outputWidths) {
-    const height = Math.max(1, Math.round(width / ratio));
+  for (const { width, height } of planWidths({
+    sourceWidth: metadata.width,
+    sourceHeight: metadata.height,
+    ratio,
+    ladder,
+    maxWidth: ladder[ladder.length - 1],
+  })) {
     const buffer = await sharp(sourcePath)
-      .resize(width, height, { fit: "cover", position: "top", withoutEnlargement: true })
-      .webp({ quality: 74, effort: 5, smartSubsample: true })
+      .resize(width, height, { fit: "cover", position: "left top" })
+      .webp({ quality: 86, effort: 6, smartSubsample: true })
       .toBuffer();
     const hash = createHash("sha256").update(buffer).digest("hex").slice(0, 12);
-    const filename = `${slug}-${variant}-${ratioIndex}-${width}-${hash}.webp`;
+    const filename = `${slug}-${variant}-${label}-${width}-${hash}.webp`;
     await writeFile(join(outputDirectory, filename), buffer);
-    entries.push({ width, src: `/images/project-card-thumbnails/${filename}` });
+    written.add(filename);
+    entries.push({ width, height, src: `/images/project-card-thumbnails/${filename}` });
   }
 
-  const largest = entries[entries.length - 1];
+  const largest = largestEntry(entries);
   return {
     src: largest.src,
-    srcSet: entries.map((entry) => `${entry.src} ${entry.width}w`).join(", "),
+    srcSet: toSrcSet(entries),
+    width: largest.width,
+    height: largest.height,
   };
 }
 
 for (const project of projects) {
-  const imageSet = {};
-  for (const [variant, fallbackNames] of Object.entries(sourceNames)) {
-    const imagePath = await findSource(project.slug, fallbackNames);
-    if (variant === "mobile" || variant === "tablet") {
-      const ratio = project.slug === "nile-sun-cruises" && variant === "tablet" ? 1277 / 790 : 4 / 5;
-      imageSet[variant] = await createCrop(project.slug, variant, 0, imagePath, ratio);
-      continue;
-    }
+  const imageSet = { mobile: null, tablet: null, phone: [] };
 
-    const selectedPath = await findSource(project.slug, fallbackNames);
-    imageSet[variant] = [];
-    const projectRatios = project.slug === "nile-sun-cruises"
-      ? ratios.map(() => variant === "largeDesktop" ? 1600 / 703 : 1277 / 790)
-      : ratios;
-    for (const [ratioIndex, ratio] of projectRatios.entries()) {
-      imageSet[variant].push(await createCrop(project.slug, variant, ratioIndex, selectedPath, ratio));
+  const mobilePath = await findSource(project.slug, sourceNames.mobile);
+  const tabletPath = await findSource(project.slug, sourceNames.tablet);
+
+  if (mobilePath) {
+    const metadata = await sharp(mobilePath).metadata();
+    if (metadata.width && metadata.height) {
+      imageSet.mobile = await createCrop(project.slug, "mobile", "card", mobilePath, metadata, 4 / 5, cardWidths);
+
+      // The desktop card shows the phone view, cropped only to portrait card ratios so the layout stays masonry.
+      for (const [ratioIndex, ratio] of phoneCardRatios.entries()) {
+        imageSet.phone.push(
+          await createCrop(project.slug, "mobile", `phone-${ratioIndex}`, mobilePath, metadata, ratio, cardPhoneWidths),
+        );
+      }
     }
   }
+
+  if (tabletPath) {
+    const metadata = await sharp(tabletPath).metadata();
+    if (metadata.width && metadata.height) {
+      const ratio = project.slug === nileSlug ? nileTabletCardRatio : 4 / 5;
+      imageSet.tablet = await createCrop(project.slug, "tablet", "card", tabletPath, metadata, ratio, cardWidths);
+    }
+  }
+
   manifest.projects[project.slug] = imageSet;
+}
+
+for (const file of await readdir(outputDirectory)) {
+  if (file.endsWith(".webp") && !written.has(file)) {
+    await rm(join(outputDirectory, file));
+  }
 }
 
 await mkdir(dirname(manifestPath), { recursive: true });
 await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-console.log(`Generated responsive card images for ${projects.length} visible projects.`);
+console.log(`Generated ${written.size} responsive card images for ${projects.length} visible projects.`);

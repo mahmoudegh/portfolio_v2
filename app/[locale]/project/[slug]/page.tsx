@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/src/components/header";
 import { Icon } from "@/src/components/icon";
 import { getProjectBySlug, getVisibleProjects, isLocale, site } from "@/src/data/site";
-import { getProjectDetailHeroImageSet, getProjectImageSet } from "@/src/data/project-images.server";
+import { getProjectDetailHeroImageSet, getProjectShareImage } from "@/src/data/project-images.server";
 import { getMessages } from "@/src/data/translations";
 import { ProjectDetailHeroImage } from "@/src/components/project-image";
 
@@ -20,11 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!isLocale(rawLocale)) notFound();
   const project = getProjectBySlug(slug);
   if (!project) notFound();
-  const projectImages = getProjectImageSet(project.slug);
-  const projectShareImage = getProjectDetailHeroImageSet(project.slug)?.largeDesktop?.src
-    ?? projectImages.largeDesktop
-    ?? projectImages.desktop
-    ?? "/images/site_sharing.jpg";
+  const projectShareImage = getProjectShareImage(project.slug) ?? "/images/site_sharing.jpg";
 
   const isArabic = rawLocale === "ar";
   const ownerName = isArabic ? "محمود جلال" : site.name;
@@ -52,14 +48,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: [{ url: projectShareImage, alt: `${project.title} project screenshot` }],
+      images: [{
+        url: projectShareImage,
+        alt: `${project.title} project screenshot`,
+        width: 1200,
+        height: 630,
+      }],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${ownerName}`,
       description,
-      images: [{ url: projectShareImage, alt: `${project.title} project screenshot` }],
+      images: [{
+        url: projectShareImage,
+        alt: `${project.title} project screenshot`,
+        width: 1200,
+        height: 630,
+      }],
     },
   };
 }
@@ -101,7 +107,7 @@ async function ProjectPageContent({ params }: PageProps) {
       <Header locale={locale} path={`/project/${project.slug}`} />
       <main className="page-transition min-h-screen min-w-0 max-w-full overflow-x-clip bg-background">
         <section className="project-detail-hero px-4 pt-20 sm:px-6">
-          <div data-project-slug={project.slug} className="project-detail-image relative h-[40vh] overflow-hidden rounded-2xl border border-border bg-muted md:h-[80vh] md:rounded-3xl">
+          <div data-project-slug={project.slug} className="project-detail-image relative overflow-hidden rounded-2xl border border-border bg-muted md:rounded-3xl">
             <ProjectDetailHeroImage
               images={projectHeroImages}
               title={project.title}
@@ -177,7 +183,7 @@ function ProjectPageFallback() {
   return (
     <main aria-hidden="true" className="min-h-screen bg-background">
       <section className="project-detail-hero px-4 pt-20 sm:px-6">
-        <div className="relative h-[40vh] animate-pulse rounded-2xl bg-muted md:h-[80vh] md:rounded-3xl" />
+        <div className="project-detail-image-skeleton relative animate-pulse rounded-2xl bg-muted md:rounded-3xl" />
       </section>
       <section className="px-6 py-8">
         <div className="max-w-4xl space-y-5">

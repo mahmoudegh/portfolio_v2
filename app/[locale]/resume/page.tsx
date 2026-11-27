@@ -30,11 +30,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `${site.url}/${rawLocale}/resume`,
       title: `${title} | ${ownerName}`,
       description,
-      images: [{ url: "/images/cv_link.jpg", alt: isArabic ? "تحميل السيرة الذاتية لمحمود جلال" : "Mahmoud Galal CV download" }],
+      images: [{ url: "/images/cv_link.jpg", alt: isArabic ? "تحميل السيرة الذاتية لمحمود جلال" : "Mahmoud Galal CV download", width: 1200, height: 630 }],
       locale: rawLocale === "ar" ? "ar_EG" : "en_US",
       alternateLocale: rawLocale === "ar" ? ["en_US"] : ["ar_EG"],
     },
-    twitter: { card: "summary_large_image", title: `${title} | ${ownerName}`, description, images: ["/images/cv_link.jpg"] },
+    twitter: { card: "summary_large_image", title: `${title} | ${ownerName}`, description, images: [{ url: "/images/cv_link.jpg", width: 1200, height: 630 }] },
   };
 }
 

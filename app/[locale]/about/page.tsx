@@ -33,14 +33,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       locale: isArabic ? "ar_EG" : "en_US",
       alternateLocale: isArabic ? ["en_US"] : ["ar_EG"],
-      images: ["/images/site_sharing.jpg"],
+      images: [{ url: "/images/site_sharing.jpg", width: 1200, height: 630 }],
     },
     robots: process.env.VERCEL_ENV === "production" ? { index: true, follow: true } : { index: false, follow: false },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${ownerName}`,
       description,
-      images: ["/images/site_sharing.jpg"],
+      images: [{ url: "/images/site_sharing.jpg", width: 1200, height: 630 }],
     },
   };
 }

@@ -67,22 +67,14 @@ html[lang="ar"] .font-display { font-family: var(--font-cairo), Tahoma, sans-ser
 .project-card-image picture { position: absolute; inset: 0; }
 .project-card-image > .project-image-placeholder { position: absolute; inset: 0; }
 .project-card:hover .project-card-image img, .project-card:focus-visible .project-card-image img { transform: scale(1.05); }
-.project-card-image { aspect-ratio: 4 / 5; }
-@media (min-width: 768px) {
-  .project-card[data-project-slug="nile-sun-cruises"] .project-card-image { aspect-ratio: 1277 / 790; }
-}
-@media (min-width: 1024px) {
-  .project-grid .project-card[data-image-ratio="1"] .project-card-image { aspect-ratio: 3 / 4; }
-  .project-grid .project-card[data-image-ratio="2"] .project-card-image { aspect-ratio: 4 / 3; }
-  .project-grid .project-card[data-image-ratio="3"] .project-card-image { aspect-ratio: 1 / 1; }
-  .project-grid .project-card[data-image-ratio="4"] .project-card-image { aspect-ratio: 5 / 4; }
-  .project-grid .project-card[data-image-ratio="5"] .project-card-image { aspect-ratio: 2 / 3; }
-  .project-grid .project-card[data-project-slug="nile-sun-cruises"] .project-card-image { aspect-ratio: 1277 / 790; }
-}
-@media (min-width: 1440px) {
-  .project-grid .project-card[data-project-slug="nile-sun-cruises"] .project-card-image { aspect-ratio: 1600 / 703; }
-  .project-detail-image[data-project-slug="nile-sun-cruises"] { height: auto; aspect-ratio: 1600 / 703; }
-}
+.project-card-image { aspect-ratio: 1 / 2; }
+.project-grid .project-card[data-image-ratio="1"] .project-card-image { aspect-ratio: 2 / 3; }
+.project-grid .project-card[data-image-ratio="2"] .project-card-image { aspect-ratio: 3 / 4; }
+.project-grid .project-card[data-image-ratio="3"] .project-card-image { aspect-ratio: 4 / 5; }
+.project-grid .project-card[data-image-ratio="4"] .project-card-image { aspect-ratio: 5 / 6; }
+.project-grid .project-card[data-image-ratio="5"] .project-card-image { aspect-ratio: 1 / 1; }
+.project-grid .project-card[data-image-ratio="6"] .project-card-image { aspect-ratio: 6 / 5; }
+.project-grid .project-card[data-image-ratio="7"] .project-card-image { aspect-ratio: 4 / 3; }
 .project-image-placeholder {
   position: relative; display: flex; box-sizing: border-box; flex-direction: column; align-items: flex-start; justify-content: flex-end;
   gap: 0.45rem; overflow: hidden; background-color: var(--muted);
@@ -143,6 +135,13 @@ html[lang="ar"] .project-facts dt, html[lang="ar"] .popover-title { letter-spaci
 }
 .popover-title { color: var(--muted-foreground); }
 .project-detail-image { animation: fade-in-up 0.8s ease-out both; }
+.project-detail-image, .project-detail-image-skeleton { aspect-ratio: 1 / 1; }
+@media (min-width: 768px) { .project-detail-image, .project-detail-image-skeleton { aspect-ratio: 4 / 3; } }
+@media (min-width: 1024px) { .project-detail-image, .project-detail-image-skeleton { aspect-ratio: 16 / 9; } }
+@media (min-width: 1440px) {
+  .project-detail-image, .project-detail-image-skeleton { aspect-ratio: 2 / 1; }
+  .project-detail-image[data-project-slug="nile-sun-cruises"] { aspect-ratio: 1600 / 703; }
+}
 .project-facts dt, .neighbor-label { margin-bottom: 0.25rem; color: var(--muted-foreground); font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; }
 .project-facts dd { margin: 0; font-size: 0.875rem; }
 .project-actions { align-items: center; }

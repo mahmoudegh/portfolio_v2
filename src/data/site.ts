@@ -38,9 +38,6 @@ export const certificates = certificatesSource.certificates
     href: certificate.url,
   }));
 
-export type ProjectImageVariant = "mobile" | "tablet" | "desktop" | "largeDesktop";
-export type ProjectImageSet = Record<ProjectImageVariant, string | null>;
-
 export type ProjectCategory = "completed" | "development" | "practice-projects";
 
 export type Project = {
@@ -53,7 +50,6 @@ export type Project = {
   company: Record<Locale, string> | null;
   date: Record<Locale, string> | null;
   description: Record<Locale, string[] | null>;
-  images: ProjectImageSet;
   imageAlt: string;
   previewUrl: string | undefined;
   sourceUrl: string | undefined;
@@ -73,7 +69,6 @@ export const projects: Project[] = projectsSource.projects.map((project) => {
     company: project.company,
     date: project.date,
     description: project.description,
-    images: { mobile: null, tablet: null, desktop: null, largeDesktop: null },
     imageAlt: project.alt,
     previewUrl: preview,
     sourceUrl: source,
