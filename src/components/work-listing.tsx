@@ -73,8 +73,15 @@ function ProjectCard({
   text: ReturnType<typeof getMessages>;
   isVisible: boolean;
 }) {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
   const alt = locale === "ar" ? `صورة من مشروع ${project.title}` : project.imageAlt;
-  const ratioIndex = index % desktopImageRatios.length;
+  const ratioIndex = isMobile ? 3 : (index % desktopImageRatios.length);
 
   return (
     <Link
