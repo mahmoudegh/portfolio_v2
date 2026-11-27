@@ -66,63 +66,63 @@
     },
     "payit-card": {
       "mobile": {
-        "src": "/images/project-card-thumbnails/payit-card-mobile-card-1170-329bab0f7d31.webp",
-        "srcSet": "/images/project-card-thumbnails/payit-card-mobile-card-320-639c1bc4b7f0.webp 320w, /images/project-card-thumbnails/payit-card-mobile-card-480-40867f54ff3b.webp 480w, /images/project-card-thumbnails/payit-card-mobile-card-640-406b34e19fa8.webp 640w, /images/project-card-thumbnails/payit-card-mobile-card-960-8a7bf58a484d.webp 960w, /images/project-card-thumbnails/payit-card-mobile-card-1170-329bab0f7d31.webp 1170w",
+        "src": "/images/project-card-thumbnails/payit-card-mobile-card-1170-9ea537c6e0b2.webp",
+        "srcSet": "/images/project-card-thumbnails/payit-card-mobile-card-320-aca5e27b1212.webp 320w, /images/project-card-thumbnails/payit-card-mobile-card-480-87c7c4bbf0a1.webp 480w, /images/project-card-thumbnails/payit-card-mobile-card-640-e38b8794523f.webp 640w, /images/project-card-thumbnails/payit-card-mobile-card-960-9ca02c69e180.webp 960w, /images/project-card-thumbnails/payit-card-mobile-card-1170-9ea537c6e0b2.webp 1170w",
         "width": 1170,
         "height": 1463
       },
       "tablet": {
-        "src": "/images/project-card-thumbnails/payit-card-tablet-card-1600-44a4f3d6ce4f.webp",
-        "srcSet": "/images/project-card-thumbnails/payit-card-tablet-card-320-f5fec5cf47c4.webp 320w, /images/project-card-thumbnails/payit-card-tablet-card-480-d2c442229634.webp 480w, /images/project-card-thumbnails/payit-card-tablet-card-640-b87c08c7173f.webp 640w, /images/project-card-thumbnails/payit-card-tablet-card-960-07b3d048a3ec.webp 960w, /images/project-card-thumbnails/payit-card-tablet-card-1280-1c502c02efb7.webp 1280w, /images/project-card-thumbnails/payit-card-tablet-card-1600-44a4f3d6ce4f.webp 1600w",
+        "src": "/images/project-card-thumbnails/payit-card-tablet-card-1600-5121b06ddbd7.webp",
+        "srcSet": "/images/project-card-thumbnails/payit-card-tablet-card-320-db3dad9918ed.webp 320w, /images/project-card-thumbnails/payit-card-tablet-card-480-d873f2e8bc6d.webp 480w, /images/project-card-thumbnails/payit-card-tablet-card-640-74573d4482de.webp 640w, /images/project-card-thumbnails/payit-card-tablet-card-960-31fe77c7274e.webp 960w, /images/project-card-thumbnails/payit-card-tablet-card-1280-2c76787e1d37.webp 1280w, /images/project-card-thumbnails/payit-card-tablet-card-1600-5121b06ddbd7.webp 1600w",
         "width": 1600,
         "height": 2000
       },
       "phone": [
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-0-1170-3180ff701f3a.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-0-320-e09a0e3672be.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-0-480-4f0f0919f34a.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-0-640-5a9b87786410.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-0-960-2ae067f8e318.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-0-1170-3180ff701f3a.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-0-1170-9147dafb7395.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-0-320-9c60f1558f10.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-0-480-40f4734c819e.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-0-640-0658a8c1d649.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-0-960-7b41710f1ddb.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-0-1170-9147dafb7395.webp 1170w",
           "width": 1170,
           "height": 2340
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-1-1170-c87f34ce3715.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-1-320-d539b7cb1c6d.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-1-480-ed573423655f.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-1-640-b1e2b6bb1134.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-1-960-4654437c62a4.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-1-1170-c87f34ce3715.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-1-1170-568e7e7f262f.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-1-320-ede5e176d955.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-1-480-5d20fef17ac9.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-1-640-06a094a70aa5.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-1-960-aded84d6bac7.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-1-1170-568e7e7f262f.webp 1170w",
           "width": 1170,
           "height": 1755
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-2-1170-5576a24955e5.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-2-320-5f8a8c601972.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-2-480-01b674b41cf1.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-2-640-ab855d29da62.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-2-960-e8cf9143b033.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-2-1170-5576a24955e5.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-2-1170-15bc5ba07eee.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-2-320-61a045fcefdc.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-2-480-7181f5c2c0c9.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-2-640-fc3024621a40.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-2-960-872691aa7866.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-2-1170-15bc5ba07eee.webp 1170w",
           "width": 1170,
           "height": 1560
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-3-1170-329bab0f7d31.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-3-320-639c1bc4b7f0.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-3-480-40867f54ff3b.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-3-640-406b34e19fa8.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-3-960-8a7bf58a484d.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-3-1170-329bab0f7d31.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-3-1170-9ea537c6e0b2.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-3-320-aca5e27b1212.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-3-480-87c7c4bbf0a1.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-3-640-e38b8794523f.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-3-960-9ca02c69e180.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-3-1170-9ea537c6e0b2.webp 1170w",
           "width": 1170,
           "height": 1463
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-4-1170-98264c204469.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-4-320-a133f0f9bf65.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-4-480-e3c25443f923.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-4-640-86c9b137120c.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-4-960-605b56e0eacc.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-4-1170-98264c204469.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-4-1170-94f68b27943e.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-4-320-7a9688d38038.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-4-480-54ae7a7bd0e8.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-4-640-d064547b7ec7.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-4-960-ef7fb0f6ba19.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-4-1170-94f68b27943e.webp 1170w",
           "width": 1170,
           "height": 1404
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-5-1170-23e4463d14c8.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-5-320-e6c10619713e.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-5-480-c2d4ed6e62bd.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-5-640-85049f4c62b2.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-5-960-fc863a2cbec7.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-5-1170-23e4463d14c8.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-5-1170-3a795b1652c4.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-5-320-319f99bcaf6c.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-5-480-f8b9ba304254.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-5-640-05ca3e8677d6.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-5-960-b1b98a132efc.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-5-1170-3a795b1652c4.webp 1170w",
           "width": 1170,
           "height": 1170
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-6-1170-002cdf9ef223.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-6-320-beeb7f512b7c.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-6-480-631594825089.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-6-640-3e7c9ba886f5.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-6-960-0478ee23326c.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-6-1170-002cdf9ef223.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-6-1170-e116fb504729.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-6-320-955ce2b50154.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-6-480-2adb8c6c6d7f.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-6-640-21b76497772e.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-6-960-c97f72577af6.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-6-1170-e116fb504729.webp 1170w",
           "width": 1170,
           "height": 975
         },
         {
-          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-7-1170-4f4754188b19.webp",
-          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-7-320-314d1aaf06dc.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-7-480-9510fc472388.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-7-640-0b1539f418ee.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-7-960-71cafd813b16.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-7-1170-4f4754188b19.webp 1170w",
+          "src": "/images/project-card-thumbnails/payit-card-mobile-phone-7-1170-e8d7e6652200.webp",
+          "srcSet": "/images/project-card-thumbnails/payit-card-mobile-phone-7-320-2a7294b4fa9f.webp 320w, /images/project-card-thumbnails/payit-card-mobile-phone-7-480-d9eba62ab093.webp 480w, /images/project-card-thumbnails/payit-card-mobile-phone-7-640-9b9fc9b0c4f1.webp 640w, /images/project-card-thumbnails/payit-card-mobile-phone-7-960-50484a1f887e.webp 960w, /images/project-card-thumbnails/payit-card-mobile-phone-7-1170-e8d7e6652200.webp 1170w",
           "width": 1170,
           "height": 878
         }

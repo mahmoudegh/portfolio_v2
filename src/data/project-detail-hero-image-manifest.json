@@ -20,20 +20,20 @@
     },
     "payit-card": {
       "mobile": {
-        "src": "/images/project-detail-hero/payit-card-mobile-1170-248194514bab.webp",
-        "srcSet": "/images/project-detail-hero/payit-card-mobile-480-cd12a4f9421a.webp 480w, /images/project-detail-hero/payit-card-mobile-768-cd6b4f085fd4.webp 768w, /images/project-detail-hero/payit-card-mobile-1024-1ce5f2915947.webp 1024w, /images/project-detail-hero/payit-card-mobile-1170-248194514bab.webp 1170w"
+        "src": "/images/project-detail-hero/payit-card-mobile-1170-0b349dd8dfc2.webp",
+        "srcSet": "/images/project-detail-hero/payit-card-mobile-480-9f9ae4403c20.webp 480w, /images/project-detail-hero/payit-card-mobile-768-60f41428e82f.webp 768w, /images/project-detail-hero/payit-card-mobile-1024-5be4ce8a4278.webp 1024w, /images/project-detail-hero/payit-card-mobile-1170-0b349dd8dfc2.webp 1170w"
       },
       "tablet": {
-        "src": "/images/project-detail-hero/payit-card-tablet-1668-2c91003c8c70.webp",
-        "srcSet": "/images/project-detail-hero/payit-card-tablet-480-cdb2c7a06fed.webp 480w, /images/project-detail-hero/payit-card-tablet-768-c7b5d7a07847.webp 768w, /images/project-detail-hero/payit-card-tablet-1024-5d62bf1225c3.webp 1024w, /images/project-detail-hero/payit-card-tablet-1440-59d850f70615.webp 1440w, /images/project-detail-hero/payit-card-tablet-1668-2c91003c8c70.webp 1668w"
+        "src": "/images/project-detail-hero/payit-card-tablet-1668-3caf013fdbfc.webp",
+        "srcSet": "/images/project-detail-hero/payit-card-tablet-480-a6d24660fa1c.webp 480w, /images/project-detail-hero/payit-card-tablet-768-4f046da89fab.webp 768w, /images/project-detail-hero/payit-card-tablet-1024-ece23ec342a4.webp 1024w, /images/project-detail-hero/payit-card-tablet-1440-9f475a4cd4b7.webp 1440w, /images/project-detail-hero/payit-card-tablet-1668-3caf013fdbfc.webp 1668w"
       },
       "desktop": {
-        "src": "/images/project-detail-hero/payit-card-desktop-2560-7e9726c002e7.webp",
-        "srcSet": "/images/project-detail-hero/payit-card-desktop-480-655f83b493ef.webp 480w, /images/project-detail-hero/payit-card-desktop-768-fb568a6fb4a2.webp 768w, /images/project-detail-hero/payit-card-desktop-1024-05d643c221a2.webp 1024w, /images/project-detail-hero/payit-card-desktop-1440-10852d356a88.webp 1440w, /images/project-detail-hero/payit-card-desktop-1920-22c1100701fa.webp 1920w, /images/project-detail-hero/payit-card-desktop-2560-7e9726c002e7.webp 2560w"
+        "src": "/images/project-detail-hero/payit-card-desktop-2762-c2d376b5d4f2.webp",
+        "srcSet": "/images/project-detail-hero/payit-card-desktop-480-84f361893970.webp 480w, /images/project-detail-hero/payit-card-desktop-768-15b311f1a81c.webp 768w, /images/project-detail-hero/payit-card-desktop-1024-5c93d51f6501.webp 1024w, /images/project-detail-hero/payit-card-desktop-1440-de81c4b224c1.webp 1440w, /images/project-detail-hero/payit-card-desktop-1920-e91db6e869b0.webp 1920w, /images/project-detail-hero/payit-card-desktop-2560-ab83cdf94af7.webp 2560w, /images/project-detail-hero/payit-card-desktop-2762-c2d376b5d4f2.webp 2762w"
       },
       "largeDesktop": {
-        "src": "/images/project-detail-hero/payit-card-largeDesktop-2880-5c9154597b62.webp",
-        "srcSet": "/images/project-detail-hero/payit-card-largeDesktop-480-88df8e742cd8.webp 480w, /images/project-detail-hero/payit-card-largeDesktop-768-528591f95363.webp 768w, /images/project-detail-hero/payit-card-largeDesktop-1024-d9d56994067c.webp 1024w, /images/project-detail-hero/payit-card-largeDesktop-1440-86ce23a41f31.webp 1440w, /images/project-detail-hero/payit-card-largeDesktop-1920-7c5a7a2bc28a.webp 1920w, /images/project-detail-hero/payit-card-largeDesktop-2560-f5291cc1331a.webp 2560w, /images/project-detail-hero/payit-card-largeDesktop-2880-5c9154597b62.webp 2880w"
+        "src": "/images/project-detail-hero/payit-card-largeDesktop-2880-c0d25a65b2d0.webp",
+        "srcSet": "/images/project-detail-hero/payit-card-largeDesktop-480-e0f1dbbb1db3.webp 480w, /images/project-detail-hero/payit-card-largeDesktop-768-464f98820cd4.webp 768w, /images/project-detail-hero/payit-card-largeDesktop-1024-436cdc01f257.webp 1024w, /images/project-detail-hero/payit-card-largeDesktop-1440-5a217b92cdca.webp 1440w, /images/project-detail-hero/payit-card-largeDesktop-1920-003c78d6322a.webp 1920w, /images/project-detail-hero/payit-card-largeDesktop-2560-8e8206538f11.webp 2560w, /images/project-detail-hero/payit-card-largeDesktop-2880-c0d25a65b2d0.webp 2880w"
       }
     },
     "deepmarks": {
